@@ -1,0 +1,3 @@
+language: "en_core_web_sm"
+
+pipeline: "spacy_sklearn"

@@ -1,0 +1,237 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "affirmasi",
+        "text": "ya"
+      },
+      {
+        "intent": "affirmasi",
+        "text": "iya"
+      },
+      {
+        "intent": "affirmasi",
+        "text": "betul"
+      },
+      {
+        "intent": "affirmasi",
+        "text": "yes"
+      },
+      {
+        "intent": "affirmasi",
+        "text": "setuju"
+      },
+      {
+        "intent": "affirmasi",
+        "text": "oke"
+      },
+      {
+        "intent": "affirmasi",
+        "text": "terima kasih"
+      },
+      {
+        "intent": "affirmasi",
+        "text": "iya terima kasih"
+      },
+      {
+        "intent": "affirmasi",
+        "text": "ho oh"
+      },
+      {
+        "intent": "affirmasi",
+        "text": "laksanakan"
+      },
+      {
+        "intent": "affirmasi",
+        "text": "asik"
+      },
+      {
+        "intent": "goodbye",
+        "text": "sampai jumpa"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "dadah"
+      },
+      {
+        "intent": "goodbye",
+        "text": "udah"
+      },
+      {
+        "intent": "goodbye",
+        "text": "sudah"
+      },
+      {
+        "intent": "goodbye",
+        "text": "terima kasih"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you"
+      },
+      {
+        "intent": "greet",
+        "text": "halo"
+      },
+      {
+        "intent": "greet",
+        "text": "hai"
+      },
+      {
+        "intent": "greet",
+        "text": "hei"
+      },
+      {
+        "intent": "greet",
+        "text": "cipi"
+      },
+      {
+        "intent": "greet",
+        "text": "oi"
+      },
+      {
+        "intent": "greet",
+        "text": "ngapain"
+      },
+      {
+        "intent": "greet",
+        "text": "lagi apa"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat pagi"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat siang"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat malam"
+      },
+      {
+        "intent": "greet",
+        "text": "siang"
+      },
+      {
+        "intent": "greet",
+        "text": "malam"
+      },
+      {
+        "intent": "greet",
+        "text": "pagi"
+      },
+      {
+        "intent": "lihat_gambar",
+        "text": "saya mau lihat gambar"
+      },
+      {
+        "intent": "lihat_gambar",
+        "text": "mau lihat gambar"
+      },
+      {
+        "intent": "lihat_gambar",
+        "text": "lihat gambar"
+      },
+      {
+        "intent": "lihat_gambar",
+        "text": "tolong cari gambar"
+      },
+      {
+        "intent": "lihat_gambar",
+        "text": "tunjukkan gambar"
+      },
+      {
+        "intent": "lihat_gambar",
+        "text": "tunjuk gambar"
+      },
+      {
+        "intent": "lihat_gambar",
+        "text": "kasih lihat gambar"
+      },
+      {
+        "intent": "cctv_lewatmana",
+        "text": "lihat jalan"
+      },
+      {
+        "intent": "cctv_lewatmana",
+        "text": "kondisi jalan"
+      },
+      {
+        "intent": "cctv_lewatmana",
+        "text": "lihat kondisi jalan"
+      },
+      {
+        "intent": "cctv_lewatmana",
+        "text": "saya mau lihat jalan"
+      },
+      {
+        "intent": "cctv_lewatmana",
+        "text": "lewat mana"
+      },
+      {
+        "intent": "cctv_lewatmana",
+        "text": "lihat cctv"
+      },
+      {
+        "intent": "lihat_gambar",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "ikan",
+            "entity": "fetch_photo"
+          }
+        ],
+        "text": "lihat gambar ikan"
+      },
+      {
+        "intent": "lihat_gambar",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "mobil",
+            "entity": "fetch_photo"
+          }
+        ],
+        "text": "lihat gambar mobil"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": [
+          "Chinese",
+          "Chines",
+          "chines"
+        ]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ]
+      }
+    ]
+  }
+}

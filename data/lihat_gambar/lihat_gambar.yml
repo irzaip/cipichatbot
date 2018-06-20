@@ -1,0 +1,18 @@
+intent: lihat_gambar
+debug: False
+min_score: 0.2
+
+process: lihat_gambar.process
+
+dialog:
+  ask: ['photo']
+  action: process(photo)
+
+entity:
+  - name: photo
+    followup: lihat_gambar
+    method: ask
+    type: string
+    required: True
+    value: None
+    prompt: "gambar apa?"

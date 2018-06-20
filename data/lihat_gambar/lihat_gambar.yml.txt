@@ -1,0 +1,11 @@
+dialog:
+  ask: photo
+  action: photo  
+
+lihat_gambar:
+  entity: photo
+    type: string
+    required: True
+    value: ikan
+
+
