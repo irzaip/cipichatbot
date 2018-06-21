@@ -4,7 +4,7 @@ import gensim
 import numpy as np
 
 
-w2vmodel="chat_model1-300.w2v"   #filename
+w2vmodel="./model/chat_model1-300.w2v"   #filename
 num_features = 300    #number of features in the model
 maxsent = 10          #maximum words in a sentence.
 intent=[]
@@ -97,3 +97,24 @@ def wv_ts(array, weight=False):
         except:
             pass
     return result
+
+def read_ar(filename, start=0, lines=10):
+    """Membaca file lalu merubahnya menjadi sebuah matrix secara per baris"""
+    resl = []
+    res = []
+    with open(filename,"r",encoding="utf8") as f:
+        #lines to skip
+        for i in range(0,start):
+            f.readline()
+        #selecting begin here
+        for i in range(0,lines):
+            resl.append(f.readline())
+    f.close()
+    
+    for i in range(len(resl)):
+        #debugging what is read
+        #print(resl[i])
+        fl = swv_ar(twl(resl[i],rempunct=True,flat=True))
+        #print(res.shape)
+        res.append(fl)
+    return np.array(res)

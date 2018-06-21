@@ -76,8 +76,10 @@ def kaskus_search(topic, maxword=25):
             tx = rs[i].getText()
             if len(nltk.word_tokenize(tx)) < maxword:
                 rsl.append(tx)
-                
-    result=secrets.choice(rsl)
+    try:
+        result=secrets.choice(rsl)
+    except:
+        result=""
     return result
 
 
