@@ -32,11 +32,6 @@ person_to_follow = 3    #jumlah orang yg di follow
 # In[43]:
 
 
-consumer_key = "9PHHvnuPWEZzQaje1KsBuabso"
-consumer_secret = "saZAYperLBaeTDzRIzFWB0YRnIHXqtTw2JBvRznE5BKNqQUWCQ"
-access_token = "1001128112602603520-DyvOXEpo5v6CW1FjBpWG5mVGkIdWkM"
-access_token_secret = "ZsRXaqIodhj4skeiRiJ3E6piyT9t8wJvmRHhYYJU1BI7u"
-
 
 # In[44]:
 

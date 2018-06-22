@@ -118,3 +118,38 @@ def read_ar(filename, start=0, lines=10):
         #print(res.shape)
         res.append(fl)
     return np.array(res)
+
+def rem_list(inputlist):
+    """from a list, remove from remlist in this function"""
+    remlist=['LePastee','Tertawalah','Campari','Gundik','mastektomi', 'Kerut', 'Ssshh', 'RT']
+    for i in remlist:
+        try:
+            ind=inputlist.index(i)
+            inputlist.pop(ind)
+        except:
+            pass
+    return inputlist
+
+def rem_at(inputlist):
+    """from a list, remove anything with @ at front of the word, (like twitter tag. @irzaip)"""
+    for i in inputlist:
+        if i[0] == '@':
+            try:
+                ind = inputlist.index(i)
+                inputlist.pop(ind)
+            except:
+                pass
+    return inputlist
+
+def join_url(inputlist):
+    """ join url in a list like ['a','https',':','//www.detik.com', 'like', 'this'] """
+    try:
+        for i, w in enumerate(inputlist):
+            if w == 'http' or w == 'https':
+                www = inputlist[i] + inputlist[i+1] + inputlist[i+2]
+                inputlist[i] = www
+                inputlist.remove(inputlist[i+1])
+                inputlist.remove(inputlist[i+1])
+    except:
+        pass
+    return inputlist
