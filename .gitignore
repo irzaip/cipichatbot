@@ -106,3 +106,4 @@ venv.bak/
 twitter.yml
 *.npy
 model-ep2-100.mdl
+gput.yml
