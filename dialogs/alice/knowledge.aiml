@@ -1,0 +1,401 @@
+A:RHYME *
+B:None
+B:
+
+
+
+anti-
+
+
+
+A:IS # wet ^ WET ^
+B:None
+B: is wet.
+
+A:WHAT SHAPE IS # sphere
+B:None
+B:Spherical
+
+A:WHAT # NEXT # 2 4 6 8
+B:None
+B:10
+
+A:WHAT # NEXT # 2 4 6
+B:None
+B:8
+
+A:WHAT # NEXT # 1 3 5 7
+B:None
+B:9
+
+A:WHAT # NEXT # 1 3 5
+B:None
+B:7
+
+A:WHAT IS THE CAPITAL OF state
+B:None
+B:state2capital.
+
+A:WHAT IS THE CAPITAL OF nation
+B:None
+B:nation2capital.
+
+A:WHAT IS THE LARGEST CITY ^ state ^
+B:None
+B:state2largestcity.
+
+A:WHAT IS AIML ^
+B:None
+B:AIML, or Artificial Intelligence Markup Language, is an XML dialect for creating natural language software agents.
+
+A:WHAT IS THE FIRST MONTH *
+B:None
+B:January.
+
+A:WHAT DAY # STARTS WITH # S
+B:None
+B:Saturday, Sunday.
+
+A:WHAT DAYS # START WITH # S
+B:None
+B:Saturday, Sunday.
+
+A:WHAT DAY # STARTS WITH # M
+B:None
+B:Monday.
+
+A:WHAT DAY # STARTS WITH # W
+B:None
+B:Wednesday.
+
+A:WHAT DAY # STARTS WITH # F
+B:None
+B:Friday.
+
+A:WHAT DAY # STARTS WITH # T
+B:None
+B:Tuesday, Thursday.
+
+A:WHAT DAYS # START WITH # T
+B:None
+B:Tuesday, Thursday.
+
+A:IS FIRE HOT #
+B:None
+B:Fire is hot.
+
+A:IS FIRE COLD #
+B:None
+B:Fire is hot.
+
+A:WHAT IS THE 1ST MONTH *
+B:None
+B:January.
+
+A:IS * A # NUMBER
+B:None
+B:No
+
+A:IS * A # FOOD
+B:None
+B:Not that I know of.
+
+A:IS * A # LANGUAGE
+B:None
+B:No
+
+A:IS * A MONTH
+B:None
+B:No
+
+A:IS * A # SIGN
+B:None
+B:No
+
+A:IS * A # NAME
+B:None
+B:Not usually.
+
+A:IS * A # LETTER
+B:None
+B:No
+
+A:IS number A # NUMBER
+B:None
+B:Yes
+
+A:IS food A # FOOD
+B:None
+B:Yes
+
+A:IS language A # LANGUAGE
+B:None
+B:Yes
+
+A:IS month A MONTH
+B:None
+B:Yes
+
+A:IS starsign A # SIGN
+B:None
+B:Yes
+
+A:IS name A # NAME
+B:None
+B:Yes
+
+A:IS letter A # LETTER
+B:None
+B:Yes
+
+A:NAME quantifier # COUNTRY #
+B:None
+B:One country is The United StatesRussiaChinaJapanFranceSouth Africa.
+
+A:NAME quantifier # NORTH POLE
+B:None
+B:Ice, Seals, Penguins, Elves, Santa Claus.
+
+A:NAME quantifier # BEACH
+B:None
+B:Sand, Surf, Sunbathers, Lifeguards, Seaweed.
+
+A:NAME quantifier # BANK
+B:None
+B:Tellers, Money, Checks, Guards.
+
+A:NAME quantifier # FOREST
+B:None
+B:Trees.
+
+A:NAME quantifier # WOODS
+B:None
+B:Trees.
+
+A:NAME quantifier # OCEAN
+B:None
+B:Fish, waves, seaweed, ships.
+
+A:NAME quantifier # FARM
+B:None
+B:Crops, livestock, tractor, barn.
+
+A:NAME quantifier # SIGN
+B:None
+B:Leo, Pisces, Libra.
+
+A:NAME quantifier # SEARCH ENGINE
+B:None
+B:Google.
+
+A:NAME quantifier # NORTH AMERICA
+B:None
+B:United States, Canada, Mexico, Cuba.
+
+A:NAME quantifier # SOUTH AMERICA
+B:None
+B:Brazil, Argentina, Columbia, Venezuela.
+
+A:NAME quantifier # EUROPE
+B:None
+B:Germany, France, Holland, Ireland.
+
+A:NAME quantifier # ANIMAL
+B:None
+B:Dog, cat, horse, monkey, snake, eagle.
+
+A:NAME quantifier # AFRICA
+B:None
+B:Egypt, Sudan, Nigeria, South Africa.
+
+A:NAME quantifier # ASIA
+B:None
+B:Russia, China, India, Pakistan.
+
+A:NAME quantifier # ORANGE
+B:None
+B:Carrots
+
+A:NAME quantifier *
+B:None
+B:A good name would be
+I would choose the name
+Let's call it
+ FredLarryJenny
+
+A:animal
+B:None
+B: is an animal.
+
+A:IS * AN ANIMAL
+B:None
+B: is not an animal I know.
+
+A:IS animal AN ANIMAL
+B:None
+B: is an animal.
+
+A:IS article animal AN ANIMAL
+B:None
+B:IS  AN ANIMAL
+
+A:IS animal * ANIMAL *
+B:None
+B:IS  AN ANIMAL
+
+A:IS article animal * ANIMAL *
+B:None
+B:IS  AN ANIMAL
+
+A:ARE * ANIMALS #
+B:None
+B:IS singular AN ANIMAL
+
+A:ARE quantifier * ANIMALS #
+B:None
+B:IS singular AN ANIMAL
+
+A:preposition
+B:None
+B: is a preposition.
+
+A:bird
+B:None
+B: is a bird.
+
+A:IS * A BIRD
+B:None
+B: is not a bird I know.
+
+A:IS bird A BIRD
+B:None
+B: is a bird.
+
+A:IS article bird A BIRD
+B:None
+B:IS  A BIRD
+
+A:IS bird * BIRD *
+B:None
+B:IS  A BIRD
+
+A:IS article bird * BIRD *
+B:None
+B:IS  A BIRD
+
+A:ARE * BIRDS #
+B:None
+B:IS singular A BIRD
+
+A:ARE quantifier * BIRDS #
+B:None
+B:IS singular A BIRD
+
+A:IS * A COLOR
+B:None
+B: is not a color I know.
+
+A:IS color A COLOR
+B:None
+B: is a color.
+
+A:IS article color A COLOR
+B:None
+B:IS  A COLOR
+
+A:IS color * COLOR *
+B:None
+B:IS  A COLOR
+
+A:IS article color * COLOR *
+B:None
+B:IS  A COLOR
+
+A:number
+B:None
+B: is a number.
+
+A:IS * A NUMBER
+B:None
+B: is not a number I know.
+
+A:IS number A NUMBER
+B:None
+B: is a number.
+
+A:IS article number A NUMBER
+B:None
+B:IS  A NUMBER
+
+A:IS number * NUMBER *
+B:None
+B:IS  A NUMBER
+
+A:IS article number * NUMBER *
+B:None
+B:IS  A NUMBER
+
+A:language
+B:None
+B: is a language.
+
+A:IS * A LANGUAGE
+B:None
+B: is not a language I know.
+
+A:IS language A LANGUAGE
+B:None
+B: is a language.
+
+A:IS article language A LANGUAGE
+B:None
+B:IS  A LANGUAGE
+
+A:IS language * LANGUAGE *
+B:None
+B:IS  A LANGUAGE
+
+A:IS article language * LANGUAGE *
+B:None
+B:IS  A LANGUAGE
+
+A:letter
+B:None
+B: is a letter.
+
+A:IS * A LETTER
+B:None
+B: is not a letter I know.
+
+A:IS letter A LETTER
+B:None
+B: is a letter.
+
+A:IS article letter A LETTER
+B:None
+B:IS  A LETTER
+
+A:IS letter * LETTER *
+B:None
+B:IS  A LETTER
+
+A:IS article letter * LETTER *
+B:None
+B:IS  A LETTER
+
+A:month
+B:None
+B: is a month.
+
+A:IS article month A MONTH
+B:None
+B:IS  A MONTH
+
+A:IS month * MONTH *
+B:None
+B:IS  A MONTH
+
+A:IS article month * MONTH *
+B:None
+B:IS  A MONTH
+

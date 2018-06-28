@@ -1,0 +1,174 @@
+A:ASK FAMILIAR CONTACTNAME
+B:None
+B:ASKING FAMILIAR CONTACTNAME
+What is your 's name?
+
+A:_
+B:None
+B:
+unknown
+
+
+ISSHORTANSWER 
+
+
+
+REMEMBERFAMILIARNAME
+RESUMEACTION 
+
+CONTACTFINALIZE 
+
+
+A:MY familiarname S NAME IS *
+B:None
+B:
+FAMILIARPREDICATE 
+
+
+REMEMBERFAMILIARNAME
+
+A:MY familiarname S NICKNAME IS *
+B:None
+B:
+FAMILIARPREDICATE 
+
+
+REMEMBERFAMILIARNAME
+
+A:I CALL MY familiarname *
+B:None
+B:
+FAMILIARPREDICATE 
+
+
+REMEMBERFAMILIARNAME
+
+A:EVERYONE CALLS MY familiarname *
+B:None
+B:
+FAMILIARPREDICATE 
+
+
+REMEMBERFAMILIARNAME
+
+A:WE CALL MY familiarname *
+B:None
+B:
+FAMILIARPREDICATE 
+
+
+REMEMBERFAMILIARNAME
+
+A:MY familiarname IS NAMED *
+B:None
+B:
+FAMILIARPREDICATE 
+
+
+REMEMBERFAMILIARNAME
+
+A:MY familiarname IS CALLED *
+B:None
+B:
+FAMILIARPREDICATE 
+
+
+REMEMBERFAMILIARNAME
+
+A:MY familiarname IS name
+B:None
+B:
+FAMILIARPREDICATE 
+
+
+REMEMBERFAMILIARNAME
+
+A:MY familiarname IS name *
+B:None
+B:
+FAMILIARPREDICATE 
+ 
+
+REMEMBERFAMILIARNAME
+
+A:* IS MY familiarname
+B:None
+B:MY  IS 
+
+A:name IS MY familiarname #
+B:None
+B:MY  IS 
+
+A:FAMILIARPREDICATE familiarname
+B:None
+B:familiarpredicate
+
+A:FAMILIARPREDICATE *
+B:None
+B:unknown
+
+A:ISAFAMILIARNAME familiarname
+B:None
+B:true
+
+A:ISAFAMILIARNAME *
+B:None
+B:false
+
+A:GETFAMILIARNAME
+B:None
+B:
+
+A:FAMILIARPRONOUN familiarname
+B:None
+B:familiarpronoun
+
+A:FAMILIARPRONOUN *
+B:None
+B:unknown
+
+A:REMEMBERFAMILIARNAME
+B:None
+B:
+
+
+
+
+
+
+How long have you and  been married?
+How long have you and  been married?
+Do you have any other pets?
+Do you have any other pets?
+I will remember your 's name is .
+
+GENDERCOMMENT
+
+
+WHO IS 
+ is your . 
+
+
+Your .
+
+
+B: is your . B:Your .
+
+A:WHO IS 
+B:None
+B: is your . 
+
+A:
+B:None
+B:Your .
+
+A:GENDERCOMMENT
+B:None
+B:GENDERNAME 
+
+
+
+Isn't  usually a female name?
+Isn't  usually a male name?
+
+

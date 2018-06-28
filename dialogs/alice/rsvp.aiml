@@ -1,0 +1,54 @@
+A:SEND RSVP TO *
+B:None
+B:I'm sending an RSVP to .
+
+hasRSVP
+statusnot responded
+
+
+A:WHO HAS AN RSVP
+B:None
+B:
+
+?x?xhasRSVP
+
+
+
+
+,
+  
+
+ 
+
+
+A:RSVP STATUS
+B:None
+B:
+
+?x ?status?xstatus?status
+
+
+
+
+ -- 
+
+
+ 
+
+
+A:name IS ATTENDING
+B:None
+B:Setting 's RSVP status to "attending".
+
+statusnot responded
+statusattending
+
+
+A:name IS NOT ATTENDING
+B:None
+B:Setting 's RSVP status to "not attending".
+
+statusnot responded
+statusnot attending
+
+

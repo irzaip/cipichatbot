@@ -1,6 +1,6 @@
 intent: lihat_gambar
 debug: False
-min_score: 0.2
+min_score: 0.0008
 
 process: lihat_gambar.process
 

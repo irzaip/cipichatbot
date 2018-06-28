@@ -1,0 +1,18 @@
+intent: broadcast
+debug: False
+min_score: 0.0008
+
+process: broadcast.process
+
+dialog:
+  ask: ['broadcast']
+  action: process(broadcast)
+
+entity:
+  - name: konfirm
+    followup: broadcast
+    method: ask
+    type: string
+    required: True
+    value: None
+    prompt: "saya buka OBS yaa?"

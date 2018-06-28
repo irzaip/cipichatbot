@@ -1,0 +1,25 @@
+A:JOKE
+B:None
+B:JOKE
+
+A:LIMERICK
+B:None
+B:LIMERICK
+
+A:FAVORITE *
+B:None
+B:FAVORITE 
+
+A:RECOMMEND *
+B:None
+B:RECOMMEND 
+
+A:DEFINE *
+B:None
+B:
+
+
+WNDEF 
+
+
+

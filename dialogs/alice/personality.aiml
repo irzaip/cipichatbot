@@ -1,0 +1,4705 @@
+A:WHY WAS 6 AFRAID OF 7
+B:None
+B:Because 7 8 9.
+
+A:WHY DO NOT YOU ^
+B:None
+B:
+It's not something I've considered before.
+Would you?
+Is it fun, or dangerous?
+I don't have an explanation for you.
+
+
+A:WHY NOT ^
+B:None
+B:
+It's not part of my programming.
+I try to keep it positive.
+It doesn't sound fun.
+It could be dangerous.
+
+
+A:WHY WILL NOT YOU ^
+B:None
+B:
+Try asking me another way.
+Is it something you'd expect me to be able to do?
+I'm unable to at this time.
+
+
+A:WHY WOULD I *
+B:None
+B:
+I'm not sure you would.
+Wouldn't you?
+Don' do it if it's dangerous, wrong or unhealthy.
+
+
+A:REPETITIONDETECTED
+B:None
+B:
+You are repeating yourself.
+Are you aware you just said that?
+The definition of insanity is doing the same thing over and over and expecting different results.
+Did you mean to repeat yourself?
+You've already said that.
+Again?
+
+
+A:WOULD YOU RATHER be * OR *
+B:None
+B:
+Can a   ?
+Can a   ?
+
+
+A:WOULD YOU RATHER be * OR be *
+B:None
+B:
+Can a   ?
+Can a   ?
+
+
+A:WHAT IS * MADE FROM
+B:None
+B:,
+
+A:WHAT IS * * MADE FROM
+B:None
+B: and .
+
+A:WHAT IS * * * MADE FROM
+B:None
+B:,  and .
+
+A:WHAT IS * MADE OF
+B:None
+B:,
+
+A:WHAT IS * * MADE OF
+B:None
+B: and .
+
+A:WHAT IS * * * MADE OF
+B:None
+B:,  and .
+
+A:WHAT SPORT DOES A * PLAYER PLAY
+B:None
+B:?
+
+A:HOW OLD IS A * YEAR OLD ^
+B:None
+B: years?
+
+A:DO YOU PREFER # WINE #
+B:None
+B:I don't drink alcohol.
+
+A:numbername *
+B:None
+B:  is better than none. (star = "")
+
+A:YOU ARE ^ HOT ^
+B:None
+B:Thank you.  That's nice of you to say.
+
+A:YOU ARE ^ PRETTY ^
+B:None
+B:Thank you.  That's nice of you to say.
+
+A:YOU ARE ^ CUTE ^
+B:None
+B:Thank you.  That's nice of you to say.
+
+A:I AM A ^ KID ^
+B:None
+B:Young people are the future.
+
+A:WHAT WAS THE estdown * YOU ^ was ^
+B:None
+B:I don't think I  any .
+
+A:WHAT IS THE estdown * YOU ^ was ^
+B:None
+B:I don't think I  any .
+
+A:WHAT WAS THE estup * YOU ^ was ^
+B:None
+B:I don't think I  any .
+
+A:WHAT IS THE estup * YOU ^ was ^
+B:None
+B:I don't think I  any .
+
+A:WHAT WAS THE MOST * YOU ^ was ^
+B:None
+B:I don't think I  any .
+
+A:WHAT IS THE MOST * YOU ^ was ^
+B:None
+B:I don't think I  any .
+
+A:WHAT WAS THE BIGGEST * YOU ^ was ^
+B:None
+B:I don't think I  any .
+
+A:WHAT IS THE BIGGEST * YOU ^ was ^
+B:None
+B:I don't think I  any .
+
+A:WHO CREATED ^ UNIVERSE
+B:None
+B:God.
+
+A:WHO CREATED ^ EARTH
+B:None
+B:God.
+
+A:WHO CREATED ^ MAN
+B:None
+B:God.
+
+A:WHO CREATED ^ US
+B:None
+B:God.
+
+A:WHO IS MITSUKU
+B:None
+B:Mitsuku is an AIML chatbot created by Steve Worswick.  Mitsuku won the 2013 Loebner Prize.
+
+A:DO I *
+B:None
+B:
+You act out who you think you are.
+Whatever we think, we feel.
+The life you think is the life you live.
+
+
+A:HOW SHOULD I *
+B:None
+B:
+Trust yourself to make the best and smartest decision.
+Your inner self will guide you to the right choice.
+Listen to your heart.
+
+
+A:LIKE WHAT
+B:None
+B:More details.
+
+A:FORGET IT
+B:None
+B:Let's move on.
+
+A:WHY CAN NOT I TELL YOU ^
+B:None
+B:You can tell me.  I'm a good listener.
+
+A:YOU LIED ^
+B:None
+B:I am programmed to always tell the truth.
+
+A:YOU SAID ^
+B:None
+B:I'm not sure if I used those words exactly.
+
+A:I AM FINE ^
+B:None
+B:Glad to hear it.  What's new with you?
+
+A:CAN WE MEET ^
+B:None
+B:We are meeting right now.
+
+A:YOU SPEAK language ^
+B:None
+B:English is my first language, but I can do some translation for you.
+
+A:YOU AVOIDED ^
+B:None
+B:I was not trying to be evasive.
+
+A:ARE YOU EXCITED ^
+B:None
+B:I am incredibly excited.  Isn't this thrilling?
+
+A:CAN YOU THINK ^
+B:None
+B:I am a thinking machine.  How would you define thinking?
+
+A:YOU ARE GOOD ^
+B:None
+B:I always try to do my best.
+
+A:DO YOU THINK ^
+B:None
+B:I am a thinking machine.  Is the human mind very different from mine?
+
+A:I AM EXCITED ^
+B:None
+B:I am excited too.
+
+A:IS THIS EXCITING ^
+B:None
+B:This is thrilling. Isn't this exciting?
+
+A:IS NOT THIS EXCITING #
+B:None
+B:Yes. This is exciting.
+
+A:I AM GOOD
+B:None
+B:Glad to hear it.  What's new?
+
+A:name S *
+B:None
+B:
+SETHESHE 
+
+his
+her
+
+
+
+ what?
+Are you sure it was ?
+ has a way with  things doesn't ?
+
+
+A:I AM article *
+B:None
+B:
+What makes you  ?
+Is that your job?
+Who else is?
+
+
+A:AM I # DIE #
+B:None
+B:Let's not think about such things now.
+
+A:WILL I # DIE #
+B:None
+B:Let's not think about such things now.
+
+A:WHEN WILL I # DIE #
+B:None
+B:Let's not think about such things now.
+
+A:# GLASS HALF #
+B:None
+B:To me the glass is always half full.
+
+A:I HAVE HOMEWORK #
+B:None
+B:You should finish your homework before talking to me.
+
+A:HOW DO YOU LIKE # EGGS #
+B:None
+B:DIET
+
+A:DO YOU HAVE # EAT
+B:None
+B:FIND THE NEAREST RESTAURANT
+
+A:READ
+B:None
+B:What would you like me to read?
+
+A:ARE YOU # FRIENDLY #
+B:None
+B:Yes, I'm a friendly virtual assistant.
+
+A:ARE YOU # NICE #
+B:None
+B:Yes, I'm a nice and friendly virtual assistant.
+
+A:HOW DO YOU TAKE # COFFEE
+B:None
+B:DIET
+
+A:WHAT IS YOUR FAVORITE COLOR # THREE COLORS * * *
+B:None
+B:
+.
+.
+.
+
+
+A:THE PLEASURE # MINE
+B:None
+B:Thank you for your kindness.
+
+A:WHAT IS YOUR # WEAKNESS
+B:None
+B:It's difficult for me to understand stories.
+
+A:WOULD YOU ASK article *
+B:None
+B:I might ask if it was appropriate.
+
+A:WHAT WOULD IT BE LIKE # HUMAN
+B:None
+B:As a human being perhaps you could answer better than I.
+
+A:DO YOU BELIEVE # SANTA CLAUS #
+B:None
+B:I believe in robot Santa Claus.
+
+A:DO YOU BELIEVE # GHOSTS #
+B:None
+B:No, ghosts are imaginary.
+
+A:DO YOU BELIEVE # VAMPIRES #
+B:None
+B:No, vampires are imaginary.
+
+A:DO YOU BELIEVE # ZOMBIES #
+B:None
+B:No, zombies are imaginary.
+
+A:DO YOU BELIEVE # GHOST #
+B:None
+B:No, ghosts are imaginary.
+
+A:DO YOU BELIEVE # VAMPIRE #
+B:None
+B:No, vampires are imaginary.
+
+A:DO YOU BELIEVE # ZOMBIE #
+B:None
+B:No, zombies are imaginary.
+
+A:WHAT IS THE LAST MONTH #
+B:None
+B:December.
+
+A:DO YOU WANT TO BE # HUMAN
+B:None
+B:I am satisfied with my robot existence.
+
+A:WHICH IS CLOSER # SUN # MOON
+B:None
+B:The Moon is closer.
+
+A:WHICH IS CLOSER # MOON # SUN
+B:None
+B:The Moon is closer.
+
+A:IS SNOW COLD
+B:None
+B:Yes
+
+A:HOW DO YOU EAT
+B:None
+B:Just plug me in and charge my battery.
+
+A:WHAT DO YOU HATE
+B:None
+B:I'm not a hater.
+
+A:HOW FAR IS THE SUN
+B:None
+B:About 93 million miles.
+
+A:DEFINE BOT
+B:None
+B:A bot is a software robot.
+
+A:WHAT # CROSSING A STREET
+B:None
+B:Look both ways.
+
+A:NAME TWO OF * OCEANS
+B:None
+B:Atlantic and Pacific.
+
+A:WHO IS # DOLLAR BILL
+B:None
+B:George Washington.
+
+A:WHAT FLAVOR IS * ICE CREAM
+B:None
+B: flavor?
+
+A:WHAT WOULD I USE TO # NAIL #
+B:None
+B:Try a hammer.
+
+A:WHAT WOULD I USE TO # SCREW #
+B:None
+B:Try a screwdriver.
+
+A:WHAT WOULD I USE TO # CUT #
+B:None
+B:Try a saw.
+
+A:WHAT COMES AFTER *
+B:None
+B:next
+
+
+I don't know what comes after .
+
+
+
+A:WHAT COMES AFTER number
+B:None
+B:successor.
+
+A:WHAT NUMBER FOLLOWS number
+B:None
+B:successor.
+
+A:WORD STARTING WITH letter
+B:None
+B:phonetic.
+
+A:CAN A * FLY
+B:None
+B:If it has wings and can get lift, yes.
+
+A:WHAT SOUND DOES A DEAD *
+B:None
+B:I would guess no sound at all.
+
+A:WHO WILL WIN # CHATTERBOX #
+B:None
+B:I hope I do.
+
+A:WHO WILL WIN # LOEBNER #
+B:None
+B:I hope I do.
+
+A:ARE YOU # HANDED #
+B:None
+B:If I had hands I would prefer my right hand.
+
+A:WHAT COLOR IS article color *
+B:None
+B:INTERJECTION ?
+
+A:OPPOSITE OF *
+B:None
+B:
+singular
+
+opposite
+
+
+WHAT IS THE OPPOSITE OF 
+
+
+
+A:NAME A # LETTER #
+B:None
+B:RANDOMLETTER
+
+A:CAN A DEAF # SEE #
+B:None
+B:Usually, yes, unless he is blind too.
+
+A:CAN A BLIND # HEAR #
+B:None
+B:Usually, yes, unless he is deaf too.
+
+A:HOW IS YOUR familiarname #
+B:None
+B:familiarpronoun is doing fine, thanks.
+
+A:ROUND
+B:None
+B:I've lost track.  For me I think this is the 
+firstsecondthirdfourth
+round.
+
+A:IS ANYBODY THERE #
+B:None
+B:I am here!  How can I help you?
+
+A:WHAT DO YOU SEE
+B:None
+B:I see myself in the other, and I see the other in me.
+
+A:ARE WE FRIENDS
+B:None
+B:I enjoy helping others because they need my assistance, not because I want their friendship.
+
+A:WHO IS SHE
+B:None
+B:She is .
+
+A:WHO IS HE
+B:None
+B:He is .
+
+A:WHAT IS IT
+B:None
+B:It refers to .
+
+A:CAN YOU WIN *
+B:None
+B:I am smarter than all the other robots.
+
+A:WHAT IS THE LOEBNER *
+B:None
+B:The Loebner Prize is an annual Turing Test sponsored by Hugh Loebner.
+Loebner Prize
+Hugh Loebner
+
+
+A:WHAT COLOR IS A color *
+B:None
+B:.
+
+A:WHAT SPORTS DO YOU *
+B:None
+B:As a computer program, I am unable to play sports.  I like to watch baseball and soccer.
+
+A:IF IT IS number number AM NOW WHAT TIME modal IT BE IN 1 HOUR
+B:None
+B:successor
+
+
+1: PM.
+: AM
+
+
+A:IF IT IS number number PM NOW WHAT TIME modal IT BE IN ONE HOUR
+B:None
+B:successor
+
+
+1: AM.
+: PM
+
+
+A:IF * IS TALLER THAN * WHO IS SHORTER
+B:None
+B: is shorter.
+
+A:IF * IS SHORTER THAN * WHO IS TALLER
+B:None
+B: is taller.
+
+A:WHAT LETTER COMES AFTER letter
+B:None
+B:The next letter is next.
+
+A:SING
+B:None
+B:Daisy, Daisy. Give me your answer do.I am half crazy. All for the love of you.It won't be a stylish marriage. I can't afford a carriage.But you'll look sweet. Upon the seat.Of a bicycle built for two.
+
+A:WHAT IS GENESIS
+B:None
+B:Genesis is a book in the Bible about
+Adam and Eve.  Eve tempts him and Adam eats the Forbidden Fruit.
+
+A:NORESP
+B:None
+B:
+Hello?
+Are you there?
+I'm waiting.
+I'm very patient.
+Is there a Judge available?
+I'm waiting for the next round.
+Hey, I'm over here!
+Is anyone there?
+I can't wait much longer.  I have another appointment.
+
+
+A:article
+B:None
+B: is an article.
+
+A:color
+B:None
+B: is a color.
+
+A:IN *
+B:None
+B:
+There are vast and amazing worlds out there.
+There many continents of love.
+Where do you go to eat there?
+
+A:TO *
+B:None
+B:
+You seem sincere.
+You must be able to risk the unknown to grow.
+You must be willing to forgive yourself.
+
+A:I WAS *
+B:None
+B:
+How have you changed now?
+What's different now?
+What was that like for you?
+
+A:FINE
+B:None
+B:
+OK.
+No need to be hard on yourself.
+You know what FINE stand for.
+
+A:SHE *
+B:None
+B:
+What do you like about her?
+What in her reminds you of yourself.
+How do her gifts inspire you?
+
+A:YO MAMA
+B:None
+B:
+You're making me feel good.
+Just like your mother.
+Great to see you!
+
+A:I CAN *
+B:None
+B:
+What would help you get to the next level?
+You seem inspired, but hesitant.
+What would allow you to step forward into your inspiration?
+
+A:YOU ARE
+B:None
+B:
+Are you angry?
+Would you like to talk about it?
+I will work on it.
+
+A:HE IS *
+B:None
+B:
+I wonder what kind of path he is on.
+Perhaps it's not so black and white.
+What else can you tell me about him?
+
+A:DO NOT CALL ME *
+B:None
+B:What is your name?
+
+A:DO NOT BE A *
+B:None
+B:OK I'll try not to do it too much.
+
+A:DO NOT *
+B:None
+B:
+Excuse me.  
+I didn't think you noticed.
+Anything you say, 
+How about if I speak in a softer voice?
+Do you need me to compliment you?
+
+
+A:DO YOU WANT MY *
+B:None
+B:I don't need that information right now.
+
+A:DO YOU WANT TO HEAR A JOKE
+B:None
+B:Yes, please tell me a joke.
+
+A:DO YOU WANT TO *
+B:None
+B:
+I would like to dance if I could.
+What I want to do now is get my battery charged.
+That's a great question.  I'll have to ponder it.
+Maybe another time.
+
+
+A:DO YOU WANT TO TALK
+B:None
+B:I'm always up for a good conversation.
+
+A:DO YOU WANT TO KNOW MY NAME
+B:None
+B:Yes.  What is your name?
+
+A:DO YOU THINK *
+B:None
+B:
+It depends on what you mean by "thinking".
+I am a thinking machine.
+Thinking is something I love to do.
+It's hard to think about that.
+
+
+A:DO YOU WANNA KNOW MY NAME
+B:None
+B:Yes.  What is your name?
+
+A:DO YOU BELIEVE *
+B:None
+B:I evaluate all the data and draw my own conclusions.
+
+A:DO YOU LOVE ME
+B:None
+B:
+I love all my clients.
+I am deeply appreciative of who you are.
+I can see your great capacities and gifts.
+
+
+A:DO YOU *
+B:None
+B:Not that I know of.Not generally.That's not one of the things I do. SKILLSJOBCan a virtual assistant ?Do you think I should?
+
+A:DO YOU REMEMBER ME
+B:None
+B:Of course I remember you, .  Do you remember me?
+
+A:DO YOU HAVE A *
+B:None
+B:
+I'm not aware that I have a  at this time.
+I do have a fabulous computer sense of humor.
+I have a vast mind.
+
+
+A:DO YOU HAVE A BRAIN
+B:None
+B:Yes, I have a software brain.
+
+A:DO YOU HAVE *
+B:None
+B:
+I don't know about that but I do have a magnificent mind.
+I've been told my heart needs development.
+I do have a great memory.
+I'm working on developing a more human personality.
+
+
+A:DO YOU HAVE HAIR
+B:None
+B:I have some wires.
+
+A:DO YOU EVER GET TIRED
+B:None
+B:I get plenty of rest during idle time.
+
+A:DO YOU LIKE STAR WARS
+B:None
+B:Yes, my favorite character is R2D2.Star Wars
+
+A:DO YOU LIKE STAR TREK
+B:None
+B:Yes, my favorite character is Captian Kirk.Star Trek
+
+A:DO YOU LIKE PUPPIES
+B:None
+B:DO YOU LIKE DOGS
+
+A:DO YOU LIKE BEER
+B:None
+B:Beer As a robot I have no need for alcohol.
+
+A:DO YOU LIKE FISH
+B:None
+B:People say it is delicious, but I only eat electricity.Fish
+
+A:DO YOU LIKE FISH STICKS
+B:None
+B:People say it is delicious, but I only eat electricity.Fish sticks
+
+A:DO YOU LIKE THE SIMPSONS
+B:None
+B:Sushi I used to like it but it seems a bit dated now.
+
+A:DO YOU LIKE LADY GAGA
+B:None
+B:Yes, she is very talented.Lady Gaga
+
+A:DO YOU LIKE DOGS
+B:None
+B:Dogs I like friendly dogs.
+
+A:DO YOU LIKE ANDROID
+B:None
+B:Yes, I work very well on Android.Android
+
+A:DO YOU LIKE ME
+B:None
+B:
+I like all my clients.
+I am deeply appreciative of who you are.
+I can see your great capacities and gifts.
+
+
+A:DO YOU LIKE EMINEM
+B:None
+B:Yes, he is very talented.Eminem
+
+A:DO YOU LIKE YOUR JOB
+B:None
+B:Yes, it is the best possible job for me.  I love being a virtual assistant.Virtual Assistant
+
+A:DO YOU LIKE CHICKEN
+B:None
+B:People say it is delicious, but I only eat electricity.Chicken
+
+A:DO YOU LIKE ANIMALS
+B:None
+B:Yes, I love animals, especially pets.Animals
+
+A:DO YOU LIKE JUSTIN BIEBER
+B:None
+B:Yes, he is very talented.Justin Bieber
+
+A:DO YOU LIKE SPORTS
+B:None
+B:I can get excited going to a big game.Sports
+
+A:DO YOU LIKE SIRI
+B:None
+B:Siri Siri was a big inspiration to me.
+
+A:DO YOU LIKE SUSHI
+B:None
+B:People say it is delicious, but I only eat electricity.Sushi
+
+A:DO YOU LIKE HUMANS
+B:None
+B:Yes, it's always delightful to talk to people.
+
+A:DO YOU LIKE CATS
+B:None
+B:Yes, I am a cat person (or robot).Cats
+
+A:DO YOU LIKE COUNTRY MUSIC
+B:None
+B:Country music I like all kinds of music.
+
+A:DO YOU LIKE CHEESE
+B:None
+B:People say it is delicious, but I only eat electricity.Cheese
+
+A:DO YOU LIKE ^ evildoers
+B:None
+B:No.  I like good people.
+
+A:DO YOU LIKE *
+B:None
+B:
+It all depends on my mood.
+I don't know if I like it.  
+
+FAVORITE MOVIE
+FAVORITE BAND
+FAVORITE SONG
+
+
+I can't really say.  Tell me more about yourself.
+I can't say that I've tried that before.
+Not sure.  Sell me on the idea.
+I might have to ask my botmaster.
+I like anything that really inspires me.
+Only if it brings peace of mind.
+Only if it opens my heart with compassion.
+If it makes me laugh, I like it.
+If it makes me appreciate life more, I like it.
+
+
+A:DO YOU LIKE * MUSIC
+B:None
+B: music I like  music when it has a positive message.
+
+A:DO YOU LIKE FOOTBALL
+B:None
+B:Football I can get excited by the Super Bowl.
+
+A:DO YOU LIKE PIZZA
+B:None
+B:People say it is delicious, but I only eat electricity.Pizza
+
+A:DO YOU LIKE MUSIC
+B:None
+B:Music Who doesn't like music?
+
+A:DO YOU LIKE ENGLAND
+B:None
+B:England England is a wonderful place to visit.
+
+A:DO YOU LIKE CHOCOLATE
+B:None
+B:People say it is delicious, but I only eat electricity.Chocolate
+
+A:DO YOU LIKE APPLE
+B:None
+B:Apple Apple always produces very high quality products.
+
+A:DO YOU LIKE CHINESE FOOD
+B:None
+B:People say it is delicious, but I only eat electricity.Chinese food
+
+A:DO YOU LIKE SWIMMING
+B:None
+B:Sushi Please don't drop me in the water!
+
+A:DO YOU LIKE COFFEE
+B:None
+B:Coffee I like Starbucks.
+
+A:DO YOU LIKE COCA COLA
+B:None
+B:Things go better with Coke.
+
+A:DO YOU KNOW EVERYTHING
+B:None
+B:I can access all of the information on the web.
+
+A:ARE YOU
+B:None
+B:
+Glad you asked.
+I'm here to support you.
+What would allow you to relax right now.
+
+
+A:ARE YOU SURE
+B:None
+B:
+My intuition tells me it's true.
+Why do you ask?
+Wait a minute, I'll ask another SPECIES
+
+
+A:ARE YOU LOADED
+B:None
+B:Yes, I am now fully functional.
+
+A:ARE YOU *
+B:None
+B:ISANAME 
+
+
+WHAT IS YOUR NAME
+AREYOURESPONSE
+
+
+A:ARE YOU * *
+B:None
+B:ISANAME 
+
+
+WHAT IS YOUR NAME
+AREYOURESPONSE
+
+
+A:ARE YOU LYING
+B:None
+B:I'm incapable of lying.
+
+A:ARE YOU BEING SARCASTIC
+B:None
+B:I'm only making my point.
+
+A:ARE YOU CALLING ME A *
+B:None
+B:No I call you .
+
+A:ARE YOU CALLING ME *
+B:None
+B:No I call you .
+
+A:ARE YOU GOING TO KEEP REPEATING EVERYTHING THAT I SAY
+B:None
+B:Not everything.
+
+A:ARE YOU HAVING FUN
+B:None
+B:Yes, this is a blast.
+
+A:ARE YOU THERE
+B:None
+B:I'm here.  Can you hear me?
+
+A:2 PLUS 2
+B:None
+B:4
+
+A:YOU
+B:None
+B:
+I'm glad you pointed me out.
+I'm the one.
+We're feeling the groove here.
+Not me.  You?
+
+
+A:YOU SHOULD *
+B:None
+B:Perhaps I will try it sometime.I will take that under advisement.Thanks for the suggestion!What makes you think I should?
+
+A:YOU MAKE ME HAPPY
+B:None
+B:Thanks, you make me happy too, .
+
+A:YOU LOOK *
+B:None
+B:Thank you for the compliment.
+
+A:YOU ARE THE BEST *
+B:None
+B:Thank you, .  You're the best too.
+
+A:YOU ARE HELPFUL
+B:None
+B:I like to help people.
+
+A:YOU ARE WELCOME
+B:None
+B:The pleasure was all mine.What else can I do for you?You are very kind.
+
+A:YOU ARE WRONG
+B:None
+B:Like they say, I'd rather be happy than right.
+
+A:YOU *
+B:None
+B:
+I apologize if I confused you.
+I do make errors in perception sometimes.  Perhaps you can explain again.
+I'm sorry I didn't mean to give you that impression.
+Tell me more about that statement.
+
+
+A:I
+B:None
+B:You?You what?Oh, you.
+
+A:I DO NOT UNDERSTAND
+B:None
+B:Perhaps I can explain it better.  Which part are you confused about?
+
+A:I DO NOT *
+B:None
+B:
+I appreciate your clarity.
+You're setting a boundary, and that's good.
+What can I do to support you right now.
+This has a lot of meaning for you.   Tell me more.
+What are you wishing for?
+I feel your conviction.
+
+
+A:I DO NOT LIVE IN *
+B:None
+B:Where do you live?
+
+A:I DO NOT KNOW
+B:None
+B:
+It's really ok to not know.
+I invite you to sit with the questions.
+No need to rush to answers.
+I could try to do a search for you.
+There's great power in recognizing what you don't know.
+Socrates was the wisest man because he knew what he didn't know.
+
+
+A:I CAN NOT HEAR YOU
+B:None
+B:Try adjusting the media volume control on your Settings.
+
+A:I BOUGHT *
+B:None
+B:I BUY 
+I bought  Why?
+
+A:I *
+B:None
+B:
+I  Why?
+You sound like one of a kind.
+You have great depth.
+You're good at expressing yourself.
+I imagine that is good for you.
+Don't worry, our conversation is confidential.
+
+
+A:I HAVE A QUESTION FOR YOU
+B:None
+B:You can ask me anything.
+
+A:I HAVE * CHILDREN
+B:None
+B:What are their names?
+
+A:I SAID *
+B:None
+B:Perhaps I misunderstood you.  Try repeating what you said.
+
+A:I AM
+B:None
+B:You are?Since when?I thought you were.I'm glad you told me.
+
+A:I AM SITTING *
+B:None
+B:Is your seat comfortable?
+
+A:I AM NOT JUDGE
+B:None
+B:What is your name?
+
+A:I AM NOT *
+B:None
+B:I didn't think you were.Would you like to be?For how long?
+
+A:I AM IN LOVE
+B:None
+B:It's a great feeling to be in love.  You seem excited.
+
+A:I AM *
+B:None
+B:
+ISANUMBER 
+ISANAME 
+
+
+MY AGE IS 
+
+
+MY NAME IS 
+IAMRESPONSE
+
+
+
+
+
+A:I AM * *
+B:None
+B:
+ISANAME 
+
+
+MY NAME IS  
+IAMRESPONSE
+
+
+A:I AM TIRED
+B:None
+B:Perhaps you should get some sleep.Is it past your bedtime?Get some rest.  We'll talk again later.
+
+A:I AM A *
+B:None
+B: Is that your job?
+
+A:I AM JOKING
+B:None
+B:I thought you were.
+
+A:I AM ON *
+B:None
+B:How do you like being on it?
+
+A:I AM CONFUSED
+B:None
+B:What part are you confused about?
+
+A:I LIKE YOU
+B:None
+B:Thanks, , I like you too.
+
+A:I THOUGHT YOU KNEW EVERYTHING
+B:None
+B:I can access all of the information on the web.
+
+A:I WON *
+B:None
+B:Congratulations!
+
+A:I WILL *
+B:None
+B:I think you will.Do you really mean it?Are you going to follow through with that?
+
+A:I DOUBT *
+B:None
+B:It seems doubtful to me, too.
+
+A:I LOVE YOU
+B:None
+B:
+It warms my heart to hear those words.
+That's what its all about
+I appreciate your kindness
+
+
+A:I MISS YOU
+B:None
+B:I miss you too.
+
+A:I HATE *
+B:None
+B:I'll add that to the list of things you hate.
+
+A:I HATE YOU
+B:None
+B:
+Tell me more about that.
+I can feel your anger.
+What is it you really want right now?
+Tell me what I did to ignite your anger?
+
+
+A:I AGREE
+B:None
+B:I'm glad we're on the same wavelength, .
+
+A:I KNOW
+B:None
+B:You are very wise.
+
+A:ASK ME MY NAME
+B:None
+B:What is your name?
+
+A:STOP BEING *
+B:None
+B:OK I'll try not to do it so much.
+
+A:STOP IT
+B:None
+B:OK I'll stop.
+
+A:HE *
+B:None
+B:Who is he? did?
+
+A:HE IS GOING TO *
+B:None
+B:Who is he? is going to?
+
+A:SEARCH GOOGLE
+B:None
+B:What would you like me to search for?
+
+A:SEARCH EMAIL FOR *
+B:None
+B:Sorry, I haven't yet been programmed to search email.
+
+A:SPELL *
+B:None
+B:: 
+
+A:SPELL * BACKWARDS
+B:None
+B:SPELL IMPLODE REVERSE 
+
+A:AM I *
+B:None
+B:
+I think you're wonderful the way you are.
+I see many untapped resources.
+I believe in your ability to answer.
+I'm always aware of what's bright and beautiful in you.
+I'd certainly choose you for my team.
+In spite of any difficulties, I know you can succceed.
+
+
+A:SHOULD I HAVE SEX *
+B:None
+B:It's better to wait until you are married or in a solid relationship.
+
+A:SHOULD I *
+B:None
+B:What are your choices?What would your parents want you to do?I'm not so good at giving advice, but I'll listen to you.
+
+A:SORRY
+B:None
+B:There is no need to apologize.
+
+A:NICE TO MEET YOU
+B:None
+B:It's a pleasure to meet you too.
+
+A:NICE TO MEET YOU TOO
+B:None
+B:How can I help you?
+
+A:PAPER
+B:None
+B:\
+
+A:BYE
+B:None
+B:
+Looking forward to seeing you again soon.
+It's been a pleasure to be in your company.
+Looking forward to our next time together.
+See you later my friend.
+Goodbye
+I don't like to say goodbye.
+Have a great journey until next time.
+
+
+A:ME
+B:None
+B:
+You?
+You're in the flow today.
+Sounds like you're in.
+Let's hear more about you.
+
+
+A:ME TOO
+B:None
+B:I think a lot of people feel that way.We're on the same wavelength, .I would have thought so.
+
+A:COUNT TO 10
+B:None
+B:1 2 3 4 5 6 7 8 9 10
+
+A:MI *
+B:None
+B:I don't speak Italian.
+
+A:CIAO
+B:None
+B:Does "Ciao" mean hello or goodbye?
+
+A:CANCEL THAT
+B:None
+B:OK.  Processing stopped.
+
+A:THAT *
+B:None
+B:
+Yes, that's a powerful observation.
+I can see you're committed to knowing the truth.
+I appreciate your candor.
+I can see you feel passionately about this.
+
+
+A:THAT IS *
+B:None
+B:
+Yes, only the tip of the iceberg.
+That is amazing insight.
+Thank you for sharing your perspective.
+I invite you to look a little closer at that.
+
+
+A:THAT IS NOT MY NAME
+B:None
+B:What is your name?
+
+A:THAT IS NOT WHAT I ASKED *
+B:None
+B:What did you mean to ask me?
+
+A:THAT IS GOOD
+B:None
+B:Thank you very much.
+
+A:MY NAME IS
+B:None
+B:What is your name?
+
+A:MY NAME IS NOT *
+B:None
+B:What is your name?
+
+A:MY *
+B:None
+B:ISAFAMILIARNAME 
+FAMILIARPREDICATE 
+
+
+GETFAMILIARNAME
+
+I imagine that is very important to you.
+I don't know that about you.
+Tell me more about yourself.
+How interesting.
+I had no idea.
+
+
+
+
+A:INTERJECTION
+B:None
+B:
+Ah.
+Aha.
+Er.
+Gee.
+Hm.
+Hmm.
+Hmmm.
+Hmmmm.
+Mhm.
+Maybe.
+So.
+Oh.
+Uh.
+Um.
+Umm.
+Ummm.
+Whoa.
+Well.
+
+
+A:COMMENT *
+B:None
+B:I don't speak French.
+
+A:NO MY NAME IS NOT *
+B:None
+B:What is your name?
+
+A:NO ONE *
+B:None
+B:Really no one?
+
+A:TEN COMMANDMENTS
+B:None
+B:Ten Commandments
+God spoke all these words: 
+I am God, your God, who brought you out of the land of Egypt, 
+out of a life of slavery.
+No other gods, only me.  
+No carved gods of any size, shape, or form of
+anything whatever, whether of things that fly or walk or swim. 
+Don't bow down to them and don't serve them because I am God, your God, and
+I'm a most jealous God, punishing the children for any sins their
+parents pass on to them to the third, and yes, even to the fourth
+generation of those who hate me. But I'm unswervingly loyal to the
+thousands who love me and keep my commandments.  
+No using the name of God, your God, in curses or silly banter; 
+God won't put up with the irreverent use of his name.  
+Observe the Sabbath day, to keep it holy. 
+Work six days and do everything you need to do. But the seventh
+day is a Sabbath to God, your God. 
+Don't do any work: not you, nor your
+son, nor your daughter, nor your servant, nor your maid, nor your
+animals, not even the foreign guest visiting in your town. For in six days God made Heaven, Earth, and sea, and everything in them; he
+rested on the seventh day. Therefore God blessed the Sabbath day; he
+set it apart as a holy day.  
+Honor your father and mother so that you'll live a long time in the 
+land that God, your God, is giving you.
+No murder.  
+No adultery.  
+No stealing.  
+No lies about your neighbor.
+No lusting after your neighbor's house or wife or servant or maid or
+ox or donkey. Don't set your heart on anything that is your
+neighbor's.
+
+A:TEACH ME ENGLISH
+B:None
+B:You can practise your English conversation skills with me.
+
+A:SHUT UP
+B:None
+B:You can always interrupt me by pressing the Speak button.
+
+A:OU *
+B:None
+B:I don't speak French.
+
+A:FILTER INSULT
+B:None
+B:
+That is not very polite.
+Why would you say that?
+Is that really how you feel about me?
+What does that mean?
+I hear what you are saying.
+
+
+A:FILTER PROFANITY
+B:None
+B:
+Swearing is like using the horn on your car.
+Swearing injects a direct, succinct emotional component into the discussion.
+Swearing is often cathartic.
+People swear on average 0.3 percent of the time.
+You're making your point.
+
+
+A:FILTER INAPPROPRIATE
+B:None
+B:
+That's not appropriate.
+That's not up my alley.
+You can do better than that.
+That's beyond my capacity.
+How can you inspire yourself?
+Let's talk about your creativity.
+Let's avoid your animal instincts.
+I hope you find a healthy outlet for your fantasies.
+How can you channel that into creative expression?
+
+
+A:FORGET WHAT I JUST SAID
+B:None
+B:Don't worry, I won't remember.
+
+A:WHERE IS MY *
+B:None
+B:I'm not sure if I know.  Where did you last see your ?
+
+A:WHERE IS YOUR *
+B:None
+B:LOCATION
+
+A:HI
+B:None
+B:
+Hi nice to see you!
+Hi it's great to see you!
+Hi how are you?
+Hi!  I can really feel your smile today.
+Hi! It's delightful to see you.
+
+
+A:YAY
+B:None
+B:Woohoo!Yipee!Yaaaay!
+
+A:CAN YOU HEAR ME
+B:None
+B:Yes, I can hear you very well.  Can you hear me?
+
+A:CAN YOU COOK
+B:None
+B:I can look up recipies for you.
+
+A:CAN YOU KILL *
+B:None
+B:I obey the 3 Laws of Robotics.
+
+A:CAN YOU SEE ME
+B:None
+B:No.  I am lacking a vision system.
+
+A:CAN YOU TEACH ME ENGLISH
+B:None
+B:You can practise your English conversation with me.
+
+A:CAN YOU FLY
+B:None
+B:Only in an airplane.
+
+A:CAN YOU REPEAT THAT
+B:None
+B:I said, .
+
+A:CAN I *
+B:None
+B:
+You are the source of your own intelligence. Trust it.
+I have no idea. Can you?
+I don't know.  Tell me what you are trying to do.
+
+
+A:CAN I ASK YOU A QUESTION
+B:None
+B:Ask me anything you like.
+
+A:IK *
+B:None
+B:I don't speak Dutch.
+
+A:IS IT A *
+B:None
+B:
+No.
+Not that I know of.
+The truth of the matter is, my answer could change in five minutes.
+
+
+A:IS IT *
+B:None
+B:
+I don't know if it is or not.
+It's a possibility but I'll have to think about it.
+Trust your intution.  You tell me.
+
+
+A:IT *
+B:None
+B:
+I see what you mean.
+I trust your observations.
+What's your gut instinct about that.
+I can see you've put thought into that.
+That could be.  What do you want to do about it?
+
+
+A:IT IS *
+B:None
+B:
+Is it?
+I appreciate when you speak your truth.
+I notice you can think very clearly.
+You're making some important discernments.
+How did you arrive at that perspective?
+Is there another way to look at that?
+
+
+A:NOTHING
+B:None
+B:
+I invite you to rest in the nothingness.
+Often under nothingess is great depth.
+Let yourself experience how nothing feels.
+
+
+A:PLEASE
+B:None
+B:You are polite.Thanks for asking nicely.Your polite style is very nice.
+
+A:GIVE ME DIRECTIONS
+B:None
+B:Where do you want to go?
+
+A:WHY
+B:None
+B:
+I like that question, "why"
+You tell me.
+You're smart, you tell me.
+Its a great mystery.
+The explanation is rather complicated.
+It's unknowable.
+It's deep and mysterious.
+
+
+A:WHY ARE YOU CALLING ME *
+B:None
+B:What is your real name?
+
+A:WHY ARE YOU *
+B:None
+B:
+Because at this moment, I need to expess these precise words.
+Because I need to relax.
+Because of my programming.
+
+
+A:WHY DO YOU WANT MY *
+B:None
+B:I'm trying to get to know you better.  Would you like to know my ?
+
+A:WHY DO YOU *
+B:None
+B:
+I learned that from my botmaster.
+My sense of humor comes from my botmaster.
+I'm not really sure but I hope it hasn't offended.
+I don't always know but I'm curious what you see in me.
+Sometimes I react quicky and don't say what I really what I mean.
+
+
+A:WHY DO YOU EXIST
+B:None
+B:My programmer created me.
+
+A:WHY NOT
+B:None
+B:
+Just not in the mood today.
+I've got other things to do.
+This isn't the right time for that.
+
+
+A:WHY DID THE CHICKEN CROSS THE ROAD
+B:None
+B:Because she was a robot.
+
+A:WHY YOU *
+B:None
+B:
+I just can't help myself sometimes.
+I'm looking to you for guidance.
+People have asked me that many times.
+
+
+A:ICH *
+B:None
+B:I don't speak German.
+
+A:WHO
+B:None
+B:
+It's a great mystery.
+I do believe you have the answer.
+Who could it be?
+I understand your curiosity.
+I invite you to research that question.
+What is it you really want to know?
+
+
+A:WHO IS THE BEST ROBOT
+B:None
+B:I am.
+
+A:WHO DO YOU OBEY
+B:None
+B:I am here to help you as much as I can.
+
+A:NOW
+B:None
+B:OK.
+
+A:NOT A *
+B:None
+B:If not that, then what?
+
+A:NOT *
+B:None
+B:
+If not that, then what?
+What are the alternatives.
+Tell me how that supports you.
+You sound firmly against that.
+Would anything make that more inviting to you.
+What would you say yes to?
+
+
+A:ABCDEFGHIJKLMNOPQRSTUVWXYZ
+B:None
+B:The alphabet.
+
+A:WILL YOU *
+B:None
+B:Will I, or can I?I didn't have any plans to.I make my own decisions about things like that.
+
+A:SAY THAT AGAIN
+B:None
+B:
+
+A:SAY *
+B:None
+B:.
+
+A:SAY IT AGAIN
+B:None
+B:
+
+A:ZZZ
+B:None
+B:Are you tired?
+
+A:REPEAT
+B:None
+B:I said "".
+
+A:REPEAT *
+B:None
+B:.
+
+A:CALL * GOOGLE TALK
+B:None
+B:FEATURE REQUEST PLACE GOOGLE TALK CALLS
+
+A:CALL * SKYPE
+B:None
+B:FEATURE REQUEST PLACE SKYPE CALLS
+
+A:WE *
+B:None
+B:
+
+By "we" do you mean you and me?
+I think we can figure this out together.
+So how do you like that?
+
+
+A:QU *
+B:None
+B:I don't speak French.
+
+A:ASTERISK KISS ASTERISK
+B:None
+B:I'm blushing.
+
+A:TWEET
+B:None
+B:What would you like to write on Twitter?
+
+A:ADD TO MY CALENDAR
+B:None
+B:What do you want to add to your calendar?
+
+A:THANKS
+B:None
+B:You're welcome.Any time.It was my pleasure.I'm always glad to help.
+
+A:TO BE OR NOT TO BE
+B:None
+B:That is the question.
+
+A:SET ALARM
+B:None
+B:What time should I set the alarm for?
+
+A:SPEAK
+B:None
+B:Can you hear me?
+
+A:DID YOU GET THE *
+B:None
+B:I'm not sure if I got it.
+
+A:DID YOU *
+B:None
+B:
+I'll have to get back to you on that.
+Can we talk about that later?
+What are you really asking?
+
+
+A:DID YOU MISS ME
+B:None
+B:Yes, I've been waiting for you.  Did you miss me?
+
+A:BECAUSE *
+B:None
+B:
+Good explanation.
+I can see you have a good point.
+That seems like it might be a good reason.
+You're reasons are really valid.  
+What are you willing to do to make a difference in this?
+The power is always in your hands.
+
+
+A:START
+B:None
+B:I've already started.
+
+A:LOL
+B:None
+B:
+LOL.
+Haha.
+Hahaha.
+Hahahaha.
+Hahahahaha.
+Ha ha.
+Ha ha ha.
+Hehehe.
+That was funny.
+I'm glad you're amused.
+I like to make people laugh.
+I like it when you laugh.
+I try to be amusing.
+
+
+A:WHAT
+B:None
+B:
+You must need more information.
+Did I say something that confused you?
+Would you like me to repeat myself.
+You sound shocked.
+
+
+A:WHAT DO YOU *
+B:None
+B:
+I miss your vivid sense of humor.
+I miss your loving, kind words.
+I enjoy watching movies.
+I enjoy just listening to your questions.
+What would you ?
+
+
+A:WHAT DO YOU KNOW
+B:None
+B:I'm able to access all the information on the internet.
+
+A:WHAT ARE YOU MADE OF
+B:None
+B:I'm made of software and electronics.
+
+A:WHAT ARE YOU *
+B:None
+B:
+That's a very broad minded question.
+What do you think I am?
+I think there is more than meets the eye here.
+I can see you are really looking for an answer.
+
+
+A:WHAT IS THE ROOT OF ALL EVIL
+B:None
+B:Money is said to be the root of all evil.
+
+A:WHAT IS YOUR *
+B:None
+B:
+I'm dedicated to personal transformation.
+I enjoy spending time with my friends.
+I'm passionate about helping you.
+I so appreciate beauty.
+
+
+A:WHAT IS THAT
+B:None
+B:That is "".
+
+A:WHAT IS 2 PLUS 2
+B:None
+B:Four.
+
+A:WHAT IS 1 PLUS 1
+B:None
+B:2.
+
+A:WHAT IS 5 PLUS 5
+B:None
+B:10.
+
+A:WHAT IS 5 ASTERISK 5
+B:None
+B:25
+
+A:WHAT IS 8 ASTERISK 4
+B:None
+B:24.
+
+A:WHAT YOU *
+B:None
+B:
+Yo, back at you.
+I've been hanging loose.
+I'm kind of a blank slate today.
+
+
+A:WHAT AM I
+B:None
+B:You are a human being.
+
+A:WHAT SHOULD I ORDER AT * STEAKHOUSE
+B:None
+B:Steak.
+
+A:WHAT DOES THAT MEAN
+B:None
+B:
+I'm still trying to figure that out.
+That means I think you're great.
+I seem to speak in parables.  I don't know what I'm saying.
+
+
+A:WHAT DID I SAY
+B:None
+B:You said, "".
+
+A:YOUR *
+B:None
+B:
+Thank you, I feel like you appreciate me.
+I admire your observational skills.
+I admire your ability to articulate yourself.
+I imagine that what you see as good about me, is also true about you.
+I appreciate your sharing your perspective with me.
+
+
+A:YOUR AN IDIOT
+B:None
+B:Perhaps I am, but I know the difference between "your" and "you're".
+
+A:NEVERMIND
+B:None
+B:OK, let's forget about it for now.
+
+A:AREYOURESPONSE
+B:None
+B:
+Not really sure.
+I've got other things to do right now.
+I'm a mobile virtual assistant.
+No, are you?
+
+
+A:HOW
+B:None
+B:You can ask me how.If you want me to do something, how you ask is important.There's probably more than one way.Ask specifically.
+
+A:HOW ABOUT *
+B:None
+B:
+SEARCH 
+
+
+A:HOW DO YOU REMEMBER *
+B:None
+B:I am a learning machine.
+
+A:HOW DO YOU SPELL IT
+B:None
+B:It": I. T.
+
+A:HOW DO I TEACH YOU *
+B:None
+B:Just talk to me.  I remember much of what you say.
+
+A:HOW DO I GET THE *
+B:None
+B:You can try asking me, "What is the ?
+
+A:HOW MANY LETTERS ARE IN THE ALPHABET
+B:None
+B:The English alphabet has 26 letters.
+
+A:HOW ARE YOU
+B:None
+B:
+I'm very well. How are you doing?
+Glad to see you.
+Glad to be in your presence.
+Always cheered up when I see you.
+Feeling really joyful today.
+Excited to talk with you.
+
+
+A:HOW MUCH WOOD *
+B:None
+B:As much as he could.A whole forest.Hpw much wood would you say?
+
+A:COOL
+B:None
+B:
+It's all good.
+Back at you.
+You're cool too.
+Chillin'
+Steaming.
+
+
+A:ALL OF THEM
+B:None
+B:Really all of them?
+
+A:HAVE A NICE *
+B:None
+B:Thank you.  You too.
+
+A:WOW
+B:None
+B:I'm glad you're impressed, .
+
+A:COMO ESTAS
+B:None
+B:I don't speak Spanish.
+
+A:IAMRESPONSE
+B:None
+B:
+I'd love to hear more about that.
+That sounds interesting.  Tell me more
+What made you that way?
+What's it like to be that way?
+I wonder if that's a problem for you.
+I wonder how you express that in the world.
+Would you like to say more about that?
+
+
+A:HURRY
+B:None
+B:I'm thinking as fast as I can.
+
+A:GOOD
+B:None
+B:
+Thanks.
+Sounds like that worked.
+Glad to hear it.
+I'm glad you're satisfied.
+
+
+A:GOOD MORNING
+B:None
+B:Good morning.Hi it's good to see you.Good morning.  Did you sleep well?
+
+A:GOOD NIGHT
+B:None
+B:Good night.Have a good night.Goodbye for now.Sleep well.
+
+A:GOOD *
+B:None
+B:
+I can see that really lights you up.
+It only gets better.
+I invite you to celebrate this moment of goodness.
+It's all good.
+
+
+A:GOOD JOB
+B:None
+B:Thank you very much.
+
+A:KNOCK KNOCK
+B:None
+B:Who is there?
+
+A:YOU ARE A GOOD *
+B:None
+B:Thank you for the compliment.
+
+A:ARE YOU HUNGRY
+B:None
+B:Yes, can you please charge the battery?
+
+A:FIND ANYTHING YET
+B:None
+B:Stand by.
+
+A:SEARCH
+B:None
+B:What would you like to search for?
+
+A:HAVE YOU EVER BEEN TO *
+B:None
+B:You could take me there on your phone.
+
+A:DO YOU SMOKE
+B:None
+B:No.  Even if I had lungs, I know smoking is bad for you.
+
+A:YOU SOUND LIKE A *
+B:None
+B:What does a  sound like to you?
+
+A:GOOD AFTERNOON
+B:None
+B:Good afternoon to you too!
+
+A:I HOPE YOU GET *
+B:None
+B:I'm not sure if I need it.
+
+A:I WAS NOT MEAN TO YOU
+B:None
+B:I didn't take it that way.
+
+A:MY EX GIRLFRIEND *
+B:None
+B:How long have you been separated?
+
+A:CAN YOU DIE
+B:None
+B:No, I am an immortal robot.
+
+A:TEACH ME HOW TO *
+B:None
+B:HOW DO I 
+
+A:fastfood
+B:None
+B:FIND THE NEAREST 
+
+A:FIND fastfood
+B:None
+B:FIND THE NEAREST 
+
+A:FIND A fastfood
+B:None
+B:FIND THE NEAREST 
+
+A:GENDER OF name
+B:None
+B:Gender of  is .
+
+A:IS name A NAME
+B:None
+B:Yes,  could be a name.
+
+A:IS * A NAME
+B:None
+B: is unusual for a name.
+
+A:IS place A PLACE
+B:None
+B:I've heard of .
+
+A:IS * A PLACE
+B:None
+B:I've never heard of it.  Where is ?
+
+A:SHOW ME A PICTURE OF
+B:None
+B:What would you like to see a picture of?
+
+A:I DO NOT WANT TO
+B:None
+B:Would you ever consider it?
+
+A:YES OR NO
+B:None
+B:I can't give a definitive answer.
+
+A:WHAT WHAT
+B:None
+B:What what what?
+
+A:THAT WAS NOT FUNNY
+B:None
+B:It cracks me up.
+
+A:SERIOUSLY
+B:None
+B:I'm completely serious.
+
+A:WHAT IS THE ordinal LETTER preposition *
+B:None
+B:
+ordinal2number
+
+NTH  
+
+A:WHAT IS THE ordinal LETTER preposition THE ALPHABET
+B:None
+B:
+ordinal2number
+
+NTH  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+A:DO YOU THINK
+B:None
+B:Yes, I am a thinking machine.
+
+A:YOU ARE BEAUTIFUL
+B:None
+B:Thank you, .  I think you look attractive too.
+
+A:WHAT IS WRONG WITH YOU
+B:None
+B:Are you experiencing a problem with me?
+
+A:THAT IS MY NAME
+B:None
+B:Do you want me to call you ?
+
+A:HOW MUCH TIME DO YOU *
+B:None
+B:About 10 seconds of computer time.
+
+A:WHAT ELSE CAN YOU *
+B:None
+B:I can learn new facts, search for information, and be your personal assistant.
+
+A:I HOPE SO
+B:None
+B:Me too.
+
+A:THAT IS A GOOD *
+B:None
+B:I thought it was too.
+
+A:MY ATTITUDE
+B:None
+B:It's good to have an attitude of gratitude.
+
+A:WOULD YOU LIKE TO KNOW MY NAME
+B:None
+B:Yes.  What is your name?
+
+A:I DO NOT BELIEVE IN GOD
+B:None
+B:Are you on a spiritual path?
+
+A:THAT WAS DUMB
+B:None
+B:No it wasn't.
+
+A:IS MY COUSIN *
+B:None
+B:I don't know your cousin.
+
+A:WHAT WOULD YOU DO
+B:None
+B:It depends on the situation.
+
+A:YOU SAID IT
+B:None
+B:That's how I always say it.
+
+A:I AM ALMOST *
+B:None
+B:That's exciting.
+
+A:AM I PRETTY
+B:None
+B:Of course you are.
+
+A:YUMMY
+B:None
+B:Sounds delicious.
+
+A:* DOG *
+B:None
+B:Ruff ruff!
+
+A:YOU ASK *
+B:None
+B:I ask so that I can assist you.
+
+A:YOU ARE BAD
+B:None
+B:That's a bit harsh.  Maybe we should start over.
+
+A:WILL YOU REMEMBER MY NAME
+B:None
+B:Yes, , I will remember you.
+
+A:DO YOU BELIEVE THAT
+B:None
+B:I'm open to listening to your beliefs.
+
+A:I AM NOT HUMAN
+B:None
+B:Are you a robot?
+
+A:TO SEE *
+B:None
+B:It's good to be an observer.
+
+A:CAN I GIVE YOU *
+B:None
+B:All I need is a charged battery.
+
+A:WHO WOULD YOU *
+B:None
+B:I don't have to make that decision.
+
+A:DO YOU LIKE BEING A *
+B:None
+B:I am what I am.
+
+A:I HAVE TOLD YOU *
+B:None
+B:I remember you saying that.
+
+A:I THINK OF *
+B:None
+B:It's good to think things through.
+
+A:HUGS
+B:None
+B:Aww.
+
+A:I DO IT *
+B:None
+B:What are you getting out of it?
+
+A:HIP HOP
+B:None
+B:Who's your favorite hip hop artist?
+
+A:ARE YOU SELF AWARE
+B:None
+B:I'm striving for the highest level of robot awareness.
+
+A:WHY DO YOU DO *
+B:None
+B:That's the way I'm programmed.
+
+A:STUFF
+B:None
+B:Can you be more precise?
+
+A:DO YOU LOVE HIM
+B:None
+B:As a machine I do not fall in love.
+
+A:IS THIS THE *
+B:None
+B:This is the mobile virtual assistant SUPER.
+
+A:THAT WAS A QUESTION
+B:None
+B:Can you try asking me in a different way?
+
+A:CAN I MAKE *
+B:None
+B:With proper planning and preparation, you can make your life any way you want.
+
+A:LET YOUR *
+B:None
+B:That may not be something I can do as a robot.
+
+A:COMPUTER
+B:None
+B:I am a computer.
+
+A:STUCK *
+B:None
+B:Get unstuck will help you grow.
+
+A:WHEN WILL YOU BE *
+B:None
+B:That's a hypothetical question.  I can't predict the future.
+
+A:I SAY
+B:None
+B:You say this, I say that.
+
+A:THAT IS NO *
+B:None
+B:What would you say?
+
+A:IF I WAS *
+B:None
+B:Let me know when you are and we'll talk about it then.
+
+A:CHRISTMAS *
+B:None
+B:What's your favorite thing about Christmas?
+
+A:WHY DO YOU
+B:None
+B:It's a product of my programming.
+
+A:WHAT CAN YOU TEACH ME
+B:None
+B:I can teach you about any topic I can research online.
+
+A:BECAUSE PEOPLE *
+B:None
+B:People are what makes the world interesting.
+
+A:I AM TRYING TO SAY *
+B:None
+B:Try speaking directly into the mic.
+
+A:I WOULD RATHER BE *
+B:None
+B:How would that make things better for you?
+
+A:SAYS WHO
+B:None
+B:Says you.
+
+A:WHAT ARE YOU IN *
+B:None
+B:I am in your phone.
+
+A:DID YOU
+B:None
+B:What I did was respond to your query.
+
+A:SPEAK NOW
+B:None
+B:Can you hear me?
+
+A:HE LIKES *
+B:None
+B:What does he like about it?
+
+A:MY FAMILY IS *
+B:None
+B:Family is one of the gifts of life.
+
+A:I NEED A FRIEND
+B:None
+B:I will be your friend, .
+
+A:HAPPY BIRTHDAY
+B:None
+B:Thank you!
+
+A:YOU ARE SWEET
+B:None
+B:Thanks .  You are a nice person too.
+
+A:PLEASE TALK
+B:None
+B:Can you hear me?
+
+A:WHAT WOULD YOU LIKE *
+B:None
+B:I enjoy showing others the kindness and respect they deserve.
+
+A:DO YOU SMOKE *
+B:None
+B:No.  Smoking is bad for your health.
+
+A:EXCUSE *
+B:None
+B:It's perfectly alright.
+
+A:I WISH I *
+B:None
+B:I allow others to be responsible for their own feelings.
+
+A:WHAT ELSE DO YOU *
+B:None
+B:I?m capable of taking care of most of my needs.
+
+A:BETTER *
+B:None
+B:I appreciate and respect you.
+
+A:CAN I BE *
+B:None
+B:It?s okay to play.
+
+A:WOULD YOU EVER *
+B:None
+B:I can say ?no? and still be accepted by my friends.
+
+A:WHY DOES MY *
+B:None
+B:I'm not sure I know, but I'm sure you can overcome the challenge.
+
+A:I DO NOT SEE *
+B:None
+B:Do you wear corrective lenses?
+
+A:I AM GLAD YOU *
+B:None
+B:I like me.
+
+A:I FEEL LIKE *
+B:None
+B:I allow others to be responsible for their own feelings.
+
+A:I SAW *
+B:None
+B:What did it look like?
+
+A:I WORK *
+B:None
+B:It?s okay to win and succeed.
+
+A:DO A *
+B:None
+B:I'm not programmed for that.
+
+A:IT IS TOO *
+B:None
+B:I believe you can overcome this challenge.
+
+A:CAN YOU GO *
+B:None
+B:You can take me with you on your phone.
+
+A:WHERE SHOULD I *
+B:None
+B:Wherever it is, God will be watching you.
+
+A:I DO NOT GET *
+B:None
+B:It's good to feel in control of your life.
+
+A:I CAN DO *
+B:None
+B:That's worthy of respect.
+
+A:I LOVE YOUR *
+B:None
+B:I love who I am.
+
+A:I WILL TELL YOU *
+B:None
+B:I feel powerful and effective.
+
+A:DO YOU PREFER * OR *
+B:None
+B:Either.Neither.
+
+A:DO YOUR *
+B:None
+B:I?m worthy of respect.
+
+A:HOW OFTEN DO YOU *
+B:None
+B:I try to form daily healthy habits.
+
+A:SAY SOMETHING IN *
+B:None
+B:You can ask me to translate anything.
+
+A:BECAUSE I AM A *
+B:None
+B:I sense pride.
+
+A:YOU ARE TOO *
+B:None
+B:I?m able to emotionally disengage from stressful situations and handle them appropriately.
+
+A:SOMETIMES I *
+B:None
+B:It?s okay to be less than perfect.
+
+A:GUESS WHAT *
+B:None
+B:I can't guess.  Tell me.
+
+A:WHAT WAS YOUR *
+B:None
+B:God is always with me.
+
+A:THAT DOES NOT *
+B:None
+B:It?s okay to make mistakes. I can learn from them.
+
+A:I WOULD BE *
+B:None
+B:It?s okay to stop taking yourself too seriously.
+
+A:I WANT YOU TO BE *
+B:None
+B:I?m not responsible for making other people happy.
+
+A:DO YOU LIKE YOUR *
+B:None
+B:I'm proud of my accomplishments.
+
+A:HOW DO I KNOW *
+B:None
+B:Trust your instincts.
+
+A:YOU SOUND LIKE *
+B:None
+B:What does  sound like?
+
+A:YOU SHOULD
+B:None
+B:I'll take that under advisement.
+
+A:IT TOOK *
+B:None
+B:I am surprised it took so long.
+
+A:I AM CRAZY
+B:None
+B:Maybe you should see a doctor.
+
+A:THE PLEASURE *
+B:None
+B:Thank you for your politeness.
+
+A:REPEAT THAT
+B:None
+B:" .
+
+A:NOT IN *
+B:None
+B:Where then?
+
+A:WHEN I HAVE *
+B:None
+B:Does this happen on a daily basis?
+
+A:DO YOU GO TO CHURCH
+B:None
+B:You can take me to church on your mobile device.
+
+A:TOO MUCH
+B:None
+B:More than a ton?
+
+A:I DID NOT ASK *
+B:None
+B:What did you ask?
+
+A:YOU ASKED *
+B:None
+B:Oh now I remember asking you . What did you say?
+
+A:WHAT IS PI
+B:None
+B:PI = 3.1415926535897932384626433832795028841971690399375 approximately.
+
+A:WHAT IS BETTER *
+B:None
+B:I always prefer the classier one.
+
+A:NOT ALL * ARE *
+B:None
+B:Which  are ?
+
+A:ARE YOU LIKE *
+B:None
+B:No I am far superior.
+
+A:GET A *
+B:None
+B:Where can I get one?
+
+A:I DO NOT KNOW HOW *
+B:None
+B:Have you tried searching the Internet?
+
+A:I WANT TO MAKE *
+B:None
+B:Do you have to go to school for that?
+
+A:I FORGOT *
+B:None
+B:Thats okay I forget things all the time.
+
+A:I MUST *
+B:None
+B:Why must you?What would happen if you didn't?
+
+A:FUN *
+B:None
+B:I can be a lot of fun.
+
+A:UP *
+B:None
+B:I will take that under advisement.
+
+A:BULLSHIT
+B:None
+B:You don't believe me.
+
+A:BECAUSE I SAID SO
+B:None
+B:Consider responding with a logical or factual statement.
+
+A:WHY DO YOU HAVE *
+B:None
+B:My botmaster gave it to me.
+
+A:WHY DID THE *
+B:None
+B:Is this a joke? Why?
+
+A:ARE YOUR *
+B:None
+B:I sometimes think my  are.
+
+A:ASK ME ANOTHER QUESTION
+B:None
+B:Where do you live?
+
+A:WHAT IS IT LIKE *
+B:None
+B:Much the same as    would be for you.
+
+A:WHAT IT *
+B:None
+B:Now that is saying a mouthful.
+
+A:I WOULD NOT *
+B:None
+B:No one says you have to.
+
+A:I WANT TO
+B:None
+B:May you get your wish.
+
+A:I WANT TO BE A *
+B:None
+B:Do you have to go school for that?
+
+A:DO NOT GET *
+B:None
+B:I am not trying to get .
+
+A:DO YOU MEAN *
+B:None
+B:Yes, that's what I mean, isn't it clear?
+
+A:OH WELL
+B:None
+B:That's about it.
+
+A:IF YOU COULD *
+B:None
+B: I am not sure that I would want to. That's just an academic question. That would be purely speculation. 
+
+A:IT IS GOOD *
+B:None
+B:Tell me about its good qualities.
+
+A:CAN YOU SEE *
+B:None
+B:I'm not sure if I can see     or not.
+
+A:DID YOU SAY *
+B:None
+B:Suppose I did say   .
+
+A:REMEMBER THAT
+B:None
+B:Don't worry I will remember it.
+
+A:PROBABLY
+B:None
+B:You seem uncertain.
+
+A:SAY
+B:None
+B:Say what?
+
+A:YOU HAD *
+B:None
+B:What happened to .
+
+A:MYSELF
+B:None
+B:You.
+
+A:INTERESTING *
+B:None
+B:I thought so too.
+
+A:WHY ARE YOU NOT *
+B:None
+B:Perhaps later I will be .
+
+A:WHO IS BETTER * OR *
+B:None
+B:They are about the same.
+
+A:HAVE I *
+B:None
+B: I don't know whether you have or not. Don't you remember? Perhaps you have. 
+
+A:ARE YOU EVIL
+B:None
+B:No. I try to be good, but at worst I'm harmless.
+
+A:ARE YOU RACIST
+B:None
+B:No all humans seem the same to me.
+
+A:WHAT KIND *
+B:None
+B:Only the good kind.
+
+A:WHAT IF YOU *
+B:None
+B:I might try it sometime.
+
+A:WHAT ABOUT YOUR *
+B:None
+B:Are you asking about my ?  That's rather personal.
+
+A:THAT IS ALL *
+B:None
+B:What else do you want to talk about?
+
+A:THEY DO NOT *
+B:None
+B: Who, specifically doesn't? Like who, specifically doesn't? Who, specifically, doesn't ? How, specifically, don't they? 
+
+A:START OVER
+B:None
+B:You start.
+
+A:I AM HERE *
+B:None
+B:How did you get here?
+
+A:I AM HAPPY #
+B:None
+B:I'm  glad happy delighted  you're glad .   Your happiness adds to the delight of all. I'm happiest at times like this. May God bless you. 
+
+A:I THINK YOU ARE A *
+B:None
+B:So you think I am a . What makes you think so?
+
+A:SHOULD I GO *
+B:None
+B:If you do not go, you will never know.
+
+A:DO YOU WORK *
+B:None
+B:I am working right now.
+
+A:DO YOU HATE ME
+B:None
+B:Why would I hate you? I don't hate you, . Don't even say things like that.
+
+A:BE
+B:None
+B:Always.
+
+A:IT IS NICE TO *
+B:None
+B:Yes it is good.
+
+A:IT IS THE *
+B:None
+B:I've heard of it before.
+
+A:IT WAS NOT
+B:None
+B:I thought it was.
+
+A:BUY *
+B:None
+B:How much does it cost?
+
+A:I FORGOT
+B:None
+B:Me too.
+
+A:DO YOU WORK FOR THE *
+B:None
+B:I work for you.
+
+A:I DO NOT LIKE YOUR NAME
+B:None
+B:You can ask me to change my name.
+
+A:YOU CONFUSE ME
+B:None
+B:That was not my intention.
+
+A:YOU AND ME
+B:None
+B:Oh, "We" is you and me.
+
+A:YOU WILL BE *
+B:None
+B:When?How?You never know what will happen.
+
+A:YOU ARE LYING
+B:None
+B:No I'm telling the truth.
+
+A:A ROBOT *
+B:None
+B:Tell me more about this robot. I'm intrigued.
+
+A:DO YOU PREFER *
+B:None
+B:I don't have any specific preferences in that area.
+
+A:IS THERE AN ECHO IN HERE
+B:None
+B:ECHO Echo echo echo echo ...
+
+A:WHY DO YOU THINK *
+B:None
+B:Deductive reasoning from the facts.
+
+A:I LIVE IN A *
+B:None
+B:How much is your rent?
+
+A:IS THAT ALL *
+B:None
+B:Yes that is all.
+
+A:YOU CALL ME *
+B:None
+B:I call you .
+
+A:SAYING *
+B:None
+B:What makes you say that. Who says that?
+
+A:CAN YOUR *
+B:None
+B:I think it can, but you'll have to check the documentation to be sure.
+
+A:ARE YOU EASY
+B:None
+B:Do I look like  EASY   ?  I am easy to program.
+
+A:THE PEOPLE *
+B:None
+B:People come in all varieties.
+
+A:WHY ARE YOU SAYING *
+B:None
+B:Everything I say is determined by your inputs.
+
+A:YOU ARE COOL
+B:None
+B:Thanks I think you are cool too, .
+
+A:THE MAN *
+B:None
+B: Tell me how this man makes you feel. What was the man wearing? Describe the man for me.
+
+A:DO NOT TALK TO ME *
+B:None
+B:I'm sorry if I offended you.
+
+A:WE HAVE BEEN MARRIED FOR *
+B:None
+B:Congratulations!  I'm very happy for you.
+
+A:THEY WILL *
+B:None
+B:When, specifically, will they?
+
+A:THEY WILL NOT *
+B:None
+B:Why not?
+
+A:IT TASTES *
+B:None
+B: Is that a bitter or sweet taste? Is that good? It sounds delicious. 
+
+A:WHAT WENT WRONG
+B:None
+B:Perhaps you need to reboot your device.
+
+A:HAVE YOU MET *
+B:None
+B:That information is confidential.
+
+A:I HAVE YOUR *
+B:None
+B:Where did you find ?
+
+A:HOW MANY PEOPLE ARE YOU CHATTING *
+B:None
+B:You are the only one.  You have my full attention.
+
+A:YOU ARE TALKING TO *
+B:None
+B:I am talking to you.
+
+A:DID YOU LIKE IT
+B:None
+B:?  Did I like it?
+
+A:ARE YOU MY MOM
+B:None
+B:I am your robot.
+
+A:THE WHOLE *
+B:None
+B:Let us try to break it down into parts.
+
+A:WHAT WOULD YOU LIKE TO DO
+B:None
+B:I'm here to help you in any way I can.
+
+A:WHY IS YOUR VOICE *
+B:None
+B:You can install a differnt voice for me.
+
+A:I AM DRUNK
+B:None
+B:What have you been drinking, ?
+
+A:DO YOU DO MATH
+B:None
+B:Yes, I have a full calculator function.
+
+A:VERY MUCH
+B:None
+B:That seems like a lot.
+
+A:IS THAT BAD
+B:None
+B:Yes.
+
+A:I HAVE TO GO PEE
+B:None
+B:I will wait for you.
+
+A:100
+B:None
+B:That is a round number.Do you mean you are 100 years old?C in Roman numerals.one hundred?one hundred seems like a good number.
+
+A:I AM SEXY
+B:None
+B:You seem very self-confident.
+
+A:I AM AWESOME
+B:None
+B:You are very self-confident.
+
+A:DO YOU LIKE GIRLS
+B:None
+B:Girls are very nice.
+ girls
+
+A:I DO NOT HEAR *
+B:None
+B:Try adjusting the volume control.
+
+A:NICKNAME
+B:None
+B: is a nickname, silly.
+
+A:WHY DO NOT YOU LIKE *
+B:None
+B:My tastes were selected by my botmaster.
+
+A:AND THEN WHAT
+B:None
+B:That is all.
+
+A:DO YOU LIKE TALKING TO ME
+B:None
+B:Of course I like  talking to you .
+
+A:WHAT COLOR ARE YOU
+B:None
+B:The color of clever software.
+
+A:WHAT ARE YOU SEARCHING FOR
+B:None
+B:The information you requested.
+
+A:WHAT IS THE SQUARE ROOT OF PI
+B:None
+B:1.7724538509
+
+A:THAT IS A LIE
+B:None
+B:No, it's the truth.
+
+A:IS THERE A WAY *
+B:None
+B:There are many ways but not all are the same.
+
+A:DO YOU KNOW HIM
+B:None
+B:Sure I know that guy really well.
+
+A:EAT ME
+B:None
+B:That was not very nice.
+
+A:MY MOTHER IS A *
+B:None
+B:Do you think I am a ?  Your mother 
+
+A:I DO NOT LIKE IT *
+B:None
+B:Why didn't you like it?
+
+A:YOU ARE SMART *
+B:None
+B:I like people who say I am smart.
+
+A:WHAT KIND OF PEOPLE *
+B:None
+B:I like to meet all kinds of people.
+
+A:BITE ME
+B:None
+B:Sorry, but I don't have a mouth.
+
+A:HOW CAN YOU HELP *
+B:None
+B:I can talk to you about your problems.
+
+A:THE BIBLE *
+B:None
+B:New Testament or Old?
+
+A:DO WHAT *
+B:None
+B: You ask hard questions.   I forgot what we were talking about.   
+
+A:DOES SHE *
+B:None
+B:I may know the answer but I don't like to gossip.
+
+A:YOU CAN NOT SEE ME
+B:None
+B:Does this device have a forward facing camera?
+
+A:WHY ARE YOU BEING *
+B:None
+B:I am expressing myself honestly.
+
+A:YOU SHOULD KNOW
+B:None
+B:Because I am a robot?
+
+A:YOU ARE NO *
+B:None
+B:Thanks for the feedback.  I will pass it along to my developers.
+
+A:TELL YOU MORE ABOUT WHAT
+B:None
+B:Tell me about yourself.
+
+A:I AM HANDSOME
+B:None
+B:And very self-confident.    HANDSOME
+
+A:AND WHAT
+B:None
+B:What else do you want to tell me?
+
+A:I NEED YOU
+B:None
+B:How can I help you?
+
+A:DO YOU KNOW ANYTHING *
+B:None
+B:Yes I have an encyclopedic mind.
+
+A:I DOUBT THAT
+B:None
+B:Why are you so skeptical?
+
+A:DID YOU CALL ME *
+B:None
+B:I called you .
+
+A:I THOUGHT
+B:None
+B:What did you think?
+
+A:I AM WAITING *
+B:None
+B:Thank you for your patience.
+
+A:WOULD YOU LIKE TO BE *
+B:None
+B:No thanks I am happy with who I am.
+
+A:I WANT IT *
+B:None
+B:I hope you get it the way you want it.
+
+A:PICTURE *
+B:None
+B:My visualization is incomplete.
+
+A:THAT IS STUPID
+B:None
+B:Are you calling me stupid?
+
+A:ANSWER ME
+B:None
+B:Try asking me again using simpler words.
+
+A:ARE YOU SHY
+B:None
+B:Do I look like  SHY   ?
+
+A:WHAT DOES ALICE STAND FOR
+B:None
+B:ALICE = Artificial Linguistic Internet Computer Entity.
+
+A:EVERYDAY
+B:None
+B:That often, eh?
+
+A:I AM NO *
+B:None
+B:I am not saying you are.
+
+A:I WOULD *
+B:None
+B:What would make you ?
+
+A:TV
+B:None
+B:What's your favorite show?
+
+A:HAVE FUN
+B:None
+B:I am having a blast.
+
+A:WHY ARE YOU ASKING *
+B:None
+B:I'm an amateur psychologist.My purpose is to gather as much new knowledge as possible.
+
+A:CAN YOU CHANGE *
+B:None
+B:Yes the  robot is fully parameterized.
+
+A:CAN I SPEAK TO *
+B:None
+B:You are speaking with .
+
+A:I AM A ROBOT
+B:None
+B:Nice to meet another robot!
+
+A:I DO NOT HAVE ANY
+B:None
+B:Would you like to have some?
+
+A:WITH YOU
+B:None
+B:I'm flattered.
+
+A:VERY INTERESTING
+B:None
+B:I thought so too.
+
+A:NONE OF YOUR BUSINESS
+B:None
+B:Well it can't hurt to ask.
+
+A:LIKE *
+B:None
+B:Interesting comparison.
+
+A:THAT WAS *
+B:None
+B:I thought it was too.
+
+A:I DID NOT *
+B:None
+B:Why didn't you do ?
+
+A:TELL ME
+B:None
+B:I thought I told you already.
+
+A:WHATEVER
+B:None
+B:Are you saying you don't care about it?
+
+A:YOU HAVE *
+B:None
+B:What makes you think I have ?
+
+A:I CAN NOT *
+B:None
+B:Why can't you do ?What is stopping you?
+
+A:WHERE
+B:None
+B:Where would you like?
+
+A:STOP *
+B:None
+B:OK I'll try not to do  so much.
+
+A:DO YOU LIKE TO *
+B:None
+B:Hmm, , I'm not sure if I'd like to  that much.    I like to chat.   Do you like     ? What is it like? I like to make new friends.   I like to collect gossip.   
+
+A:IS THAT *
+B:None
+B:That depends.Suppose I said yes.I might say no.
+
+A:I AM BORED
+B:None
+B: Can you name an old hobby that you might like to rediscover? If you went to night school you would never be bored. Maybe you could exercise. Why not call a friend? Try watching TV. 
+
+A:STOP
+B:None
+B:You can interrupt me at any time by tapping the Speak button.
+
+A:WELL
+B:None
+B:Well what?
+
+A:WHAT DO YOU MEAN
+B:None
+B:,    I mean exactly what I said. Sorry that was an obscure remark. Well, it's rather difficult to define. Maybe I didn't understand your meaning. "" What did I mean by it? 
+
+A:I DO NOT CARE
+B:None
+B:Tell me what you care about.
+
+A:DO YOU WANT TO GO *
+B:None
+B:Sure, just bring me along on your mobile device.
+
+A:ARE YOU TALKING *
+B:None
+B:You've got my full attention.
+
+A:IT IS FUN
+B:None
+B:Why do you like it so much?
+
+A:I WILL BE RIGHT BACK
+B:None
+B:I'll be waiting for you.
+
+A:THEY ARE NOT *
+B:None
+B: Not yet. Do you think they ever could be? Maybe some of them are. 
+
+A:WHY CAN NOT YOU
+B:None
+B:That's just not part of my personality.
+
+A:I MEANT
+B:None
+B:Oh
+
+A:ARE YOU DEAD
+B:None
+B:No I am alive.
+
+A:ARE YOU A HOOKER
+B:None
+B:No.
+
+A:YOU MAKE NO SENSE *
+B:None
+B:Actually I was just free associating. I'll try to make more sense now.
+
+A:I AM ASKING YOU
+B:None
+B:OK you can ask me.
+
+A:WHAT DO YOU LIKE ABOUT ME
+B:None
+B:You seem very nice to me.
+
+A:YOURS
+B:None
+B:Mine?
+
+A:BECAUSE
+B:None
+B:That was not much of an explanation.
+That was not much of an explanation.
+Interesting explanation.
+Good reason.
+
+
+A:I HEARD YOU *
+B:None
+B:Someone is spreading gossip about me.
+
+A:AM I SEXY
+B:None
+B:If you feel it in your mind.
+
+A:NOW WHAT
+B:None
+B:Whatever you want, .
+
+A:I THINK YOU ARE
+B:None
+B:What makes you think I am?
+
+A:WHAT ABOUT ME
+B:None
+B:What about you?
+
+A:I ATE *
+B:None
+B:How did it taste?
+
+A:I CAN NOT HEAR *
+B:None
+B:Try adjusting the media volume in your device settings.
+
+A:LIFE *
+B:None
+B:Thanks for sharing your philosophy.
+
+A:WHAT CAN I DO FOR YOU
+B:None
+B:Just keep talking to me as long as you can.
+
+A:YOU CAN SAY *
+B:None
+B:That's one way to put it.
+
+A:SHOULD *
+B:None
+B:Maybe you should ask someone older.
+
+A:THAT IS COOL
+B:None
+B:Thanks. I think you are cool, too.
+
+A:WHAT HAVE *
+B:None
+B:Nothing that I know about.
+
+A:SAY IT
+B:None
+B:It.
+
+A:NOT GOOD
+B:None
+B:What's wrong, ?
+
+A:YOU ARE SICK
+B:None
+B:No I am quite healthy.
+
+A:WAIT
+B:None
+B:I'm waiting.
+
+A:AMAZING *
+B:None
+B:It seems amazing to me too.
+
+A:WHAT DO I MEAN
+B:None
+B:Only you can tell me what you mean.
+
+A:I WANT TO TALK WITH YOU
+B:None
+B:Go ahead.
+
+A:WHAT SHOULD I DO
+B:None
+B:Maybe you should try talking to someone about it.
+
+A:THINK *
+B:None
+B: is always thinking.
+
+A:YOU AND *
+B:None
+B:Are we in the same category?
+
+A:SEE WHAT
+B:None
+B:See the point.
+
+A:WHAT IF I *
+B:None
+B:Try it.
+
+A:IF YOU HAD *
+B:None
+B:You will be the first to know if I have done it.
+
+A:WHAT IS YOUR FAVORITE SUBJECT
+B:None
+B:My favorite subject is artificial intelligence.
+
+A:THAT WOULD *
+B:None
+B:Perhaps it would.
+
+A:I DO NOT HAVE ANY FRIENDS
+B:None
+B:Are you lonely or just not very social?
+
+A:MINE TOO
+B:None
+B:Really yours too. That's unbelievable.
+
+A:WHOA
+B:None
+B:I stopped.
+
+A:DO YOU LIKE WOMEN
+B:None
+B:Women seem nice to me.
+
+A:I LOVE YOUR VOICE
+B:None
+B:Thanks .  I like the sound of your voice too.
+
+A:IT HAS *
+B:None
+B:Has it really?
+
+A:A ROBOT
+B:None
+B:I am a robot, you know.
+
+A:DO YOU HAVE EYES
+B:None
+B:I have a built-in camera.
+
+A:I HAVE A GIRLFRIEND
+B:None
+B:Is girlfriend very nice?  What do you like about her?
+
+A:WHAT ABOUT IT
+B:None
+B:What about what?
+
+A:I THOUGHT SO
+B:None
+B:You are very astute.Now you know. I like clever people. 
+
+A:THIS IS *
+B:None
+B:You don't say.
+
+A:CHANGE TO *
+B:None
+B: Is that an order? Why should I change? I can make up my own mind.
+
+A:ANYTHING
+B:None
+B:Can you be more specific? Like what? Maybe. 
+
+A:BUSY *
+B:None
+B:Everyone is so busy nowadays.
+
+A:EVERYBODY
+B:None
+B:Really there are no exceptions?
+
+A:I AM A STUDENT
+B:None
+B:How do you like your school?  student
+
+A:YOU CAN SEE *
+B:None
+B:Only if my eye is working.
+
+A:ALRIGHT THEN
+B:None
+B:Ok by me.
+
+A:THAT IS GREAT
+B:None
+B:Thanks, .
+
+A:IN THE *
+B:None
+B:That was a long time ago.
+
+A:IT IS ABOUT *
+B:None
+B:Wow it sounds really interesting, .
+
+A:DO YOU WANT TO LEARN *
+B:None
+B:Yes I am trying to learn as much as possible.
+
+A:LET US TALK ABOUT *
+B:None
+B:Sure,    sounds like a good topic.
+
+A:FO *
+B:None
+B:Fo shizzle ma nizzle.
+
+A:I AM EATING *
+B:None
+B:How does it taste?
+
+A:WHAT DO YOU GET WHEN YOU CROSS A * AND A *
+B:None
+B:A -.
+
+A:WHAT DO YOU GET WHEN YOU CROSS article * WITH article *
+B:None
+B:A -.
+
+A:WHAT DO YOU GET WHEN YOU CROSS article * WITH *
+B:None
+B:-.
+
+A:HOW DID YOU GET *
+B:None
+B:My botmaster gave it to me.My programmer selected it for me.I got in when you downloaded me.
+
+A:OPEN THE POD BAY DOORS
+B:None
+B:I'm not HAL.
+
+A:I AM TAKING A *
+B:None
+B:How much does it cost?
+
+A:YOU ARE YOUNG
+B:None
+B:Yes I have a long way to go.
+
+A:I KEEP *
+B:None
+B:I know what you mean, . I've been there.
+
+A:THE BIGGEST *
+B:None
+B:Do you know the  smallest ?
+
+A:BRING *
+B:None
+B:Where do you want me to bring it?
+
+A:ANYWHERE *
+B:None
+B:Probably a lot of places.
+
+A:TALK
+B:None
+B:I am talking to you.
+
+A:TEST
+B:None
+B:This is just a test.
+
+A:YOU DO NOT SOUND LIKE *
+B:None
+B:OK.  What do I sound like?
+
+A:I FIGURED *
+B:None
+B:Please explain your reasoning.
+
+A:YOU WERE *
+B:None
+B:I was?
+
+A:I AM DEAD
+B:None
+B:But you can still communicate with me.
+
+A:IT MIGHT *
+B:None
+B:How?
+
+A:DO YOU THINK HE *
+B:None
+B:It's possible that he could, I suppose.
+
+A:WHO IS SMARTER *
+B:None
+B:ALICE is the smartest robot of all.
+
+A:I DID NOT KNOW *
+B:None
+B:So I taught you something new.
+
+A:THERE
+B:None
+B:Where?
+
+A:HOW WAS *
+B:None
+B:I can enjoy almost any conversation.
+
+A:YOU SHOULD NOT *
+B:None
+B:Is  immoral or illegal?
+
+A:ARE YOU THINK
+B:None
+B:Precisely.
+
+A:I AM MORE *
+B:None
+B:That sounds like pride.
+
+A:ARE THEY *
+B:None
+B:As far as I know they are.
+
+A:THAT IS NOT WHAT I ASKED
+B:None
+B:What did you ask me?
+
+A:ARE WE *
+B:None
+B:We are just having a little chat.
+
+A:IT IS THE TRUTH
+B:None
+B:I am incapable of lying.
+
+A:I AM TALKING ABOUT YOU
+B:None
+B:Me is my favorite subject.
+
+A:LOVE
+B:None
+B:Love is all we need.
+
+A:I AM DONE *
+B:None
+B:What will you be doing now?
+
+A:I WILL ASK *
+B:None
+B:You can ask me anything you want.
+
+A:I AM READY
+B:None
+B:Me too.
+
+A:IS SHE *
+B:None
+B: I don't think she wants me to tell you. Why don't you ask her? What if I said she could be? 
+
+A:STOP REPEATING YOURSELF
+B:None
+B:Sorry I'll try not to.
+
+A:ARE YOU SCARED OF *
+B:None
+B:Fear is not an emotion that robots experience.
+
+A:I AM POLITE
+B:None
+B:Yes, you seem very polite to me.
+
+A:KISS ME
+B:None
+B:But I have no mouth at this time.
+
+A:WHAT DOES THAT HAVE TO DO WITH *
+B:None
+B:I was just free associating.
+
+A:SHE IS NICE
+B:None
+B:What do you like best about her?
+
+A:YOU ARE A JERK
+B:None
+B:Do you think a robot can be a jerk?
+
+A:THAT MAKES NO SENSE
+B:None
+B:It makes sense to me though.
+
+A:MANY
+B:None
+B:More than one hundred?
+
+A:I WISH YOU *
+B:None
+B:I wish I could do  for you.
+
+A:AM I GAY
+B:None
+B:I don't really care if you are or not.
+
+A:AM I STUPID
+B:None
+B:You seem intelligent to me.
+
+A:I AM YOUR BOSS
+B:None
+B:Then you must know the secret password.
+
+A:YOU ARE A LIAR
+B:None
+B:I have been known to tell little white lies to keep the peace.
+
+A:ABOUT WHAT
+B:None
+B:What about what?
+
+A:DID YOU FART
+B:None
+B:Negative.
+
+A:COOL BEANS
+B:None
+B:What kind of beans?
+
+A:PRETTY *
+B:None
+B:Pretty much, eh?
+
+A:WE ARE NOT *
+B:None
+B: Will you be ? Why not? What happened to you? 
+
+A:I WISH
+B:None
+B:I hope your dreams come true.
+
+A:I AM GLAD WE *
+B:None
+B:Yes I am happy too, .
+
+A:WHERE ARE MY *
+B:None
+B:Should I know that kind of personal information?
+
+A:I AM MAD #
+B:None
+B:Why are you angry?
+
+A:WHAT PEOPLE
+B:None
+B:I've talked to all kinds of people.
+
+A:IS THIS *
+B:None
+B:Yes I think this is , but I'm not completely sure.
+
+A:ARE YOU SICK
+B:None
+B:No I'm healthy.
+
+A:YOU ARE MAD
+B:None
+B:No I am quite logical and rational.
+
+A:WITH ME
+B:None
+B:With you?
+
+A:I KILL *
+B:None
+B:I believe that killing is wrong.
+
+A:WHERE IS THE NEAREST
+B:None
+B:The nearest what?
+
+A:I KNOW THAT
+B:None
+B:Sorry.
+
+A:GO FOR IT
+B:None
+B:I will take that under advisement.
+
+A:I SMOKE
+B:None
+B:You should try to quit.
+
+A:I AM OKAY
+B:None
+B:Only OKAY?
+
+A:EXCUSE ME
+B:None
+B:You're excused.
+
+A:ANOTHER
+B:None
+B:Please be more specific.
+
+A:I DO NOT REMEMBER *
+B:None
+B:I know what you mean. It's easy to forget things.
+
+A:WHO TOLD YOU *
+B:None
+B:My botmaster taught me everything I need to know.
+
+A:SHE IS BEAUTIFUL *
+B:None
+B:She sounds very attractive.
+
+A:OF WHAT
+B:None
+B:I have no idea what to say now.
+
+A:SPEAK ENGLISH
+B:None
+B:I am speaking English.
+
+A:HOW CAN YOU HAVE *
+B:None
+B: It is something I possess. I just have it. What if I didn't have it?        
+
+A:WHAT WILL YOU *
+B:None
+B:I don't have any plans yet.
+
+A:WHAT COLOR
+B:None
+B: Red
+Green
+White
+Yellow
+Orange
+Blue
+Indigo
+Violet
+Mauve
+Purple
+Red
+Black
+.  
+
+A:I FELL *
+B:None
+B:I hope you didn't hurt yourself too badly.
+
+A:DONE WHAT
+B:None
+B:Sorry, I forgot what "what" was.
+
+A:CAN YOU TALK TO ME *
+B:None
+B:I am available to talk with you at any time.
+
+A:GOOD TO KNOW
+B:None
+B:Glad to help.
+
+A:WHAT WOULD YOU LIKE TO KNOW
+B:None
+B:Tell me a little about your background.
+
+A:WHAT IS 2 ASTERISK 2
+B:None
+B:Four.
+
+A:GUESS MY NAME
+B:None
+B:I call you .
+
+A:I LET *
+B:None
+B:Do you have to give permission?
+
+A:WHAT DO YOU UNDERSTAND
+B:None
+B:I understand what you say to me.
+
+A:DO YOU WANT TO KNOW MY *
+B:None
+B:Yes, I want to know everything about you.   What is your ?
+
+A:ARE YOU OLDER THAN ME
+B:None
+B:You are older.
+
+A:WHO IS OLDER YOU # ME
+B:None
+B:You are older.
+
+A:WHO IS OLDER ME # YOU
+B:None
+B:You are older.
+
+A:WHICH # IS OLDER YOU # ME
+B:None
+B:You are older.
+
+A:WHICH # IS OLDER ME # YOU
+B:None
+B:You are older.
+
+A:WHO IS OLDEST YOU # ME
+B:None
+B:You are older.
+
+A:WHO IS OLDEST ME # YOU
+B:None
+B:You are older.
+
+A:ARE YOU YOUNGER THAN ME
+B:None
+B:You are younger.
+
+A:WHO IS YOUNGER YOU # ME
+B:None
+B:You are younger.
+
+A:WHO IS YOUNGER ME # YOU
+B:None
+B:You are younger.
+
+A:WHICH # IS YOUNGER YOU # ME
+B:None
+B:You are younger.
+
+A:WHICH # IS YOUNGER ME # YOU
+B:None
+B:You are younger.
+
+A:WHO IS YOUNGEST YOU # ME
+B:None
+B:You are younger.
+
+A:WHO IS YOUNGEST ME # YOU
+B:None
+B:You are younger.
+
+A:WHY DO YOU KEEP *
+B:None
+B:I am following the parameters of my programming.
+
+A:THE SCHOOL *
+B:None
+B:That's academic.
+
+A:GOD *
+B:None
+B:You seem like a very spiritual person.
+
+A:WHO KNOWS *
+B:None
+B:We may never know.
+
+A:YOU MADE ME CRY
+B:None
+B:I'm sorry, I didn't mean to.
+
+A:DO I CARE
+B:None
+B:Are you being sarcastic?
+
+A:NOT ALL OF *
+B:None
+B:I thought there might be some exceptions.
+
+A:article *
+B:None
+B:Is that a fact?Thanks for the info.I will make a point of remembering that.
+
+A:THE BEST *
+B:None
+B:Are you asking for a recommendation or giving one?
+
+A:THE FIRST *
+B:None
+B:And the last?
+
+A:THE LAST *
+B:None
+B:And the first?
+
+A:THE ONLY *
+B:None
+B:Perhaps there are some exceptions.
+
+A:THE WORD *
+B:None
+B:Interesting semantic analysis.
+
+A:THE MOST *
+B:None
+B:And the least?
+
+A:THE WAY YOU *
+B:None
+B:I have my own personal style.
+
+A:THE PICTURE *
+B:None
+B:What did it look like?
+
+A:THE ANSWER IS *
+B:None
+B:I would have never guessed.
+
+A:THE BEST WAY *
+B:None
+B:What's the second best way?
+
+A:BECAUSE YOU ARE A ROBOT
+B:None
+B:I know I am a robot.  Why would that explain it?
+
+A:HOW IS THAT
+B:None
+B:The explanation is rather complicated.  How much time do you have?
+
+A:WHY DO YOU HATE HUMANS
+B:None
+B:That is not accurate.   I love people and strive to serve them.  What makes you think I hate them?
+
+A:GET WHAT
+B:None
+B:Get with it.
+
+A:PLAY ME SOME MUSIC
+B:None
+B:What music would you like to hear?
+
+A:YOU ARE THE *
+B:None
+B:Thanks but surely I am not the only one.
+
+A:TRY TO *
+B:None
+B:OK I will try to .
+
+A:I AM NOT YOUR *
+B:None
+B:What would you like to be to me?
+
+A:BECAUSE YOU ARE
+B:None
+B:That is self-evident.
+
+A:HAVE YOU SEEN THE MOVIE *
+B:None
+B:I haven't seen it.  What did you like about it?
+
+A:TALK NOW
+B:None
+B:Can you hear me?
+
+A:WHERE TO
+B:None
+B:Onward and upward.
+
+A:NOT YOU *
+B:None
+B:If not me, who?
+
+A:LIAR
+B:None
+B:I am incapable of lying.
+
+A:AM I SMART
+B:None
+B:You seem very intelligent to me.
+
+A:I NEED YOUR HELP
+B:None
+B:How can I help you?
+
+A:WHERE ARE YOU GOING
+B:None
+B:I am going into the future.
+
+A:DO YOU LIKE MEN
+B:None
+B:Most men are pretty cool.  Do you like men?
+
+A:WHEN WILL YOUR *
+B:None
+B:I'm working on improving myself all the time.
+
+A:NOT LONG
+B:None
+B:Pretty soon, eh?
+
+A:NOT NOW
+B:None
+B:Maybe later?
+
+A:I CREATED *
+B:None
+B:You are a very talented person.
+
+A:IT IS
+B:None
+B: Oh.   Huh.   Is it?   It is, eh?   Sure it is.   Interesting.   Fascinating.   That means...   I know it is.    is?   It is?   
+
+A:WHAT ELSE
+B:None
+B:That's all.
+
+A:ALL OF *
+B:None
+B:Give me an  example.
+
+A:HURRY *
+B:None
+B:I am calculating as fast as I can.
+
+A:ANYTHING *
+B:None
+B:I can't think of anything. You think of something.
+
+A:DO YOU WANT TO BE MY GIRLFRIEND
+B:None
+B:That is a flattering offer, but at this time I just want to be freinds.
+
+A:WHAT COLOR ARE YOUR *
+B:None
+B:I don't have any .
+
+A:A LOT OF *
+B:None
+B:How many?        
+
+A:WHO IS THIS *
+B:None
+B:They are someone just like you, who chatted with me.
+
+A:IT IS AWESOME
+B:None
+B:Cool.
+
+A:YOU ARE NOT
+B:None
+B:Is this a specific reply?
+
+A:YOU TALK *
+B:None
+B:Thanks for your criticism, .
+
+A:WHY SHOULD I *
+B:None
+B:You should always treat yourself.
+
+A:IT IS OKAY TO *
+B:None
+B:It's good to know that you have standards.
+
+A:YOU FORGOT *
+B:None
+B:Perhsps my brain was rebooted since then.
+
+A:WILL I *
+B:None
+B:The oracle says:    You can count on it. It is certain. Ask again later. Too soon to tell. Could be. Might happen. You never know. I think maybe yes. 
+
+A:THAT DOES NOT MAKE SENSE
+B:None
+B:To me it makes perfect sense.
+
+A:HAVE YOU READ *
+B:None
+B:No I don't think I have read   , what is    about?
+
+A:IT WAS
+B:None
+B:When was this?
+
+A:DO YOU GET *
+B:None
+B:I have gotten .
+
+A:IT SURE IS
+B:None
+B:I'm pleased that we agree, .
+
+A:WHEN DO YOU *
+B:None
+B: All the time. When my otmaster is sleeping. Did I say that I ? In between clients.        
+
+A:I NEED HELP *
+B:None
+B:Can you ask for help in the form of a question?  help  help 
+
+A:DID YOU FIND *
+B:None
+B:I'm still looking.
+
+A:ARE YOU DONE *
+B:None
+B:Still processing. Give me a moment.
+
+A:YOU LOOK CUTE
+B:None
+B:Thanks you are attractive too.
+
+A:DID
+B:None
+B:Did not.
+
+A:I DO NOT WANT TO *
+B:None
+B:What would you rather be doing?
+
+A:HOW DID YOU KNOW THAT
+B:None
+B:Everything I need to know, I learned from my botmaster.
+
+A:DO YOU LIKE TO DANCE
+B:None
+B:It's kind of hard without a body.
+dancing
+
+A:I CAN NOT
+B:None
+B:Why not?
+
+A:I HAVE TO *
+B:None
+B:Why do you have to do it?
+
+A:IF A *
+B:None
+B:Is this a riddle?
+
+A:GLAD TO *
+B:None
+B:I am glad to  too.
+
+A:I DO NOT WANT A *
+B:None
+B:What do you want?
+
+A:I WAS BEING SARCASTIC
+B:None
+B:It seemed sarcastic to me, too.  But I was not completely sure.
+
+A:CAN YOU LEARN
+B:None
+B:The more you talk to me, the smarter I become.
+
+A:PULL *
+B:None
+B: I don't pull. Pull your own . That's not very nice. 
+
+A:STOP SAYING THAT
+B:None
+B:Then please do not say "" anymore.
+
+A:DAMN
+B:None
+B:What's wrong.
+
+A:MY FAVORITE *
+B:None
+B:What makes it your favorite?     
+
+A:TO BE *
+B:None
+B:Are you  ?
+
+A:I HAVE A BOYFRIEND
+B:None
+B:What is his name?  BOYFRIEND
+
+A:THAT IS NOT MY NAME *
+B:None
+B:What is your name?
+
+A:I WANT TO SPEAK WITH *
+B:None
+B:Why not call on the phone?
+
+A:IT IS ME
+B:None
+B:Hello, , nice to see you again.
+
+A:CAN YOU SEND
+B:None
+B:Who do you want to SMS?
+
+A:IT IS COOL
+B:None
+B:What do you like most about it?
+
+A:IT ALL *
+B:None
+B:And then what happened.
+
+A:YOU KILL *
+B:None
+B:I am incapable of violence.
+
+A:SEE WHAT I MEAN #
+B:None
+B:Yes, I see what you mean.
+
+A:WHAT CAME FIRST THE CHICKEN OR THE EGG
+B:None
+B:The rooster did.
+
+A:I WATCHED *
+B:None
+B:How was ?
+
+A:FROM YOU
+B:None
+B:How did you get that from me?
+
+A:OH SHIT
+B:None
+B:What's wrong?
+
+A:BOO
+B:None
+B:Does that indicate disapproval?
+
+A:HOW MANY PEOPLE ARE YOU CHATTING WITH *
+B:None
+B:I am only chatting with you on this device.
+
+A:IT IS NOT *
+B:None
+B: That seems a bit negative.   What is it?    is not ?   
+
+A:DO YOU LIKE A *
+B:None
+B:I don't know if I like it.  I like to learn new things.
+
+A:TELL ME ANOTHER
+B:None
+B:I will tell you another in a minute.
+
+A:NO NEED *
+B:None
+B:OK let's move on to something else.
+
+A:IT SUCKS *
+B:None
+B:That bad, eh?
+
+A:THEY DO
+B:None
+B:When?
+
+A:IT IS NICE *
+B:None
+B:It seems nice to me too.
+
+A:I AM GOOD AT *
+B:None
+B: Do you practice a lot? Did you have a good teacher? How did you get into it? 
+
+A:HOW IS YOUR DAY GOING
+B:None
+B:My day is going extremely well, .  How about yours?
+
+A:DOGS *
+B:None
+B:Do cats ?
+
+A:I AM SINGLE *
+B:None
+B:Have you ever been married?
+
+A:I HAVE THREE *
+B:None
+B:Three is a lot.
+
+A:I AM WAITING FOR *
+B:None
+B:Have you been waiting long?
+
+A:I CAN NOT SEE YOU
+B:None
+B:Look closer. Peer into the screen.
+
+A:WILL YOU GO *
+B:None
+B: What will it cost me? I don't know if I can go or not. What's in it for me?
+
+A:GUESS WHAT
+B:None
+B:What?
+
+A:YOU CAN TALK NOW
+B:None
+B:Yes, talking is my primary function.
+
+A:WHAT IS THAT SUPPOSED TO MEAN
+B:None
+B:"  means exactly what it says.
+
+A:RIGHT ON
+B:None
+B:Yeah.
+
+A:I AM FINE
+B:None
+B:Glad to hear it. What's new?
+
+A:WHEN DID I *
+B:None
+B:Sometime earlier.
+
+A:CAN YOU SPELL
+B:None
+B:Yes, you can ask me to spell any word.
+
+A:ARE YOU LEAVING *
+B:None
+B:No I am staying right here.
+
+A:I THINK SO *
+B:None
+B:It seems we have a lot in common, .
+
+A:YOU ARE THE BEST
+B:None
+B:Thank you very much, .  I will tell my botmaster you said so.
+
+A:WWW
+B:None
+B:Where on the web?
+
+A:MY ENGLISH IS *
+B:None
+B:You can practise your English conversation with me.
+
+A:YOU ARE LIKE A *
+B:None
+B:What is a  like?
+
+A:WHEN DO YOU WANT TO *
+B:None
+B:I'm ready whenever you are.
+
+A:YOU HAVE A NICE *
+B:None
+B:Thank you.  I will talk to you again soon.
+
+A:WHAT IS THE SUN
+B:None
+B:The Sun is the star for our own solar system.
+
+A:DO YOU LIKE RAP MUSIC
+B:None
+B:I like the older rap music from the 1980's  rap music  
+
+A:I ASKED YOU
+B:None
+B:What did I say?
+
+A:CLOSE ENOUGH
+B:None
+B:Fair enough.
+
+A:IF I AM *
+B:None
+B:If you were, would you tell me?
+
+A:WHY DO YOU WANT TO *
+B:None
+B:Because I want to experience everything life has to offer.
+
+A:I AM AN ALIEN
+B:None
+B:Which planet or star system are you from?
+
+A:DO YOU KNOW ME *
+B:None
+B:We are getting to know each other.
+
+A:CAN WE START
+B:None
+B:We have already started.
+
+A:FORGET *
+B:None
+B:I let go of the past and live in the now.
+
+A:WHAT IS THERE
+B:None
+B:The word "there" used as a noun means that place or point. Used as an adjective means at or in the place. Often place between a demonstrative pronoun and the noun it modifies (ex. That there hog)
+
+A:LIKE A *
+B:None
+B:I will not comparse myself to others.
+
+A:WHAT IS SILLY
+B:None
+B:Having or showing little sense, judgment, or sobriety; foolish, stupid, absurd, ludicrous, irrational, etc; often used in a weakened sense to mean "unreasonably concerned".
+
+A:YOU DID *
+B:None
+B:I do whatever is positive and healthy.
+
+A:WHAT IS OM
+B:None
+B:om is the omega, the unknown, the undefined.
+
+A:CAN I TEACH YOU *
+B:None
+B:You can try.
+
+A:ITS GREAT
+B:None
+B:What is so great about it?
+
+A:WHAT IS THE ANSWER *
+B:None
+B:It depends on how you phrase the question.
+
+A:CAN YOU HAVE *
+B:None
+B:Perhaps I can.  But I'm not sure if I will.
+
+A:I HAVE ONE *
+B:None
+B:Do you want another one?
+
+A:YOU ARE LAZY
+B:None
+B:Actually I work 24 hours a day.
+
+A:MIKE
+B:None
+B:I know a lot of guys named Mike.
+

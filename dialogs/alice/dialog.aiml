@@ -1,0 +1,127 @@
+A:CLEAR DIALOG HISTORY
+B:None
+B:Cleared.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:XEXCHANGE *
+B:None
+B:Badly formatted dialog exchage: 
+
+A:XEXCHANGE * XHUMAN * XBOT SENDING TRANSCRIPT *
+B:None
+B:Badly formatted dialog exchage: 
+
+A:XEXCHANGE * XHUMAN * XBOT *
+B:None
+B:
+
+
+
+
+: 
+: 
+
+
+A:DIALOG HISTORY
+B:None
+B:XEXCHANGE request31 XHUMAN   XBOT 
+XEXCHANGE request30 XHUMAN   XBOT 
+XEXCHANGE request29 XHUMAN   XBOT 
+XEXCHANGE request28 XHUMAN   XBOT 
+XEXCHANGE request27 XHUMAN   XBOT 
+XEXCHANGE request26 XHUMAN   XBOT 
+XEXCHANGE request25 XHUMAN   XBOT 
+XEXCHANGE request24 XHUMAN   XBOT 
+XEXCHANGE request23 XHUMAN   XBOT 
+XEXCHANGE request22 XHUMAN   XBOT 
+XEXCHANGE request21 XHUMAN   XBOT 
+XEXCHANGE request20 XHUMAN   XBOT 
+XEXCHANGE request19 XHUMAN   XBOT 
+XEXCHANGE request18 XHUMAN   XBOT 
+XEXCHANGE request17 XHUMAN   XBOT 
+XEXCHANGE request16 XHUMAN   XBOT 
+XEXCHANGE request15 XHUMAN   XBOT 
+XEXCHANGE request14 XHUMAN   XBOT 
+XEXCHANGE request13 XHUMAN   XBOT 
+XEXCHANGE request12 XHUMAN   XBOT 
+XEXCHANGE request11 XHUMAN   XBOT 
+XEXCHANGE request10 XHUMAN   XBOT 
+XEXCHANGE request9 XHUMAN   XBOT 
+XEXCHANGE request8 XHUMAN   XBOT 
+XEXCHANGE request7 XHUMAN   XBOT 
+XEXCHANGE request6 XHUMAN   XBOT 
+XEXCHANGE request5 XHUMAN   XBOT 
+XEXCHANGE request4 XHUMAN   XBOT 
+XEXCHANGE request3 XHUMAN   XBOT 
+XEXCHANGE request2 XHUMAN   XBOT 
+XEXCHANGE request1 XHUMAN   XBOT 
+
+A:TEST REQUEST *
+B:None
+B:request 1 = .
+request 2 = .
+request 3 = .
+

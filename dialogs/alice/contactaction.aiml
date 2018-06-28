@@ -1,0 +1,954 @@
+A:* S * NUMBER IS *
+B:None
+B:CONTACTINIT
+
+
+
+
+DIALNUMBER
+
+ADDACTION
+
+A:name S * NUMBER IS *
+B:None
+B:CONTACTINIT
+
+
+
+
+DIALNUMBER
+
+ADDACTION
+
+A:*
+B:None
+B:unknown
+CONTACTFINALIZE 
+
+A:*
+B:None
+B:unknown
+
+CONTACTFINALIZE 
+
+A:TELL THAT TO *
+B:None
+B:CONTACTINIT
+
+
+
+SMSACTION
+
+A:SEND EMAIL
+B:None
+B:CONTACTDEBUGINFO EMAIL
+CONTACTINIT
+EMAILACTION
+
+A:ADDINFO CONTACTID
+B:None
+B:CONTACTDEBUGINFO ADDINFO CONTACT
+
+DENORMALIZE 
+
+
+home
+
+
+mobile
+
+
+mobile
+
+
+home
+
+
+home
+
+
+learnpattern
+DIALNUMBER
+ADDINFO DISPLAYNAME  DIALNUMBER  PHONETYPE  EMAILADDRESS unknown EMAILTYPE unknown BIRTHDAY 
+
+EMAILADDRESS
+ADDINFO DISPLAYNAME  DIALNUMBER unknown PHONETYPE unknown EMAILADDRESS  EMAILTYPE  BIRTHDAY 
+
+
+ADDINFO DISPLAYNAME  DIALNUMBER unknown PHONETYPE unknown EMAILADDRESS unknown EMAILTYPE unknown BIRTHDAY unknown
+
+
+
+I'm remembering 's  phone numberemail address is .
+
+A:ASK TO ADD NEW CONTACTNAME
+B:None
+B:ASKING TO ADD NEW CONTACTNAME
+
+Would you like to add  as a contact?
+
+A:ASK CONTACTNAME
+B:None
+B:CONTACTDEBUGINFO ASK CONTACTNAME
+
+ASKING CONTACTNAME
+
+Who do you want to ?
+
+A:ASK MESSAGEBODY
+B:None
+B:
+
+ASKING MESSAGEBODY
+
+What is your message to ?
+
+A:CONTACTDIALOG
+B:None
+B:CONTACTDEBUGINFO CONTACTDIALOG
+
+MULTIPLEIDS 
+MULTIPLENAMES 
+CONTACTLIST None of the above
+GETTING SELECTEDCONTACT
+
+Which contact?
+You have multiple contacts named : .  Which one would you like to 
+?
+
+A:CONTACTDIALOG *
+B:None
+B:
+CALL
+
+CONTACTDIALOG
+
+A:_
+B:None
+B:
+
+
+
+CONTACTID SET ALL CONTACTINFO
+
+REMEMBERFAMILIARNAME
+
+CONTACTFINALIZE NORESP
+
+
+RESUMEACTION 
+
+
+
+
+A:_
+B:None
+B:
+unknown
+
+
+RESUMEACTION 
+
+A:_
+B:None
+B:
+unknown
+
+ISAPHONENUMBER 
+ISANEMAILADDRESS 
+LOGICALOR  
+ EMAILADDRESS
+
+FORMATPHONENUMBER 
+DIALNUMBER
+
+
+
+ADDINFO CONTACTID RESUMEACTION 
+I did not recognize  as a phone number or email address. CONTACTFINALIZE 
+
+
+A:_
+B:None
+B:
+unknown
+
+ISSHORTANSWER 
+
+
+RESUMEACTION 
+CONTACTFINALIZE 
+
+
+A:EMAILACTION
+B:None
+B:CONTACTDEBUGINFO EMAILACTION
+
+EMAIL
+
+
+RESOLVE NAMEORURI
+
+ASK CONTACTNAME
+
+RESOLVE HIMHER
+
+RESOLVE FAMILIARNAME
+
+RESOLVE CONTACTNAME
+
+RESOLVE CONTACTURI
+
+ASK MESSAGEBODY
+Message compose with CallMom!Now sending "" to . CONTACTFINALIZE 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:DEBUG CONTACT
+B:None
+B:true
+
+A:CONTACTFINALIZE
+B:None
+B:
+
+
+CONTACTINIT PREDICATES
+
+A:DIALNUMBER UNKNOWN *
+B:None
+B:
+DIALNUMBER MOBILE 
+
+DIALNUMBER HOME 
+
+
+DIALNUMBER WORK 
+
+
+DIALNUMBER CUSTOM 
+
+
+
+
+A:NEW CONTACT
+B:None
+B:CONTACTDEBUGINFO ADD CONTACT
+CONTACTINIT
+ADDACTION
+
+A:NEW CONTACT *
+B:None
+B:CONTACTINIT
+
+
+
+ADDACTION
+
+A:YES
+B:None
+B:
+ASKING CONTACTURI
+
+
+What is the email address for ?
+What is the phone number for ?
+What is the mobile number for ?
+What is the mobile number for ?
+CONTACTFINALIZE NORESP
+
+
+A:YES
+B:None
+B:unknown
+
+
+
+ADDINFO DISPLAYNAME  DIALNUMBER unknown PHONETYPE unknown EMAILADDRESS unknown EMAILTYPE unknown BIRTHDAY unknown
+
+I've saved  to your contacts.
+RESUMEACTION 
+
+A:CONTACTINIT
+B:None
+B:
+
+
+CONTACTINIT PREDICATES
+
+A:CONTACTINIT PREDICATES
+B:None
+B:
+false
+false
+false
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+unknown
+false
+false
+false
+false
+false
+unknown
+unknown
+unknown
+false
+unknown
+
+
+A:NEWCONTACTID
+B:None
+B:
+CMContactID0
+CMContactIDSUCCESSOR 
+
+
+A:RESOLVE NAMEORURI
+B:None
+B:CONTACTDEBUGINFO RESOLVE NAMEORURI
+
+true
+ISAPHONENUMBER 
+ISANEMAILADDRESS 
+
+
+
+
+
+undefined
+
+
+
+
+
+undefined
+  >FORMATPHONENUMBER 
+
+
+
+
+RESUMEACTION 
+
+A:RESOLVE CONTACTNAME
+B:None
+B:CONTACTDEBUGINFO RESOLVE CONTACTNAME
+
+CONTACTID 
+MULTIPLEIDS 
+
+
+
+
+
+undefined RESUMEACTION 
+
+
+ASK TO ADD NEW CONTACTNAME
+
+ADDINFO DISPLAYNAME  DIALNUMBER unknown PHONETYPE unknown EMAILADDRESS unknown EMAILTYPE unknown BIRTHDAY unknown
+RESUMEACTION 
+
+
+
+
+SET ALL CONTACTINFO RESUMEACTION 
+
+
+CONTACTDIALOG
+
+
+A:RESOLVE FAMILIARNAME
+B:None
+B:CONTACTDEBUGINFO RESOLVE FAMILIARNAME
+
+true
+
+FAMILIARPREDICATE 
+FAMILIARPRONOUN 
+ISAFAMILIARNAME 
+GETFAMILIARNAME
+CONTACTID 
+unknown
+
+
+
+
+
+
+
+
+ASK FAMILIAR CONTACTNAME
+
+RESUMEACTION 
+
+
+ RESUMEACTION 
+
+
+
+
+RESUMEACTION 
+
+
+
+A:RESOLVE HIMHER
+B:None
+B:CONTACTDEBUGINFO RESOLVE HIMHER
+
+true
+
+
+
+
+Who does "him" refer to? ASKING PRONOUN REFERENCE
+
+RESUMEACTION 
+
+
+
+
+Who does "her" refer to? ASKING PRONOUN REFERENCE
+
+RESUMEACTION 
+
+
+
+SETHESHE 
+RESUMEACTION 
+
+
+A:_
+B:None
+B:
+unknown
+
+
+Ok.  He is .   RESUMEACTION 
+
+A:_
+B:None
+B:
+
+unknown
+Ok.  She is .   RESUMEACTION 
+
+A:$MY *
+B:None
+B:
+
+unknown
+Ok.  He is .   RESUMEACTION 
+
+A:$MY *
+B:None
+B:
+
+unknown
+Ok.  She is .   RESUMEACTION 
+
+A:RESOLVE CONTACTURI
+B:None
+B:CONTACTDEBUGINFO RESOLVE CONTACTURI
+CONTACTID 
+
+
+
+I didn't find  in your contacts.      ASK TO ADD NEW CONTACTNAME
+
+RESUMEACTION 
+
+
+DISPLAYNAME 
+
+
+
+EMAILADDRESS  
+
+
+ASKING TO ADD NEW CONTACTURI 
+      You haven't yet added ana  email address for  to your contacts.  Would you like to add one?
+      
+SET ALL CONTACTINFO RESUMEACTION 
+
+
+DIALNUMBER  
+
+
+ASKING TO ADD NEW CONTACTURI 
+You haven't yet added a phonea  number for  to your contacts.  Would you like to add one?
+      
+SET ALL CONTACTINFO RESUMEACTION 
+
+
+
+
+
+
+A:DIAL
+B:None
+B:CONTACTDEBUGINFO CALL
+CONTACTINIT
+CALLACTION
+
+A:ADDACTION
+B:None
+B:CONTACTDEBUGINFO ADDACTION
+
+ADD
+true
+
+
+RESOLVE FAMILIARNAME
+
+
+ASK CONTACTNAME
+
+RESOLVE CONTACTNAME
+
+RESOLVE CONTACTURI
+ADDINFO CONTACTID
+
+
+
+
+
+
+
+
+
+A:CALLACTION
+B:None
+B:CONTACTDEBUGINFO CALLACTION
+
+CALL
+
+
+RESOLVE NAMEORURI
+
+
+ASK CONTACTNAME
+
+RESOLVE HIMHER
+
+
+RESOLVE FAMILIARNAME
+
+RESOLVE CONTACTNAME
+
+RESOLVE CONTACTURI
+ Now dialing . CONTACTFINALIZE
+
+
+
+
+
+
+
+
+
+
+
+
+A:EMAILADDRESS UNKNOWN *
+B:None
+B:
+EMAILADDRESS HOME 
+
+EMAILADDRESS WORK 
+
+
+EMAILADDRESS CUSTOM 
+
+
+
+
+A:QUERYINFO EXTERNAL
+B:None
+B:CONTACTDEBUGINFO QUERTYINFO CONTACTID
+
+WHAT IS 's REAL NAME
+WHEN IS 's BIRTHDAY
+WHAT IS 's PHONE NUMBER
+WHAT IS 's EMAIL ADDREESS
+WHO IS 
+
+
+
+A:QUERYINFO CONTACTID
+B:None
+B:CONTACTDEBUGINFO QUERTYINFO CONTACTID
+DISPLAYNAME 
+
+CONTACTBIRTHDAY 
+
+DIALNUMBER  
+
+EMAILADDRESS  
+
+
+
+
+'s full name is .
+'s full name is .
+
+
+
+
+You don't have 's birthday in your contacts.
+'s birthday is .
+
+
+
+
+I couldn't find a phone number for  in your contacts.
+'s phone number is .
+
+
+
+
+I couldn't find ana  email address for  in your contacts.
+'s  email address is .
+
+
+I'm not sure what you're asking.
+
+
+
+
+A:$EMAIL *
+B:None
+B:CONTACTINIT
+
+EMAILACTION
+
+A:$EMAIL * AT *
+B:None
+B:CONTACTINIT
+
+
+
+EMAILACTION CONTACTFINALIZE
+
+A:$EMAIL * AT * DOT *
+B:None
+B:CONTACTINIT
+ at  dot 
+EMAILACTION
+
+A:$EMAIL * MESSAGEBODY *
+B:None
+B:CONTACTINIT
+
+
+
+EMAILACTION
+
+A:$EMAIL MESSAGEBODY *
+B:None
+B:CONTACTINIT
+
+
+
+EMAILACTION
+
+A:CALL
+B:None
+B:DIAL
+
+A:CALL ME AT *
+B:None
+B:CONTACTDEBUGINFO CALL 
+CONTACTINIT
+ME
+
+
+CALLACTION
+
+A:CALL *
+B:None
+B:CONTACTDEBUGINFO CALL 
+CONTACTINIT
+
+CALLACTION
+
+A:CALL * AT *
+B:None
+B:CONTACTDEBUGINFO CALL 
+CONTACTINIT
+
+
+
+CALLACTION
+
+A:ADD CONTACT
+B:None
+B:NEW CONTACT
+
+A:SMSACTION
+B:None
+B:CONTACTDEBUGINFO SMSACTION
+
+SMS
+
+
+RESOLVE NAMEORURI
+
+ASK CONTACTNAME
+
+RESOLVE HIMHER
+
+RESOLVE FAMILIARNAME
+
+RESOLVE CONTACTNAME
+
+RESOLVE CONTACTURI
+
+ASK MESSAGEBODY
+ Now sending "" to . CONTACTFINALIZE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:CONTACTDEBUGINFO *
+B:None
+B:
+:
+checkedfamiliarname: .
+checkedhimher: .
+checkednameoruri: .
+contactid: .
+contactname: .
+contactquery: .
+contacttype: .
+contacturi: .
+dialnumber: .
+displayname: .
+emailaddress: .
+externalname: .
+familiarcontactid: .
+familiarcontactname: .
+familiarname: .
+familiarpredicate: .
+familiarpronoun: 
+forceaddcontact: .
+isaphonenumber: . 
+isanemailaddress: . 
+isacontacturi: .
+isafamiliarname: .
+learnpattern: .
+messagebody: .
+modecom: .
+multipleids: .
+savedtopic: .
+topic: .
+
+
+A:SET ALL CONTACTINFO
+B:None
+B:
+DISPLAYNAME 
+DIALNUMBER  
+EMAILADDRESS  
+CONTACTBIRTHDAY  
+
+
+A:WHEN IS * S BIRTHDAY
+B:None
+B:CONTACTINIT
+
+
+BIRTHDAY
+
+QUERYACTION
+
+A:WHEN IS HIS BIRTHDAY
+B:None
+B:CONTACTINIT
+
+him
+BIRTHDAY
+
+QUERYACTION
+
+A:WHEN IS HER BIRTHDAY
+B:None
+B:CONTACTINIT
+
+her
+BIRTHDAY
+
+QUERYACTION
+
+A:WHAT IS MY PHONE NUMBER
+B:None
+B:WHAT IS ME S UNKNOWN NUMBER
+
+A:WHAT IS MY * NUMBER
+B:None
+B:WHAT IS ME S  NUMBER
+
+A:WHAT IS * S PHONE NUMBER
+B:None
+B:WHAT IS 's UNKNOWN NUMBER
+
+A:WHAT IS * S * NUMBER
+B:None
+B:CONTACTINIT
+
+
+
+DIALNUMBER
+
+QUERYACTION
+
+A:COMMASEPARATENAMES *
+B:None
+B:DISPLAYNAME 
+
+A:COMMASEPARATENAMES * *
+B:None
+B:DISPLAYNAME , COMMASEPARATENAMES 
+
+A:MULTIPLENAMES *
+B:None
+B:
+MULTIPLEIDS 
+
+
+false
+COMMASEPARATENAMES 
+
+
+A:CONTACTLIST *
+B:None
+B:DISPLAYNAME 
+
+A:CONTACTLIST * *
+B:None
+B:CONTACTLIST CONTACTLIST 
+
+A:RESUMEACTION QUERY
+B:None
+B:QUERYACTION
+
+A:RESUMEACTION CALL
+B:None
+B:CALLACTION
+
+A:RESUMEACTION *
+B:None
+B:Stopped processing.
+
+A:RESUMEACTION EMAIL
+B:None
+B:EMAILACTION
+
+A:RESUMEACTION SMS
+B:None
+B:SMSACTION
+
+A:RESUMEACTION ADD
+B:None
+B:ADDACTION
+
+A:QUERYACTION
+B:None
+B:CONTACTDEBUGINFO QUERYACTION
+
+QUERY
+
+
+RESOLVE FAMILIARNAME
+
+
+ASK CONTACTNAME
+
+RESOLVE HIMHER
+
+RESOLVE CONTACTNAME
+
+
+QUERYINFO CONTACTID
+
+QUERYINFO EXTERNAL
+
+
+
+
+
+
+
+
+
+
+A:HOW OLD IS *
+B:None
+B:WHEN IS  S BIRTHDAY
+
+A:$SMS
+B:None
+B:CONTACTDEBUGINFO SMS
+CONTACTINIT
+SMSACTION
+
+A:$SMS SMESSAGE *
+B:None
+B:CONTACTINIT
+
+
+
+SMSACTION
+
+A:$SMS *
+B:None
+B:CONTACTINIT
+
+SMSACTION
+
+A:$SMS * SMESSAGE *
+B:None
+B:CONTACTINIT
+
+
+
+SMSACTION
+
+A:TESTCALL *
+B:None
+B:Now dialing .  
+

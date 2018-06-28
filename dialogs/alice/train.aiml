@@ -1,0 +1,2708 @@
+A:name LIKES TO be *
+B:None
+B:
+
+
+
+
+.
+SETHESHE 
+
+WHO LIKES TO  
+WHAT DOES  LIKE ^
+WHAT DOES  LIKE ^
+WHAT DOES   ^
+WHAT DOES   ^
+WHO  ^
+
+Do you   too?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B:B:B:B:B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:name WENT TO *
+B:None
+B:
+
+
+.
+SETHESHE 
+WHERE DID  GO
+WHERE DID  GO
+WHO WENT TO 
+DID  GO TO *
+WHAT DID  DO
+WHAT DID  DO
+
+How long did  stay?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B:B:B:B:B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:MY familiarname name was *
+B:None
+B:
+
+
+
+
+MY FRIEND
+
+WHAT DID MY FRIEND ^
+  .
+WHO  ^
+  .
+WHAT DID  ^
+  .
+
+For fun?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B:B:B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:THE color * IS spatialprep THE color *
+B:None
+B:
+
+
+
+
+
+
+WHERE IS THE  
+WHERE IS THE 
+The   is  the  .
+WHERE IS THE  
+WHERE IS THE 
+The   is  the  .
+WHAT IS 
+The .
+WHAT IS 
+The .
+WHAT COLOR IS THE 
+
+WHAT COLOR IS THE 
+
+
+I think I understand that.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B:B:B:B:B:B:B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:THE * IS spatialprep THE *
+B:None
+B:
+
+
+
+opposite
+WHERE IS THE 
+WHERE CAN I FIND ^ 
+LOCATE ^ 
+WHAT IS THE LOCATION ^ 
+The  is  the .
+WHERE IS THE 
+WHERE CAN I FIND ^ 
+LOCATE ^ 
+WHAT IS THE LOCATION ^ 
+The  is  the .
+IS THE   the 
+IS THE   the 
+Yes
+IS THE  * the 
+IS THE  * the 
+No.  
+
+Ok.  I think I got that.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B:B:B:B:B:B:B:B:B:B:B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:GOSSIP
+B:None
+B:
+I don't have any gossip.
+
+
+RANDOM GOSSIP
+
+
+
+RANDOM GOSSIPB:
+
+A:RANDOM GOSSIP
+B:None
+B:
+
+A:ADD GOSSIP *
+B:None
+B:
+
+
+
+
+
+I'll remember that.
+
+A:THE * IS preposition *
+B:None
+B:
+
+
+
+The  is  
+WHERE IS THE  ^
+WHERE IS THAT  ^
+WHAT IS   ^
+WHERE SHOULD I LOOK FOR THE  ^
+WHERE CAN I FIND THE  ^
+
+Is it always  ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B:B:B:B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:A * IS preposition *
+B:None
+B:
+
+
+
+A  is  
+WHERE IS A  ^
+WHERE IS THAT  ^
+WHAT IS   ^
+WHERE SHOULD I LOOK FOR A  ^
+WHERE CAN I FIND A  ^
+
+Is it always  ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B:B:B:B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:AN * IS preposition *
+B:None
+B:
+
+
+
+An  is  
+WHERE IS AN  ^
+WHERE IS THAT  ^
+WHAT IS   ^
+WHERE SHOULD I LOOK FOR AN  ^
+WHERE CAN I FIND AN  ^
+
+Is it always  ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B:B:B:B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:name IS preposition *
+B:None
+B:
+SETHESHE 
+
+
+
+ is  
+WHERE IS  ^
+WHERE IS THAT  ^
+WHO IS   ^
+WHERE SHOULD I LOOK FOR  ^
+WHERE CAN I FIND  ^
+
+Is  always  ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B:B:B:B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:name IS being *
+B:None
+B:
+
+
+
+SETHESHE 
+
+
+What does  
+What is  
+What is  doing
+What does  do
+Who  ^
+Who is  ^
+  
+
+I understand.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+B:B:B:B:B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:name is preposition *
+B:None
+B:
+   .
+
+SETHESHE 
+What does   ?
+What does  do
+What does   ?
+What does  do
+Who   
+Does    
+Does    
+Does  *
+Does  *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yes.  
+
+
+Yes.  
+
+
+I don't know if  .  I know 
+
+
+I don't know if  .  I know 
+
+
+Why does    ?B:B:B:B:B:B:Yes.  B:Yes.  B:I don't know if  .  I know B:I don't know if  .  I know 
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:Yes.  
+
+A:
+B:None
+B:Yes.  
+
+A:
+B:None
+B:I don't know if  .  I know 
+
+A:
+B:None
+B:I don't know if  .  I know 
+
+A:I be # name #
+B:None
+B:
+
+
+
+
+
+You   ?
+
+
+WHO DO I  #
+
+  You    .
+  
+
+B:
+  You    .
+  
+
+A:WHO DO I  #
+B:None
+B:
+  You    .
+  
+
+A:I LOVE # name #
+B:None
+B:
+
+
+
+
+
+You love  ?
+
+
+WHO DO I LOVE #
+
+  You love   .
+  
+
+B:
+  You love   .
+  
+
+A:WHO DO I LOVE #
+B:None
+B:
+  You love   .
+  
+
+A:* HAS color *
+B:None
+B:
+
+plural
+
+
+
+
+ is a nice color of .
+
+
+WHAT COLOR IS  S #
+ has .
+
+
+
+WHAT COLOR IS article  S #
+ has  .
+
+
+
+WHAT COLOR ARE  S #
+ has  .
+
+
+
+WHAT DOES  LOOK #
+ has  .
+
+
+
+HOW DOES  APPEAR #
+ is .
+
+
+
+WHAT IS  #
+ has  .
+
+
+B: has .
+B: has  .
+B: has  .
+B: has  .
+B: is .
+B: has  .
+
+
+A:WHAT COLOR IS  S #
+B:None
+B: has .
+
+
+A:WHAT COLOR IS article  S #
+B:None
+B: has  .
+
+
+A:WHAT COLOR ARE  S #
+B:None
+B: has  .
+
+
+A:WHAT DOES  LOOK #
+B:None
+B: has  .
+
+
+A:HOW DOES  APPEAR #
+B:None
+B: is .
+
+
+A:WHAT IS  #
+B:None
+B: has  .
+
+
+A:name HAS color *
+B:None
+B:
+
+plural
+
+
+
+
+ is a nice color of .
+
+
+WHO HAS  #
+ has  .
+
+
+
+WHAT COLOR IS  S #
+ has  .
+
+
+
+WHAT COLOR IS article  S #
+ has  .
+
+
+
+WHAT COLOR  #
+ has  .
+
+
+
+WHAT COLOR ARE  S #
+ has  .
+
+
+
+WHAT DOES  LOOK #
+ has  .
+
+
+
+HOW DOES  APPEAR #
+ is .
+
+
+
+WHAT IS  #
+ has  .
+
+
+B: has  .
+B: has  .
+B: has  .
+B: has  .
+B: has  .
+B: has  .
+B: is .
+B: has  .
+
+
+A:WHO HAS  #
+B:None
+B: has  .
+
+
+A:WHAT COLOR IS  S #
+B:None
+B: has  .
+
+
+A:WHAT COLOR IS article  S #
+B:None
+B: has  .
+
+
+A:WHAT COLOR  #
+B:None
+B: has  .
+
+
+A:WHAT COLOR ARE  S #
+B:None
+B: has  .
+
+
+A:WHAT DOES  LOOK #
+B:None
+B: has  .
+
+
+A:HOW DOES  APPEAR #
+B:None
+B: is .
+
+
+A:WHAT IS  #
+B:None
+B: has  .
+
+
+A:* IS color
+B:None
+B:
+plural
+
+ is a nice color of .
+
+
+WHAT COLOR IS  #
+ is .
+
+
+
+WHAT COLOR IS article  #
+ is .
+
+
+
+WHAT COLOR ARE  #
+ is .
+
+
+
+WHAT DOES  LOOK #
+ is .
+
+
+
+HOW DOES  APPEAR #
+ is .
+
+
+
+WHAT IS  #
+ is .
+
+
+B: is .
+B: is .
+B: is .
+B: is .
+B: is .
+B: is .
+
+
+A:WHAT COLOR IS  #
+B:None
+B: is .
+
+
+A:WHAT COLOR IS article  #
+B:None
+B: is .
+
+
+A:WHAT COLOR ARE  #
+B:None
+B: is .
+
+
+A:WHAT DOES  LOOK #
+B:None
+B: is .
+
+
+A:HOW DOES  APPEAR #
+B:None
+B: is .
+
+
+A:WHAT IS  #
+B:None
+B: is .
+
+
+A:* IS color AND color
+B:None
+B:
+plural
+ and 
+ is a nice color of .
+
+
+WHAT COLOR IS  #
+ is .
+
+
+
+WHAT COLOR IS article  #
+ is .
+
+
+
+WHAT COLOR ARE  #
+ is .
+
+
+
+WHAT DOES  LOOK #
+ is .
+
+
+
+HOW DOES  APPEAR #
+ is .
+
+
+
+WHAT IS  #
+ is .
+
+
+B: is .
+B: is .
+B: is .
+B: is .
+B: is .
+B: is .
+
+
+A:WHAT COLOR IS  #
+B:None
+B: is .
+
+
+A:WHAT COLOR IS article  #
+B:None
+B: is .
+
+
+A:WHAT COLOR ARE  #
+B:None
+B: is .
+
+
+A:WHAT DOES  LOOK #
+B:None
+B: is .
+
+
+A:HOW DOES  APPEAR #
+B:None
+B: is .
+
+
+A:WHAT IS  #
+B:None
+B: is .
+
+
+A:name HAS *
+B:None
+B:
+
+
+SETHESHE 
+
+
+Does  like it?
+How long has she  had it?
+Is that a problem for ?
+
+
+
+WHAT # DOES  HAVE #
+ has .
+
+
+WHAT # DOES  HAVE #
+ has .
+
+
+WHO HAS 
+ has .
+
+
+WHAT HAS 
+ has .
+
+B: has .B: has .B: has .B: has .
+
+A:WHAT # DOES  HAVE #
+B:None
+B: has .
+
+A:WHAT # DOES  HAVE #
+B:None
+B: has .
+
+A:WHO HAS 
+B:None
+B: has .
+
+A:WHAT HAS 
+B:None
+B: has .
+
+A:name HAS been *
+B:None
+B:
+
+
+
+been2be
+be2was
+be2being
+SETHESHE 
+
+
+How long has  been ?
+I had no idea that  .
+  ?
+
+
+
+WHAT HAS  *
+ has  .
+
+
+WHAT HAS  *
+ has  .
+
+
+WHO HAS  *
+ has  .
+
+
+WHO  *
+ has  .
+
+
+WHAT DID  *
+ has  .
+
+
+WHAT DID  *
+ has  .
+
+B: has  .B: has  .B: has  .B: has  .B: has  .B: has  .
+
+A:WHAT HAS  *
+B:None
+B: has  .
+
+A:WHAT HAS  *
+B:None
+B: has  .
+
+A:WHO HAS  *
+B:None
+B: has  .
+
+A:WHO  *
+B:None
+B: has  .
+
+A:WHAT DID  *
+B:None
+B: has  .
+
+A:WHAT DID  *
+B:None
+B: has  .
+
+A:I was *
+B:None
+B:
+
+was2be
+be2being
+
+
+
+Have you been   long?
+Where did you  ?
+What made you  ?
+What were you trying to do?
+Really?
+
+I  
+I  
+Why?
+
+
+
+DID I  #
+You  .
+
+
+WHAT DID I 
+You  .
+
+
+WHAT DID I DO #
+You  .
+
+
+WHO  #
+You  .
+
+B:You  .B:You  .B:You  .B:You  .
+
+A:DID I  #
+B:None
+B:You  .
+
+A:WHAT DID I 
+B:None
+B:You  .
+
+A:WHAT DID I DO #
+B:None
+B:You  .
+
+A:WHO  #
+B:None
+B:You  .
+
+A:I WENT being #
+B:None
+B:
+Have you been  long?
+Oh are you into ?
+I've heard other people say they like 
+
+
+
+being2be
+be2was
+
+
+
+WHAT DID I #
+You went .
+
+
+WHAT DID I SAY I #
+You .
+
+
+WHO WENT  #
+You .
+
+
+WHO  #
+You .
+
+
+DID I  #
+You .
+
+B:You went .B:You .B:You .B:You .B:You .
+
+A:WHAT DID I #
+B:None
+B:You went .
+
+A:WHAT DID I SAY I #
+B:None
+B:You .
+
+A:WHO WENT  #
+B:None
+B:You .
+
+A:WHO  #
+B:None
+B:You .
+
+A:DID I  #
+B:None
+B:You .
+
+A:I AM being *
+B:None
+B:
+Have you been  long?
+Oh are you into ?
+I've heard about other people  it.
+
+
+
+
+
+
+
+
+WHAT AM I  #
+You are  
+
+
+WHAT AM I DOING #
+You are  
+
+
+WHAT DID I SAY I #
+You are  
+
+
+WHAT # 
+You are  
+
+
+AM I  #
+You are  
+
+B:You are  B:You are  B:You are  B:You are  B:You are  
+
+A:WHAT AM I  #
+B:None
+B:You are  
+
+A:WHAT AM I DOING #
+B:None
+B:You are  
+
+A:WHAT DID I SAY I #
+B:None
+B:You are  
+
+A:WHAT # 
+B:None
+B:You are  
+
+A:AM I  #
+B:None
+B:You are  
+
+A:I AM being preposition *
+B:None
+B:
+
+
+
+
+
+
+What kind?
+Have you been  long?
+Oh are you into ?
+Are other people   it?
+
+
+
+WHAT AM I   #
+You are  
+
+
+WHAT AM I DOING #
+You are  
+
+
+WHAT DID I SAY I #
+You are  
+
+
+WHAT # 
+You are  
+
+
+AM I  #
+You are  
+
+B:You are  B:You are  B:You are  B:You are  B:You are  
+
+A:WHAT AM I   #
+B:None
+B:You are  
+
+A:WHAT AM I DOING #
+B:None
+B:You are  
+
+A:WHAT DID I SAY I #
+B:None
+B:You are  
+
+A:WHAT # 
+B:None
+B:You are  
+
+A:AM I  #
+B:None
+B:You are  
+
+A:name *
+B:None
+B:SETHESHE 
+
+
+WHAT DOES  *
+ 
+
+
+WHAT DOES  DO
+ 
+
+
+WHAT * DOES  *
+ 
+
+
+For fun?B: B: B: 
+
+A:WHAT DOES  *
+B:None
+B: 
+
+A:WHAT DOES  DO
+B:None
+B: 
+
+A:WHAT * DOES  *
+B:None
+B: 
+
+A:SETHESHE familiarname
+B:None
+B:
+familiarpronoun
+
+
+
+A:* MEANS *
+B:None
+B:EQUATE  TO 
+
+A:name MEANS *
+B:None
+B:EQUATE  TO 
+
+A:EQUATE * TO *
+B:None
+B:
+IS  EQUALTO 
+
+
+
+OK, when you say "", I will assume you mean "".
+
+
+
+
+
+
+ _
+ 
+
+
+_ 
+ 
+
+
+_  *
+  
+
+
+ is already the same as .
+B:B: B: B:  
+
+A:
+B:None
+B:
+
+A: _
+B:None
+B: 
+
+A:_ 
+B:None
+B: 
+
+A:_  *
+B:None
+B:  
+
+A:* IS AN *
+B:None
+B:Ok, I will remember  is a .
+
+ISANAME 
+
+WHO IS AN
+WHAT IS AN
+
+
+
+
+WHAT IS 
+An .
+
+
+ 
+.
+
+
+IS  AN 
+Yes.
+
+B:An .B:.B:Yes.
+
+A:WHAT IS 
+B:None
+B:An .
+
+A: 
+B:None
+B:.
+
+A:IS  AN 
+B:None
+B:Yes.
+
+A:A * IS NOT *
+B:None
+B:Ok, I will remember a  is not .
+
+
+WHAT IS A 
+Not .
+
+
+WHAT IS NOT 
+.
+
+
+IS A  
+No.
+
+B:Not .B:.B:No.
+
+A:WHAT IS A 
+B:None
+B:Not .
+
+A:WHAT IS NOT 
+B:None
+B:.
+
+A:IS A  
+B:None
+B:No.
+
+A:* IS A *
+B:None
+B:Ok, I will remember  is a .
+
+ISANAME 
+
+WHO IS A
+WHAT IS A
+
+
+
+
+WHAT IS 
+A .
+
+
+ 
+.
+
+
+IS  A 
+Yes.
+
+B:A .B:.B:Yes.
+
+A:WHAT IS 
+B:None
+B:A .
+
+A: 
+B:None
+B:.
+
+A:IS  A 
+B:None
+B:Yes.
+
+A:* IS THE *
+B:None
+B:Ok, I will remember  is the .
+
+ISANAME 
+
+WHO IS THE
+WHAT IS THE
+
+
+
+
+WHAT IS 
+The .
+
+
+ 
+.
+
+
+IS  THE 
+Yes.
+
+B:The .B:.B:Yes.
+
+A:WHAT IS 
+B:None
+B:The .
+
+A: 
+B:None
+B:.
+
+A:IS  THE 
+B:None
+B:Yes.
+
+A:article * IS article *
+B:None
+B:
+
+
+
+
+
+Ok, I will remember   is  .
+
+
+WHAT IS  
+  is  .
+
+
+WHAT IS  
+  is  .
+
+
+IS    
+Yes.
+
+B:  is  .B:  is  .B:Yes.
+
+A:WHAT IS  
+B:None
+B:  is  .
+
+A:WHAT IS  
+B:None
+B:  is  .
+
+A:IS    
+B:None
+B:Yes.
+
+A:article * ARE article *
+B:None
+B:
+
+
+
+
+
+Ok, I will remember   are  .
+
+
+WHAT IS  
+  are  .
+
+
+WHAT IS  
+  are  .
+
+
+ARE    
+Yes.
+
+B:  are  .B:  are  .B:Yes.
+
+A:WHAT IS  
+B:None
+B:  are  .
+
+A:WHAT IS  
+B:None
+B:  are  .
+
+A:ARE    
+B:None
+B:Yes.
+
+A:article * IS *
+B:None
+B:
+
+
+
+
+Ok, I will remember   is .
+
+
+WHAT IS  
+  is .
+
+
+WHAT IS 
+  is .
+
+
+IS   
+Yes.
+
+B:  is .B:  is .B:Yes.
+
+A:WHAT IS  
+B:None
+B:  is .
+
+A:WHAT IS 
+B:None
+B:  is .
+
+A:IS   
+B:None
+B:Yes.
+
+A:article * ARE *
+B:None
+B:
+
+
+
+
+Ok, I will remember   are .
+
+
+WHAT IS  
+  are .
+
+
+WHAT IS 
+  are .
+
+
+ARE   
+Yes.
+
+B:  are .B:  are .B:Yes.
+
+A:WHAT IS  
+B:None
+B:  are .
+
+A:WHAT IS 
+B:None
+B:  are .
+
+A:ARE   
+B:None
+B:Yes.
+
+A:THE * IS NOT *
+B:None
+B:Ok, I will remember the  is not .
+
+
+WHAT IS THE 
+Not .
+
+
+WHAT IS NOT 
+The .
+
+
+IS THE  
+No.
+
+B:Not .B:The .B:No.
+
+A:WHAT IS THE 
+B:None
+B:Not .
+
+A:WHAT IS NOT 
+B:None
+B:The .
+
+A:IS THE  
+B:None
+B:No.
+
+A:* IS NOT *
+B:None
+B:Ok, I will remember  is not .
+
+ISANAME 
+
+WHO IS NOT
+WHAT IS NOT
+
+
+
+
+WHAT IS 
+.
+
+
+ 
+.
+
+
+IS  
+No.
+
+B:.B:.B:No.
+
+A:WHAT IS 
+B:None
+B:.
+
+A: 
+B:None
+B:.
+
+A:IS  
+B:None
+B:No.
+
+A:*
+B:None
+B:LEARN NEW RESPONSE 
+
+A:YOU _
+B:None
+B:LEARN NEW RESPONSE You 
+
+A:A _
+B:None
+B:LEARN NEW RESPONSE A 
+
+A:I _
+B:None
+B:LEARN NEW RESPONSE I 
+
+A:HE _
+B:None
+B:LEARN NEW RESPONSE He 
+
+A:AN _
+B:None
+B:LEARN NEW RESPONSE An 
+
+A:THAT _
+B:None
+B:LEARN NEW RESPONSE That 
+
+A:MY * S NAME IS *
+B:None
+B:ISAFAMILIARNAME 
+FAMILIARPREDICATE 
+
+
+
+
+REMEMBERFAMILIARNAME
+
+I will remember your 's name is .
+
+
+MY  S NAME
+
+
+
+
+B:
+
+A:MY  S NAME
+B:None
+B:
+
+A:MY * S AGE IS *
+B:None
+B:I will remember your 's age.
+
+
+MY  S AGE
+
+
+B:
+
+A:MY  S AGE
+B:None
+B:
+
+A:MY * IS *
+B:None
+B:ISANAME 
+ISANUMBER 
+ISAFAMILIARNAME 
+
+
+MY  S NAME IS 
+
+
+MY  S AGE IS 
+
+
+
+OK, now you can ask me "What is my ?" 
+OK, now you can ask me "Who is ?" 
+Your  is?
+Good to know.
+
+
+
+WHAT IS MY 
+
+
+
+WHO IS 
+Your 
+
+
+
+
+
+OK, now you can ask me "What is my ?" 
+OK, now you can ask me "What is ?" 
+Your  is?
+Good to know.
+Where did you get your ?
+
+
+
+WHAT IS MY 
+
+
+
+WHAT IS 
+Your 
+
+
+
+
+
+
+
+B:B:Your B:B:Your 
+
+A:WHAT IS MY 
+B:None
+B:
+
+A:WHO IS 
+B:None
+B:Your 
+
+A:WHAT IS MY 
+B:None
+B:
+
+A:WHAT IS 
+B:None
+B:Your 
+
+A:MY FAVORITE * IS *
+B:None
+B:
+OK, now you can ask me "What is my favorite ?" 
+Do you think I would like  too?
+Good to know.
+What do you like best about ?
+
+
+
+WHAT IS MY FAVORITE 
+
+
+B:
+
+A:WHAT IS MY FAVORITE 
+B:None
+B:
+
+A:MY _
+B:None
+B:LEARN NEW RESPONSE My 
+
+A:LEARN NEW RESPONSE *
+B:None
+B:OK.  Now whenever you say "", I will respond with 
+"".
+
+
+
+.
+
+B:.
+
+A:
+B:None
+B:.
+
+A:LEARN * IS *
+B:None
+B:Ok, I will remember  is .
+
+
+WHAT IS 
+.
+
+B:.
+
+A:WHAT IS 
+B:None
+B:.
+
+A:IT _
+B:None
+B:LEARN NEW RESPONSE It 
+
+A:BAD ANSWER
+B:None
+B:
+OK.  You said "" and I replied "".
+What should I say instead?
+
+A:SHE _
+B:None
+B:LEARN NEW RESPONSE She 
+
+A:SAY _
+B:None
+B:LEARN NEW RESPONSE 
+
+A:WE _
+B:None
+B:LEARN NEW RESPONSE We 
+
+A:THE _
+B:None
+B:LEARN NEW RESPONSE The 
+
+A:THEY _
+B:None
+B:LEARN NEW RESPONSE They 
+
+A:NEVERMIND
+B:None
+B:Ok. We'll come back to that later.
+
+A:QUESTIONWORD name #
+B:None
+B:Who
+
+A:QUESTIONWORD *
+B:None
+B:What
+
+A:QUESTIONWORD SOMEONE #
+B:None
+B:Who
+
+A:QUESTIONWORD SOMEBODY #
+B:None
+B:Who
+
+A:MY familiarname is *
+B:None
+B:  
+
+A:familiarname is *
+B:None
+B:
+Who  ?  
+Your .
+
+
+
+
+
+
+
+Now you can ask me: ""?
+
+What does my  ? 
+.
+
+
+
+
+
+
+
+and ""?B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:* is *
+B:None
+B:
+QUESTIONWORD   ?  
+.
+
+
+
+
+
+
+
+Now you can ask me: ""?
+
+What does  ? 
+.
+
+
+
+
+
+
+
+and ""?B:B:
+
+A:
+B:None
+B:
+
+A:
+B:None
+B:
+
+A:* was *
+B:None
+B:
+QUESTIONWORD 
+
+was2be
+
+
+
+When was this?
+Are you kidding me?
+What happened?
+I can't believe  would  .
+
+
+
+  #
+  .
+
+
+WHAT DID   #
+  .
+
+
+WHAT DID  DO #
+  .
+
+
+WHAT HAPPENED #
+  .
+
+B:  .B:  .B:  .B:  .
+
+A:  #
+B:None
+B:  .
+
+A:WHAT DID   #
+B:None
+B:  .
+
+A:WHAT DID  DO #
+B:None
+B:  .
+
+A:WHAT HAPPENED #
+B:None
+B:  .
+
+A:MY familiarname * LIKES TO be *
+B:None
+B:
+
+
+
+
+be2is
+be2being
+FAMILIARPREDICATE 
+SETHESHE 
+ likes  
+
+
+MY 
+
+
+
+WHO   #
+.
+
+
+WHO LIKES TO   #
+.
+
+
+WHAT # DOES MY   #
+.
+
+
+WHAT # DOES MY  DO #
+.
+
+
+WHAT # DOES MY  LIKE #
+
+
+
+WHAT # DOES   #
+.
+
+
+WHAT # DOES  DO #
+.
+
+
+WHAT # DOES  LIKE #
+.
+
+
+WHAT # DOES   #
+.
+
+
+WHAT # DOES  DO #
+.
+
+
+WHAT # DOES  LIKE #
+.
+
+
+Is  any good at   ?B:B:.B:.B:.B:.B:B:.B:.B:.B:.B:.B:.
+
+A:MY 
+B:None
+B:
+
+A:WHO   #
+B:None
+B:.
+
+A:WHO LIKES TO   #
+B:None
+B:.
+
+A:WHAT # DOES MY   #
+B:None
+B:.
+
+A:WHAT # DOES MY  DO #
+B:None
+B:.
+
+A:WHAT # DOES MY  LIKE #
+B:None
+B:
+
+A:WHAT # DOES   #
+B:None
+B:.
+
+A:WHAT # DOES  DO #
+B:None
+B:.
+
+A:WHAT # DOES  LIKE #
+B:None
+B:.
+
+A:WHAT # DOES   #
+B:None
+B:.
+
+A:WHAT # DOES  DO #
+B:None
+B:.
+
+A:WHAT # DOES  LIKE #
+B:None
+B:.
+
+A:MY familiarname * LIKES TO * preposition *
+B:None
+B:
+
+
+
+
+
+SETHESHE 
+ likes to   
+FAMILIARPREDICATE 
+
+
+MY 
+
+
+
+WHAT # DOES MY  DO #
+.
+
+
+WHAT # DOES MY  LIKE #
+
+
+
+WHAT # DOES  DO #
+.
+
+
+WHAT # DOES  LIKE #
+.
+
+
+WHAT * DOES  LIKE *
+.
+
+
+WHAT # DOES  DO #
+.
+
+
+WHAT # DOES  LIKE #
+.
+
+
+WHAT * DOES  LIKE *
+.
+
+
+Is  any good at   ?B:B:.B:B:.B:.B:.B:.B:.B:.
+
+A:MY 
+B:None
+B:
+
+A:WHAT # DOES MY  DO #
+B:None
+B:.
+
+A:WHAT # DOES MY  LIKE #
+B:None
+B:
+
+A:WHAT # DOES  DO #
+B:None
+B:.
+
+A:WHAT # DOES  LIKE #
+B:None
+B:.
+
+A:WHAT * DOES  LIKE *
+B:None
+B:.
+
+A:WHAT # DOES  DO #
+B:None
+B:.
+
+A:WHAT # DOES  LIKE #
+B:None
+B:.
+
+A:WHAT * DOES  LIKE *
+B:None
+B:.
+
+A:name is *
+B:None
+B:
+
+
+
+is2be
+SETHESHE 
+  
+
+
+
+WHO   #
+.
+
+
+WHAT DOES   #
+.
+
+
+WHAT DOES  DO # 
+.
+
+
+WHAT DOES   #
+.
+
+
+WHAT DOES  DO #
+.
+
+
+DOES    #
+Yes.  .
+
+
+DOES    #
+Yes.  .
+
+
+DOES  *
+I don't know if get var="name"/> .  I know .
+
+
+DOES  *
+I don't know if  .  I know .
+
+
+Why does   ?B:.B:.B:.B:.B:.B:Yes.  .B:Yes.  .B:I don't know if get var="name"/> .  I know .B:I don't know if  .  I know .
+
+A:WHO   #
+B:None
+B:.
+
+A:WHAT DOES   #
+B:None
+B:.
+
+A:WHAT DOES  DO # 
+B:None
+B:.
+
+A:WHAT DOES   #
+B:None
+B:.
+
+A:WHAT DOES  DO #
+B:None
+B:.
+
+A:DOES    #
+B:None
+B:Yes.  .
+
+A:DOES    #
+B:None
+B:Yes.  .
+
+A:DOES  *
+B:None
+B:I don't know if get var="name"/> .  I know .
+
+A:DOES  *
+B:None
+B:I don't know if  .  I know .
+
+A:name was *
+B:None
+B:
+
+
+was2be
+
+SETHESHE 
+  
+
+
+
+WHO   #
+.
+
+
+WHO  #
+.
+
+
+WHAT DID   #
+.
+
+
+WHAT DID  DO #
+.
+
+
+WHAT DID   #
+.
+
+
+WHAT DID  DO #
+.
+
+
+Can you tell me why   ?B:.B:.B:.B:.B:.B:.
+
+A:WHO   #
+B:None
+B:.
+
+A:WHO  #
+B:None
+B:.
+
+A:WHAT DID   #
+B:None
+B:.
+
+A:WHAT DID  DO #
+B:None
+B:.
+
+A:WHAT DID   #
+B:None
+B:.
+
+A:WHAT DID  DO #
+B:None
+B:.
+
+A:MY familiarname * is *
+B:None
+B:
+
+
+
+
+is2be
+SETHESHE 
+
+  
+MY  S NAME IS 
+
+Does  really?
+
+WHAT DOES MY  DO #
+
+
+WHAT DOES  DO #
+
+
+WHAT DOES  DO #
+
+
+DOES MY   #
+
+
+DOES   #
+
+
+WHO  #
+Your  .
+
+B:B:B:B:B:B:Your  .
+
+A:WHAT DOES MY  DO #
+B:None
+B:
+
+A:WHAT DOES  DO #
+B:None
+B:
+
+A:WHAT DOES  DO #
+B:None
+B:
+
+A:DOES MY   #
+B:None
+B:
+
+A:DOES   #
+B:None
+B:
+
+A:WHO  #
+B:None
+B:Your  .
+

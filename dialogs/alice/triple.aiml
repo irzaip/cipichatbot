@@ -1,0 +1,3597 @@
+A:TRIPLE TEST * *
+B:None
+B:
+
+?x
+?x
+
+
+
+A:GENSYM
+B:None
+B:
+
+symbol
+                    0
+
+symbol
+                    
+
+
+
+
+
+
+
+
+A:I HAVE A color *
+        
+B:None
+B:
+
+
+
+
+
+
+
+
+GENSYM
+
+
+
+
+a
+                    
+
+
+
+
+
+
+has
+
+
+
+
+
+
+
+
+hasColor
+
+
+
+
+
+
+
+
+hasDescription
+
+
+
+
+
+
+
+
+isA
+
+
+
+
+
+
+            is a nice color of.
+        
+
+A:WHAT DO I HAVE ^
+B:None
+B:
+
+
+?sym
+
+
+
+
+has
+?sym
+
+
+
+
+I don't know. What do you have?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hasDescription
+?description
+
+
+
+,
+
+
+
+
+
+
+
+
+A:WHAT COLOR IS MY *
+B:None
+B:
+
+
+
+?color
+
+
+
+
+has
+?sym
+
+
+?sym
+isA
+
+
+
+
+
+?sym
+hasColor
+?color
+
+
+
+
+
+You have a?
+                
+
+
+
+
+
+
+
+
+                    .
+                
+
+
+
+A:WHAT color ^ DO I HAVE
+        
+B:None
+B:
+
+
+
+?obj
+
+
+
+
+has
+?sym
+
+
+?sym
+hasColor
+
+
+
+
+
+?sym
+isA
+?obj
+
+
+
+
+
+Nothing that I know of.
+Your
+                    
+
+
+
+
+
+
+                    .
+                
+
+
+
+A:
+entity
+
+B:None
+B:
+
+            is an enity.
+        
+
+A:SIZE TABLE
+B:None
+B:
+
+0
+
+
+
+:
+                    
+
+
+?x
+
+?x
+hasSize
+
+
+
+
+
+
+
+
+successor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            "
+                            
+
+
+
+
+                            "
+                            COMMAFY
+                                
+
+
+
+
+
+
+
+
+
+A:COMMAFY NIL
+B:None
+B:
+
+B:
+
+A:COMMAFY *
+B:None
+B:,
+
+A:UNIQ TEST
+B:None
+B:
+
+York
+isa
+?object
+
+
+
+A:UNIQ TEST 2
+B:None
+B:
+
+10099
+hasFirstName
+Alan
+
+
+10099
+hasLastName
+Turing
+
+
+10099
+hasMobileNumber
+2125551212
+
+
+
+?id
+hasFirstName
+Alan
+
+
+
+
+
+
+hasMobileNumber
+?number
+
+
+
+A:UNIQ TEST 3
+B:None
+B:
+
+X
+Y
+Z
+
+?x
+
+
+
+
+Y
+Z
+
+
+
+A:WHAT IS THE PURPOSE OF *
+B:None
+B:
+
+
+
+
+
+
+hasPurpose
+?purpose
+
+
+
+
+I don't know what
+                    
+                    is for.
+                
+
+
+
+
+
+
+A:ADDTRIPLE TEST
+B:None
+B:Adding triples:
+            
+Sacramento
+capitalOf
+California
+
+
+Austin
+capitalOf
+Texas
+
+
+Reno
+capitalOf
+Nevada
+
+
+Austin
+capitalOf
+Texas
+
+
+Los Angeles
+capitalOf
+
+
+
+A:DELETETRIPLE TEST
+B:None
+B:Adding triples:
+            
+FIDO
+ISA
+DOG
+
+
+ROVER
+ISA
+DOG
+
+
+SNOOPY
+ISA
+DOG
+
+            Select:
+            
+?x ?y
+
+?x
+?y
+DOG
+
+
+            Deleting triples:
+            
+FIDO
+ISA
+DOG
+
+
+ROVER
+ISA
+DOG
+
+
+REX
+ISA
+DOG
+
+
+FIDO
+DOG
+
+            Select:
+            
+?x ?y
+
+?x
+?y
+DOG
+
+
+
+
+A:WHICH IS LARGER ^ entity OR ^
+            entity
+
+B:None
+B:
+
+
+LARGEROF
+                        
+                        AND
+                        
+
+
+
+
+I can't tell which one is larger.
+They are about the same size.
+
+
+
+
+                    is larger.
+                
+
+
+
+A:WHICH IS FASTER entity OR
+            entity
+
+B:None
+B:
+
+
+FASTEROF
+                        
+                        AND
+                        
+
+
+
+
+I can't tell which one is faster.
+They are about the same speed.
+
+
+
+
+                    is faster.
+                
+
+
+
+A:ALL ISA
+B:None
+B:
+
+
+?x ?y ?z ?w
+
+?x
+isa
+?y
+
+
+?y
+isa
+?z
+
+
+?z
+isa
+?w
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    -->
+                    
+
+
+
+
+                    -->
+                    
+
+
+
+
+                    -->
+                    
+
+
+
+
+
+
+
+
+
+A:SELECT TEST
+B:None
+B:
+
+
+?x
+
+?x
+hasSize
+7
+
+
+?x
+lifeArea
+Physical
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:SELECT TEST NOTQ
+B:None
+B:
+
+
+?x
+
+?x
+isa
+Person
+
+
+
+
+
+A:SELECT TEST NOT
+B:None
+B:
+
+
+?x
+
+?x
+hasSize
+7
+
+
+?x
+isa
+Person
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:SELECT TEST NOT 2
+B:None
+B:
+
+
+?x
+
+?x
+hasSize
+7
+
+
+?x
+isa
+Person
+
+
+?x
+isa
+Parent
+
+
+?x
+lifeArea
+Family
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:SELECT TEST NOT 3
+B:None
+B:
+
+
+?x
+
+?x
+hasSize
+7
+
+
+?x
+isa
+?y
+
+
+?y
+isa
+Person
+
+
+?x
+isa
+Person
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:SELECT TEST 3
+B:None
+B:
+
+
+?entity ?lifeArea ?purpose
+
+?entity
+lifeArea
+?lifeArea
+
+
+?entity
+hasPurpose
+?purpose
+
+
+?entity
+isA
+plant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    ["
+                    
+
+
+
+
+                    ",
+                    "
+                    
+
+
+
+
+                    ",
+                    "
+                    
+
+
+
+
+                    "]
+                    
+
+
+
+
+A:SELECT TEST 2
+B:None
+B:
+
+
+?x
+
+?x
+hasSize
+7
+
+
+?x
+lifeArea
+Physical
+
+
+?x
+isa
+Person
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:* IS erdown THAN *
+        
+B:None
+B:
+
+
+
+
+
+
+opposite
+
+
+
+
+
+
+
+
+
+
+
+
+                IS
+                
+                THAN
+                
+
+
+
+A:
+name
+            IS erup THAN *
+        
+B:None
+B:
+
+
+
+
+
+
+
+
+
+
+
+            So
+            
+            is
+            
+opposite
+
+
+            than?
+            
+
+
+
+
+
+
+                        than
+                    
+
+
+
+
+
+
+
+A:
+name
+            IS erdown THAN *
+        
+B:None
+B:
+
+
+
+
+
+
+opposite
+
+
+
+
+
+
+
+
+
+
+
+
+                IS
+                
+                THAN
+                
+
+
+
+A:GREEK TEST
+B:None
+B:
+
+Socrates is older than Plato
+Plato is older than Aristotle
+
+            Who is older Socrates or Plato?
+            Who is older Socrates or Plato
+            Who is older Plato or Socrates?
+            Who is older Plato or Socrates
+            Who is older Aristotle or Plato?
+            Who is older Aristotle or Plato
+            Who is older Plato or Aritstotle?
+            Who is older Plato or Aristotle
+            Who is older Socrates or Aristotle?
+            Who is older Socrates or Aristotle
+            Who is older Aristotle or Socrates?
+            Who is older Aristotle or Socrates
+            Who is younger Socrates or Aristotle?
+            Who is younger Socrates or Aristotle
+            Who is younger Aristotle or Socrates?
+            Who is younger Aristotle or Socrates
+
+
+A:WHICH IS erup * OR *
+        
+B:None
+B:
+
+
+
+
+
+
+                    than
+                
+
+
+
+
+
+
+
+IS
+                        
+
+
+
+
+
+
+
+
+                    is.
+                
+
+
+                    is.
+                
+They are the same.
+
+WHICH IS
+                        
+
+                        OR
+                        
+
+
+
+
+
+A:IS * erdown THAN *
+        
+B:None
+B:
+
+
+
+
+
+
+                    than
+                
+
+
+
+
+
+
+
+
+opposite
+
+
+
+
+IS
+                        
+
+                        THAN
+                        
+
+
+
+
+No
+Yes
+same
+unknown
+
+
+
+
+
+
+A:IS * erup THAN *
+        
+B:None
+B:
+
+
+
+
+
+
+                    than
+                
+
+
+
+
+
+
+
+APPEND
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+?x
+
+
+
+
+
+
+
+?x
+
+
+?x
+
+
+
+
+
+
+
+
+
+
+
+APPEND
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+?x
+
+
+
+
+
+
+
+?x
+
+
+?x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    same
+                
+
+
+
+
+unknown
+No
+
+
+
+
+Yes
+unknown
+
+
+
+
+
+
+
+A:APPEND NIL *
+B:None
+B:
+APPEND
+                
+
+
+
+A:APPEND * NIL
+B:None
+B:
+APPEND
+                
+
+
+
+A:APPEND NIL NIL
+B:None
+B:NIL
+
+A:APPEND *
+B:None
+B:
+
+
+
+A:WHICH IS erdown * OR *
+        
+B:None
+B:
+
+
+
+
+
+
+
+
+
+
+
+IS
+                        
+
+opposite
+
+
+                        THAN
+                        
+
+
+
+
+
+
+                    is.
+                
+
+
+                    is.
+                
+They are the same.
+
+WHICH IS
+                        
+
+                        OR
+                        
+
+
+
+
+
+A:
+name
+            IS TALLER THAN
+            name
+
+B:None
+B:I will remember
+            
+            is taller than.
+            
+
+
+
+
+taller than
+
+
+
+
+
+
+
+A:
+name
+            DREAMS ABOUT *
+        
+B:None
+B:
+
+
+
+
+dreams about
+
+
+
+
+            Saved triple:, dreams about,.
+        
+
+A:WHO DREAMS
+B:None
+B:
+
+
+
+?x
+
+?x
+dreams about
+?y
+
+
+
+
+I don't know who.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+
+
+
+
+
+A:WHAT DOES * DREAM ABOUT
+B:None
+B:
+
+
+
+?x
+
+
+
+
+dreams about
+?x
+
+
+
+
+I don't what
+                
+                dreams about.
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+
+
+
+
+
+A:WHO DREAMS ABOUT *
+B:None
+B:
+
+
+
+?x
+
+?x
+dreams about
+
+
+
+
+
+
+
+I don't who dreams about.
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+
+
+
+
+
+A:WHAT DOES name DO
+        
+B:None
+B:
+
+
+
+?x ?y
+
+
+
+
+?x
+?y
+
+
+
+
+I don't what
+                
+                does.
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+
+
+
+
+
+A:GETPURPOSE *
+B:None
+B:
+
+
+
+
+?x
+
+
+
+
+hasPurpose
+?x
+
+
+
+
+
+            First tuple =.
+            Get ?x from tuple =
+            
+
+
+
+
+            .
+            
+I don't know what
+                    
+                    is for.
+                
+
+
+
+
+
+
+
+
+
+
+A:WHAT AREA OF LIFE IS *
+B:None
+B:
+
+
+
+?x
+
+
+
+
+lifeArea
+?x
+
+
+
+
+
+I don't know what area
+                    
+                    belongs to.
+                
+
+
+
+
+
+
+
+
+
+
+A:BOTHLIFEAREA *
+B:None
+B:They are both found in the
+            
+            area of life.
+        
+
+A:BOTHLIFEAREA EDUCATION
+B:None
+B:They are both something you could learn about in school.
+
+A:BOTHLIFEAREA RECREATION
+B:None
+B:They are both something you might do for recreation.
+
+A:BOTHLIFEAREA PHYSICAL
+B:None
+B:They are both part of the physical world.
+
+A:BOTHLIFEAREA SPIRITUAL
+B:None
+B:They are both spiritual matters.
+
+A:BOTHLIFEAREA ENTERTAINMENT
+B:None
+B:They are both connected with entertainment.
+
+A:BOTHLIFEAREA FAMILY
+B:None
+B:They are both part of family life.
+
+A:BOTHLIFEAREA SOCIAL
+B:None
+B:They are both part of social life.
+
+A:ONELIFEAREA * *
+B:None
+B:
+
+            is part of the
+            
+            area of life
+        
+
+A:ONELIFEAREA EDUCATION *
+B:None
+B:
+
+            is something you could learn about in school
+        
+
+A:ONELIFEAREA RECREATION *
+B:None
+B:
+
+            is something you might do for recreation
+        
+
+A:ONELIFEAREA PHYSICAL *
+B:None
+B:
+
+            is part of the physical world
+        
+
+A:ONELIFEAREA SPIRITUAL *
+B:None
+B:
+
+            is a spiritual matter
+        
+
+A:ONELIFEAREA ENTERTAINMENT *
+B:None
+B:
+
+            is connected with entertainment
+        
+
+A:ONELIFEAREA FAMILY *
+B:None
+B:
+
+            is part of family life
+        
+
+A:ONELIFEAREA SOCIAL *
+B:None
+B:
+
+            is part of social life
+        
+
+A:WHAT ISA *
+B:None
+B:
+
+
+
+?x
+
+
+
+
+isa
+?x
+
+
+
+
+
+NIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    CONS
+                    
+
+
+
+
+
+
+
+
+
+A:UNIQUEWORDS *
+B:None
+B:
+
+
+
+A:UNIQUEWORDS * *
+B:None
+B:
+
+
+CONTAINSLETTERLIST
+                        
+                        LIST
+                        
+                        END
+                    
+
+
+
+
+UNIQUEWORDS
+                        
+
+
+
+
+UNIQUEWORDS
+                        
+
+
+
+
+
+A:SAMEPURPOSE * SAMEAS *
+B:None
+B:
+
+
+WHAT IS
+                        
+                        FOR
+                    
+
+
+WHAT IS
+                        
+                        FOR
+                    
+
+
+IS
+                
+                EQUALTO
+                
+
+
+
+A:SAMELIFEAREA * SAMEAS *
+B:None
+B:
+
+
+WHAT AREA OF LIFE IS
+                        
+
+
+
+WHAT AREA OF LIFE IS
+                        
+
+
+
+IS
+                
+                EQUALTO
+                
+
+
+
+A:CONTAINSLETTER * *
+B:None
+B:
+CONTAINSLETTERLIST
+                
+                LIST
+                
+
+
+                END
+            
+
+
+A:CONTAINSLETTERLIST * LIST * END
+B:None
+B:
+IS
+                
+                EQUALTO
+                
+
+
+
+A:CONTAINSLETTERLIST * LIST * * END
+B:None
+B:
+
+
+IS
+                        
+                        EQUALTO
+                        
+
+
+
+
+true
+
+CONTAINSLETTERLIST
+                        
+                        LIST
+                        
+                        END
+                    
+
+
+
+
+A:LETTERSINCOMMON * XWORD *
+B:None
+B:
+
+false
+
+
+
+
+                    END
+                
+
+
+
+None
+
+
+
+
+FIRSTWORD
+                                
+
+
+
+REMAININGWORDS
+                                
+
+
+
+CONTAINSLETTER
+                                
+
+
+
+
+
+
+true
+
+
+
+
+
+
+
+
+A:COMMASEPWORDS *
+B:None
+B:
+
+
+
+A:COMMASEPWORDS * *
+B:None
+B:
+
+            and
+            
+
+
+A:COMMASEPWORDS * * *
+B:None
+B:,
+            COMMASEPWORDS
+                
+
+
+
+
+A:COMMASEPLIST *
+B:None
+B:
+
+
+
+A:COMMASEPLIST CONS * NIL
+B:None
+B:
+
+
+
+A:COMMASEPLIST CONS * CONS * NIL
+B:None
+B:
+
+            and
+            
+
+
+A:COMMASEPLIST CONS *
+B:None
+B:,
+            COMMASEPLIST CONS
+                
+
+
+
+A:COMMONCLASSES * XOBJECT *
+B:None
+B:
+
+
+LISTOBJECTS SUBJ
+                        
+                        PRED isa
+                    
+
+
+LISTOBJECTS SUBJ
+                        
+                        PRED isa
+                    
+
+
+
+NIL
+
+
+
+LISTCAR
+                                
+
+
+
+LISTCDR
+                                
+
+
+
+LISTMEMBER
+                                
+                                OF LIST
+                                
+
+
+
+CONS
+                        
+
+
+
+
+
+
+A:SINGULAR *
+B:None
+B:
+
+singular
+
+
+
+
+A:PLURAL *
+B:None
+B:
+
+plural
+
+
+
+
+A:GETOBJECT SUBJ * PRED *
+B:None
+B:
+
+
+
+
+?x
+
+
+
+
+
+
+
+?x
+
+
+
+
+
+
+
+A:LISTOBJECTS SUBJ * PRED *
+B:None
+B:
+
+
+
+?x
+
+
+
+
+
+
+
+?x
+
+
+
+
+
+NIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    CONS
+                    
+
+
+
+
+
+
+
+
+
+A:HOW DOES * DIFFER FROM *
+B:None
+B:
+
+true
+
+
+
+
+
+
+
+ISANAME
+                        
+
+
+
+ISANAME
+                        
+
+
+
+SIZEOF
+                        
+
+
+
+SIZEOF
+                        
+
+
+
+GENDERNAME
+                        
+
+
+
+GENDERNAME
+                        
+
+
+
+
+
+SINGULAR
+                                
+
+
+
+
+
+
+
+SINGULAR
+                                
+
+
+
+
+
+GETOBJECT SUBJ
+                        
+                        PRED hasPurpose
+                    
+
+
+GETOBJECT SUBJ
+                        
+                        PRED hasPurpose
+                    
+
+
+IS
+                        
+                        EQUALTO
+                        
+
+
+
+IS
+                        
+                        EQUALTO
+                        
+
+
+
+GETOBJECT SUBJ
+                        
+                        PRED lifeArea
+                    
+
+
+GETOBJECT SUBJ
+                        
+                        PRED lifeArea
+                    
+
+
+IS
+                        
+                        EQUALTO
+                        
+
+
+
+SENTENCELENGTH
+                        
+
+
+
+
+
+SENTENCELENGTH
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    has
+                    
+                    letters, and
+                    
+                    has
+                    
+                    letters.
+                    
+false
+
+
+
+
+
+
+
+                        is a common name, but
+                        
+                        is not.
+                        
+false
+
+
+
+
+
+
+                        is a common name, but
+                        
+                        is not.
+                        
+false
+
+
+
+
+
+
+
+
+
+
+
+IS
+                                    
+                                    LARGER THAN
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                They have different purposes:'s purpose is, and
+                                's purpose is.
+                                
+false
+
+
+
+
+
+
+
+
+
+
+
+
+
+ONELIFEAREA
+                                    
+
+
+                                , and
+                                ONELIFEAREA
+                                    
+
+
+                                .
+                                
+false
+
+
+
+
+
+
+They seem much the same to me.
+
+
+A:HOW IS * LIKE *
+B:None
+B:
+
+false
+
+
+
+
+
+
+
+ISANAME
+                        
+
+
+
+ISANAME
+                        
+
+
+
+SIZEOF
+                        
+
+
+
+SIZEOF
+                        
+
+
+
+GENDERNAME
+                        
+
+
+
+GENDERNAME
+                        
+
+
+
+
+
+SINGULAR
+                                
+
+
+
+
+
+
+
+SINGULAR
+                                
+
+
+
+
+
+SAMEPURPOSE
+                        
+                        SAMEAS
+                        
+
+
+
+SAMELIFEAREA
+                        
+                        SAMEAS
+                        
+
+
+
+IS
+                        
+                        EQUALTO
+                        
+
+
+
+COMMONCLASSES
+                        
+                        XOBJECT
+                        
+
+
+
+UNIQUEWORDS
+                        LETTERSINCOMMON
+                            
+                            XWORD
+                            
+
+
+
+
+SENTENCELENGTH
+                        
+
+
+
+
+
+SENTENCELENGTH
+                        
+
+
+
+
+
+INTERJECTION..
+            
+            and?
+            
+
+                    They are both common names of people.
+                    
+true
+
+
+
+
+
+                        They are both
+                        
+male
+female
+
+                        .
+                    
+
+
+
+
+
+
+true
+
+                    They are both
+                    COMMASEPLIST
+                        
+
+                    .
+                
+
+
+
+
+
+                They both have
+                
+                letters.
+                
+true
+
+
+
+
+They have the letters
+                    COMMASEPWORDS
+                        
+
+                    in common.
+                    
+true
+
+
+
+
+
+
+They are about the same size.
+
+
+They have the same purpose:
+                WHAT IS
+                    
+                    FOR
+                
+                .
+                
+true
+
+
+
+BOTHLIFEAREA
+                    WHAT AREA OF LIFE IS
+                        
+
+
+
+true
+
+
+I don't know how they are alike.
+
+
+A:SIZEOF *
+B:None
+B:
+
+
+
+
+
+
+
+
+hasSize
+?x
+
+
+
+
+
+
+
+A:SPEEDOF *
+B:None
+B:
+
+
+
+
+
+
+
+
+hasSpeed
+?x
+
+
+
+
+
+
+
+A:LARGEROF * AND *
+B:None
+B:
+
+
+
+
+
+
+
+
+IS
+                        
+                        LARGER THAN
+                        
+
+
+
+
+
+
+
+
+
+
+unknown
+
+
+
+A:LARGEROF entity AND
+            entity
+
+B:None
+B:
+
+
+SIZEOF
+                        
+
+
+
+SIZEOF
+                        
+
+
+
+
+unknown
+
+
+unknown
+
+
+
+
+                            same
+                        
+
+
+
+LARGEROF
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:FASTEROF entity AND
+            entity
+
+B:None
+B:
+
+
+SPEEDOF
+                        
+
+
+
+SPEEDOF
+                        
+
+
+
+
+unknown
+
+
+unknown
+
+
+
+
+                            same
+                        
+
+
+
+LARGEROF
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:FASTEROF *
+B:None
+B:unknown
+
+A:LARGEROF *
+B:None
+B:unknown
+
+A:SMALLEROF entity AND
+            entity
+
+B:None
+B:
+
+
+SIZEOF
+                        
+
+
+
+SIZEOF
+                        
+
+
+
+
+unknown
+
+
+unknown
+
+
+
+
+                            same
+                        
+
+
+
+SMALLEROF
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:SYLLABLES *
+B:None
+B:
+
+
+
+
+
+
+hasSyllables
+
+
+
+
+unknown
+
+
+LISTCAR
+                            
+
+
+
+
+
+
+A:IS * article *
+        
+B:None
+B:
+IS
+                
+                MEMBEROF
+                
+
+
+
+A:IS article * *
+        
+B:None
+B:
+IS
+                
+                MEMBEROF
+                
+
+
+
+A:IS article * article *
+        
+B:None
+B:
+IS
+                
+                MEMBEROF
+                
+
+
+
+A:IS * MEMBEROF *
+B:None
+B:
+
+
+WHAT ISA
+                        
+
+
+
+
+
+IS
+                                
+                                A
+                                
+
+
+
+
+No.
+
+
+
+
+
+
+
+
+LISTCAR
+                                
+
+
+
+LISTCDR
+                                
+
+
+
+head
+
+
+
+Yes.
+
+
+
+
+
+
+
+
+A:ADDTRIPLE * * *
+B:None
+B:
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:LIST TRIPLES
+B:None
+B:
+
+?subj ?pred ?obj
+
+?subj
+?pred
+?obj
+
+
+
+
+A:FIRST *
+B:None
+B:
+
+
+
+
+
+A:REST *
+B:None
+B:
+
+
+
+
+
+A:PRINT TRIPLES
+B:None
+B:
+
+
+LIST TRIPLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    ["
+                    
+
+
+
+
+                    ","
+                    
+
+
+
+
+                    ","
+                    
+
+
+
+
+                    "]
+                    
+
+
+
+
+A:NAME number *
+        
+B:None
+B:
+
+
+
+
+
+
+singular
+
+
+
+
+
+?x
+
+?x
+isa
+
+
+
+
+
+
+
+COUNTWORDS
+                        
+
+
+
+
+
+NAME
+                        
+
+
+
+I know
+                    
+.
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+predecessor
+
+
+
+
+
+
+
+
+
+
+.
+.
+,
+
+
+
+
+
+
+
+
+A:
+name
+            IS THE FATHER OF
+            name
+
+B:None
+B:
+
+SETHESHE
+                    
+
+
+            I see.
+            
+            is's
+            
+son
+daughter
+
+            .
+            
+
+
+
+
+fatherOf
+
+
+
+
+
+
+
+
+parentOf
+
+
+
+
+
+
+
+A:
+name
+            IS THE MOTHER OF
+            name
+
+B:None
+B:
+
+SETHESHE
+                    
+
+
+            I see.
+            
+            is's
+            
+son
+daughter
+
+            .
+            
+
+
+
+
+motherOf
+
+
+
+
+
+
+
+
+parentOf
+
+
+
+
+
+
+
+A:GRANDFATHER OF
+            name
+
+B:None
+B:
+
+
+
+?x
+
+?x
+fatherOf
+?y
+
+
+?y
+parentOf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A:WHO IS
+            erup
+
+B:None
+B:
+
+who
+
+WHICH IS
+                
+
+
+
+A:WHO IS
+            erdown
+
+B:None
+B:
+
+who
+
+WHICH IS
+                
+
+
+
+A:WHAT IS
+            erup
+
+B:None
+B:
+
+what
+
+WHICH IS
+                
+
+
+
+A:WHAT IS
+            erdown
+
+B:None
+B:
+
+what
+
+WHICH IS
+                
+
+
+
+A:WHICH IS
+            erup
+
+B:None
+B:
+
+
+
+?x
+
+?x
+
+
+                                than
+                            
+?y
+
+
+?y
+
+
+                                than
+                            
+?z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I can't tell
+                    
+which
+
+
+
+
+                    is.
+                
+
+
+
+
+                    is
+                    
+er2est
+
+
+                    .
+                
+
+
+
+A:WHICH IS
+            erdown
+
+B:None
+B:
+
+
+
+opposite
+
+
+
+
+
+?z
+
+?x
+
+
+                                than
+                            
+?y
+
+
+?y
+
+
+                                than
+                            
+?z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I can't tell
+                    
+which
+
+
+
+
+                    is.
+                
+
+
+
+
+                    is
+                    
+er2est
+
+
+                    .
+                
+
+
+
+A:WHICH IS erup THAN *
+        
+B:None
+B:
+
+
+
+?x
+
+?x
+
+
+                                than
+                            
+
+
+
+
+
+
+?x
+
+?x
+
+
+                                than
+                            
+?y
+
+
+?y
+
+
+                                than
+                            
+
+
+
+
+
+
+
+
+I can't tell
+                    
+which
+
+
+
+
+                    is.
+                
+
+
+
+REMOVENILS
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+
+
+
+
+
+
+
+A:WHICH IS erdown THAN *
+        
+B:None
+B:
+
+
+
+opposite
+
+
+
+
+
+?x
+
+
+
+
+
+
+                                than
+                            
+?x
+
+
+
+?x
+
+
+
+
+
+
+                                than
+                            
+?y
+
+
+?y
+
+
+                                than
+                            
+?x
+
+
+
+
+
+
+I can't tell
+                    
+which
+
+
+
+
+                    is.
+                
+
+
+
+REMOVENILS
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+
+
+
+
+
+
+

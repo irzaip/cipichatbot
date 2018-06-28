@@ -1,0 +1,38 @@
+A:TEST DENORMALIZE
+B:None
+B:
+555 dash 1212
+drwallace at gmail dot com
+Lparen 3 star 7 point 3 rparen slash 4
+
+Denormalize  = 
+Denormalize  = 
+Denormalize  = 
+
+A:TEST HTML
+B:None
+B:A.L.I.C.E. 2.0 Release 0.9.1
+
+A:TEST HTML 2
+B:None
+B:SPACE between Words
+SPACE between Words
+This is a paragraph.  Second sentence.  Third sentence.
+New paragraph. Another sentence.  And another
+
+A:BRAIN VERSION
+B:None
+B:A.L.I.C.E. 2.0 Release 0.9.2
+
+A:TEST CRASH
+B:None
+B:TEST CRASH
+
+A:PROGRAM VERSION
+B:None
+B:Program AB 0.0.6.24 beta -- AI Foundation Reference AIML 2.1 implementation
+
+A:BRAIN BUILD
+B:None
+B:Sat Jul 19 16:21:53 EDT 2014
+

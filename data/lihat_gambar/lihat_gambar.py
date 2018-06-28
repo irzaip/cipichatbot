@@ -148,4 +148,4 @@ def process():
 
 
 if __name__ == '__main__':
-    input("lihat gambar botol minum")
+    input("Saya mau lihat gambar kuda terbang")

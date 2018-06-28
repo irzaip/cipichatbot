@@ -1,0 +1,255 @@
+A:SEASON
+B:None
+B:
+
+
+JanuaryWinter
+FebruaryWinter
+MarchWinter
+AprilSpring
+MaySpring
+JuneSummer
+JulySummer
+AugustSummer
+SeptemberFall
+OctoberFall
+NovemberWinter
+DecemberWinter
+unknown
+
+
+A:DAY
+B:None
+B:Today is 
+
+A:TOMORROW ^
+B:None
+B:
+
+
+A:YEAR ^
+B:None
+B:This is 
+
+A:NEXT YEAR ^
+B:None
+B:successor
+
+A:LAST YEAR ^
+B:None
+B:predecessor
+
+A:MONTH
+B:None
+B:This is 
+
+A:TIME
+B:None
+B:The time is 
+
+A:DATE
+B:None
+B:Today is 
+
+A:DAY PHASE
+B:None
+B:
+
+
+
+
+Morning
+
+Noon
+Afternoon
+Afternoon
+Afternoon
+Afternoon
+Afternoon
+Afternoon
+Night
+
+
+
+
+A:DATE AND TIME
+B:None
+B:The date and time is 
+
+A:DAYS UNTIL CHRISTMAS
+B:None
+B:
+days
+
+December 25
+ days until Christmas.
+
+A:DAYS UNTIL month number number
+B:None
+B:
+days
+
+  
+ days.
+
+A:DAYS UNTIL month number
+B:None
+B:
+days
+
+  
+ days.
+
+A:DATE TOMORROW
+B:None
+B:TOMORROWDATE 
+
+A:TOMORROWDATE * number number
+B:None
+B: , 
+
+A:TOMORROWDATE JANUARY 31 number
+B:None
+B:February 1, 
+
+A:TOMORROWDATE FEBRUARY 28 2012
+B:None
+B:February 29, 
+
+A:TOMORROWDATE FEBRUARY 28 2016
+B:None
+B:February 29, 2016
+
+A:TOMORROWDATE FEBRUARY 28 2020
+B:None
+B:February 29, 2020
+
+A:TOMORROWDATE FEBRUARY 28 2024
+B:None
+B:February 29, 2024
+
+A:TOMORROWDATE FEBRUARY 28 2028
+B:None
+B:February 29, 2028
+
+A:TOMORROWDATE FEBRUARY 28 number
+B:None
+B:March 1, 
+
+A:TOMORROWDATE FEBRUARY 29 number
+B:None
+B:March 1, 
+
+A:TOMORROWDATE MARCH 31 number
+B:None
+B:April 1, 
+
+A:TOMORROWDATE APRIL 30 number
+B:None
+B:May 1, 
+
+A:TOMORROWDATE MAY 31 number
+B:None
+B:June 1, 
+
+A:TOMORROWDATE JUNE 30 number
+B:None
+B:July 1, 
+
+A:TOMORROWDATE JULY 31 number
+B:None
+B:August 1, 
+
+A:TOMORROWDATE AUGUST 31 number
+B:None
+B:September 1, 
+
+A:TOMORROWDATE SEPTEMBER 30 number
+B:None
+B:October 1, 
+
+A:TOMORROWDATE OCTOBER 31 number
+B:None
+B:November 1, 
+
+A:TOMORROWDATE NOVEMBER 30 number
+B:None
+B:December 1, 
+
+A:TOMORROWDATE DECEMBER 31 number
+B:None
+B:January 1, 
+
+A:DAYAFTERTOMORROWDATE * number number
+B:None
+B:TOMORROWDATE TOMORROWDATE   
+
+A:DAYAFTERTOMORROWDATE
+B:None
+B:DATE IN 2 DAYS
+
+A:DAY AFTER TOMORROW
+B:None
+B:
+
+A:DATE IN number DAYS
+B:None
+B:
+
+
+
+
+TOMORROWDATE   
+
+
+A:DAYS UNTIL weekday
+B:None
+B:
+
+
+0
+
+
+  
+
+
+A:DATE ON weekday
+B:None
+B:DATE IN DAYS UNTIL  DAYS
+
+A:DATE ON WEEKEND
+B:None
+B:DATE IN DAYS UNTIL SATURDAY DAYS
+
+A:DATE A WEEK FROM weekday
+B:None
+B:DATE IN 
+SUCCESSOR 
+SUCCESSOR 
+SUCCESSOR 
+SUCCESSOR 
+SUCCESSOR 
+SUCCESSOR 
+SUCCESSOR 
+DAYS UNTIL 
+
+
+
+
+
+
+
+DAYS
+
+A:WEEKDAY IN number DAYS
+B:None
+B:
+
+
+
+
+
+
+ 
+
+

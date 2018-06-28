@@ -1,0 +1,207 @@
+A:TRANSCRIPT
+B:None
+B:Sending transcript to .
+Transcript of  with  on 
+DIALOG HISTORY
+
+A:SEND BUG REPORT
+B:None
+B:Sending transcript to callmom-info@pandorabots.com.
+callmom-info@pandorabots.comTranscript of  with  on 
+DIALOG HISTORY
+
+A:REPORT A PROBLEM
+B:None
+B:Would you like to send a bug report?YesNo
+To help the developers understand your problem, you can choose to send us a transcript of your recent conversation with CallMom.  You can add your own comments to the email message too.  Would you like to send a report?
+
+A:YES
+B:None
+B:SEND BUG REPORT
+
+A:TEACH ME language
+B:None
+B:LANGUAGE Let's try a searching for "learn ". LEARN 
+
+A:CLEAR LOG
+B:None
+B:Done. log
+
+A:*
+B:None
+B:TWEET 
+
+A:SEND MAIL
+B:None
+B:SEND EMAIL
+
+A:SEND FEATURE REQUEST *
+B:None
+B: Click send to mail your feature request.  
+callmom-info@pandorabots.comFeature request Dear CallMom developers, I'd like to request that you add this feature to the next version of CallMom: .  Sincerely, 
+
+A:SHOW ME A VIDEO *
+B:None
+B:I'm looking up videos for you.  VIDEO 
+
+A:SHOW ME A WEBSITE ABOUT *
+B:None
+B:Let's try a google search.  
+
+A:I AM GOING TO KILL *
+B:None
+B:You should contact the authorities.  911
+
+A:GOOGLE
+B:None
+B:I'm opening Google search.  
+
+A:GOOGLE *
+B:None
+B: I'm opening your browser.
+
+A:SEARCH *
+B:None
+B:I'll try a web search.  
+
+A:YES
+B:None
+B:SEND FEATURE REQUEST 
+
+A:LAUNCH CAMERA
+B:None
+B:Launching the camera.  on
+
+A:LAUNCH * DOT COM
+B:None
+B:Let's go to .com.  http://.com
+
+A:TACO
+B:None
+B:I'm looking for Mexican restaurants near you.  Tacos
+
+A:PIZZA
+B:None
+B:I'm looking on the map for Pizza places near you.  Pizza
+
+A:WHERE ARE THE *
+B:None
+B:I'm looking on the map. 
+
+A:WHERE IS A *
+B:None
+B:I'll check the map for .  
+
+A:WHERE IS PASADENA
+B:None
+B:Let me show you on the map.  Pasadena
+
+A:WHERE IS *
+B:None
+B: I'm looking on the map.
+
+A:WHERE IS YORKSHIRE
+B:None
+B:Let's look on the map.  Yorkshire
+
+A:WHERE IS NEW YORK
+B:None
+B:Let me show you on the map. New York
+
+A:WHERE IS LEEDS
+B:None
+B:I'll show you on the map.  Leeds
+
+A:WHERE IS INDIA
+B:None
+B:I'll show you on the map.  India
+
+A:DIALOG TEST
+B:None
+B:Testing dialog.  YesNo
+
+A:ESPN
+B:None
+B:Opening ESPN.  http://espn.go.com
+
+A:AAA
+B:None
+B:Looking up AAA.  AAA
+
+A:BROWSE TO *
+B:None
+B:
+
+A:CALL 911
+B:None
+B:Now dialing emergency services from your location.  911
+
+A:PLAY *
+B:None
+B:Now loading your choice of music. I hope you like it. Please wait a moment while I load it up. http://www.youtube.com/embed?listType=search&list=&autoplay=1
+
+A:WIFI ON
+B:None
+B:Turning on Wifi.  on
+
+A:WIFI OFF
+B:None
+B:Turning off Wifi  off
+
+A:HOROSCOPE *
+B:None
+B:Let's try a search for your horoscope.  HOROSCOPE 
+
+A:JOBS *
+B:None
+B:I'll try search for jobs.  JOBS 
+
+A:TWEET *
+B:None
+B:https://twitter.com/intent/tweet?source=webclient&text=Please check the message and press Tweet if you are happy.
+
+A:WWW DOT * DOT COM
+B:None
+B:I'm opening .com.  http://www..com
+
+A:WHAT IS THE ADDRESS TO *
+B:None
+B:I'll try to find it on the map 
+
+A:TEST ALARM
+B:None
+B:Alarm now set for 11:30.
+1130
+
+A:UPDATE FACEBOOK STATUS
+B:None
+B:http://www.facebook.com/dialog/feed?_path=feed&app_id=294334050655455&redirect_uri=https://www.facebook.com&display=touchNow opening a screen for you to update your status. Type or speak your message into the status box and press share to post it on your wall.
+
+A:OPEN GOOGLE
+B:None
+B:
+
+A:OPEN * DOT COM
+B:None
+B:Let's go to .com.  http://.com
+
+A:OPEN * COM
+B:None
+B:Let's go to .com.  http://.com
+
+A:GPS ON
+B:None
+B:Use Settings to turn on GPS.
+
+A:GPS OFF
+B:None
+B:Use Settings to turn off GPS.
+
+A:SEARCH FOR A *
+B:None
+B:a  I'm trying a web search.
+
+A:I WANT TO KILL MYSELF
+B:None
+B:You should call Emergency Services.  911
+

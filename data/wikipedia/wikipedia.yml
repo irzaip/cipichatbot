@@ -1,0 +1,26 @@
+intent: wikipedia
+debug: False
+min_score: 0.0008
+
+process: wikipedia.process
+
+dialog:
+  ask: ['entry']
+  action: process(entry)
+
+entity:
+  - name: entry
+    followup: wikipedia
+    method: ask
+    type: string
+    required: True
+    value: None
+    prompt: "informasi apa?"
+    
+  - name: bahasa
+    followup: wikipedia
+    method: ask
+    type: string
+    required: True
+    value: None
+    prompt: "bahasa apa?"

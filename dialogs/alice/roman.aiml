@@ -1,0 +1,75 @@
+A:ROMAN numbername
+B:None
+B:ROMAN name2number
+
+A:ROMAN *
+B:None
+B:
+
+I don't know what IMPLODE  is in Roman.
+ROMAN 
+
+
+A:ROMAN digit
+B:None
+B:
+
+I
+II
+III
+IV
+V
+VI
+VII
+VIII
+IX
+
+
+
+A:ROMAN digit digit
+B:None
+B:
+
+X
+XX
+XXX
+XL
+L
+LX
+LXX
+LXXX
+XC
+
+ROMAN 
+
+A:ROMAN digit digit digit
+B:None
+B:
+
+C
+CC
+CCC
+CD
+D
+DC
+DCC
+DCCC
+CM
+
+ROMAN  
+
+A:ROMAN digit digit digit digit
+B:None
+B:
+
+M
+MM
+MMM
+MMMMD
+MMMMM
+MMMMMM
+MMMMMMM
+MMMMMMMM
+
+ROMAN   
+

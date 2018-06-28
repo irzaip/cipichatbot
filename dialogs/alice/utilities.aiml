@@ -1,0 +1,944 @@
+A:ACRONYM *
+B:None
+B:
+
+
+
+
+
+
+ FIRSTLETTER 
+
+ 
+
+
+A:ANAGRAMWORDS *
+B:None
+B:ANAGRAM 
+
+I can only do anagrams up to 8 letters.
+
+
+
+
+WNDEF 
+   
+
+
+
+
+A:JSTEST *
+B:None
+B:
+function foo() {
+if (0 < 1) return "true";
+}
+foo();
+
+
+A:ANAGRAM *
+B:None
+B:
+function permutator (input) {
+  var set =[];
+  function permute (arr, data) {
+    var cur, memo = data || [];
+
+    for (var i = 0; i != arr.length; i++) {
+       cur = arr.splice(i, 1)[0];
+       if (arr.length === 0) {
+         var result = memo.concat([cur]);
+         list = list + result.join('')+' ';
+         set.push(result);
+       }
+       permute(arr.slice(), memo.concat([cur]));
+       arr.splice(i, 0, cur);
+    }
+    return list;
+  }
+  return permute(input);
+}
+
+function anagram(str) {
+if (str.length > 8) return ('too long');
+list = '';
+permutator(str.split(''));
+return list;
+}
+anagram("");
+
+
+A:SUBSTRING * * *
+B:None
+B:SUBSTRING   ?
+
+A:SUBSTRING number number *
+B:None
+B:IMPLODE SUBSTRINGEXPLODE   
+
+A:SUBSTRINGEXPLODE number number *
+B:None
+B:
+0
+
+
+
+false
+
+
+
+true
+false
+  
+
+
+A:REVERSE *
+B:None
+B:
+
+A:REVERSE * *
+B:None
+B:REVERSE  
+
+A:REMOVENILS * *
+B:None
+B: REMOVENILS 
+
+A:REMOVENILS *
+B:None
+B:
+
+A:REMOVENILS NIL *
+B:None
+B:REMOVENILS 
+
+A:REMOVENILS NIL
+B:None
+B:B:
+
+A:LASTLETTER *
+B:None
+B:The last letter of  is: LASTITEM 
+
+A:LASTITEM * *
+B:None
+B:LASTITEM 
+
+A:LASTITEM *
+B:None
+B:
+
+A:COUNTWORDS *
+B:None
+B:1
+
+A:COUNTWORDS * *
+B:None
+B:COUNTWORDS 
+
+A:NORMALIZE *
+B:None
+B:
+
+A:PLUSIFY *
+B:None
+B:
+
+A:PLUSIFY * *
+B:None
+B:+PLUSIFY 
+
+A:GOOGLEURL *
+B:None
+B:<a href="https://www.google.com/search?q=PLUSIFY ">?</a>
+
+A:JSTEST
+B:None
+B:
+
+var a = document.createElement('a');
+var linkText = document.createTextNode("my title text");
+a.appendChild(linkText);
+a.title = "my title text";
+a.href = "http://example.com";
+document.body.appendChild(a);
+
+
+
+A:FIRSTTWOWORDS * * *
+B:None
+B: 
+
+A:FIRSTTWOWORDS * *
+B:None
+B: 
+
+A:FIRSTTWOWORDS *
+B:None
+B:
+
+A:ODDEVEN number
+B:None
+B:
+
+ is even.
+ is odd.
+predecessorpredecessor
+
+
+A:PICK A NUMBER # number # number
+B:None
+B:
+lower = SMALLEROF  
+upper = LARGEROF  
+
+
+ 
+  
+
+
+
+
+
+PICKNUMBER
+
+
+
+
+PICKNUMBERB:
+
+
+A:PICKNUMBER
+B:None
+B:
+
+
+A:WHAT NUMBER DID YOU *
+B:None
+B:
+I haven't picked on yet.
+I picked .
+
+
+A:SETHESHE *
+B:None
+B:
+GENDERNAME 
+he
+
+
+she
+
+
+
+
+A:AGE FROM month number number
+B:None
+B:
+ , 
+
+
+years
+
+
+
+
+
+
+months
+
+
+
+
+
+
+ months old
+ years old
+
+
+A:LARGEROF 0 number
+B:None
+B:
+
+A:LARGEROF number 0
+B:None
+B:
+
+A:SMALLEROF 0 number
+B:None
+B:0
+
+A:SMALLEROF number 0
+B:None
+B:0
+
+A:LARGEROF number number
+B:None
+B:successorLARGEROF predecessor predecessor
+
+A:SMALLEROF number number
+B:None
+B:successorSMALLEROF predecessor predecessor
+
+A:ADD * PLUS *
+B:None
+B:WHAT IS  PLUS 
+
+A:ATOMICLISTMEMBER *
+B:None
+B:FALSE
+
+A:ATOMICLISTMEMBER * *
+B:None
+B:IS  EQUALTO 
+
+
+true
+false
+
+
+A:ATOMICLISTMEMBER * * *
+B:None
+B:IS  EQUALTO 
+
+
+true
+ATOMICLISTMEMBER  
+
+
+A:COUNT TO number
+B:None
+B:0
+
+
+
+successor 
+
+
+A:COUNTLETTERS
+B:None
+B:0
+
+A:COUNTLETTERS *
+B:None
+B:
+ end
+0
+
+
+lettersend 
+
+REMAININGWORDS 
+successor 
+
+
+A:DELETE MY * LIST
+B:None
+B:Deleting your list.
+
+MY  LIST
+NIL
+
+B:NIL
+
+A:MY  LIST
+B:None
+B:NIL
+
+A:DELETE MY LIST
+B:None
+B:Deleting your list.
+
+MYLIST
+NIL
+
+B:NIL
+
+A:MYLIST
+B:None
+B:NIL
+
+A:FIRSTLETTER *
+B:None
+B:
+
+A:FIRSTLETTER * *
+B:None
+B:
+
+A:FORMATPHONENUMBER *
+B:None
+B:
+
+A:FORMATPHONENUMBER * *
+B:None
+B:
+
+
+
+-FORMATPHONENUMBER 
++FORMATPHONENUMBER 
+(FORMATPHONENUMBER 
+(FORMATPHONENUMBER 
+FORMATPHONENUMBER 
+
+
+A:GENERATE PASSWORD
+B:None
+B:IMPLODE RANDOMCHARRANDOMCHARRANDOMCHARRANDOMCHARRANDOMCHARRANDOMCHARRANDOMCHARRANDOMCHAR
+
+A:IMPLODE
+B:None
+B:B:
+
+A:IMPLODE *
+B:None
+B:
+
+A:IMPLODE * *
+B:None
+B: IMPLODE IMPLODE 
+
+A:INPUT
+B:None
+B:
+
+A:INPUT 2
+B:None
+B:
+
+A:INPUT 3
+B:None
+B:
+
+A:INPUT 4
+B:None
+B:
+
+A:ISADIGIT *
+B:None
+B:FALSE
+
+A:ISADIGIT 0
+B:None
+B:TRUE
+
+A:ISADIGIT 1
+B:None
+B:TRUE
+
+A:ISADIGIT 2
+B:None
+B:TRUE
+
+A:ISADIGIT 3
+B:None
+B:TRUE
+
+A:ISADIGIT 4
+B:None
+B:TRUE
+
+A:ISADIGIT 5
+B:None
+B:TRUE
+
+A:ISADIGIT 6
+B:None
+B:TRUE
+
+A:ISADIGIT 7
+B:None
+B:TRUE
+
+A:ISADIGIT 8
+B:None
+B:TRUE
+
+A:ISADIGIT 9
+B:None
+B:TRUE
+
+A:ISANAME * *
+B:None
+B:ISANAME 
+
+A:ISANEMAILADDRESS *
+B:None
+B:FALSE
+
+A:ISANEMAILADDRESS * AT * DOT *
+B:None
+B:TRUE
+
+A:ISANEMAILADDRESS UNKNOWN
+B:None
+B:FALSE
+
+A:ISANUMBER *
+B:None
+B:FALSE
+
+A:ISANUMBER number
+B:None
+B:TRUE
+
+A:ISAPHONENUMBER *
+B:None
+B:FALSE
+
+A:ISAPHONENUMBER number
+B:None
+B:TRUE
+
+A:ISAPHONENUMBER number *
+B:None
+B:ISAPHONENUMBER 
+
+A:ISAPHONENUMBER DASH *
+B:None
+B:ISAPHONENUMBER 
+
+A:ISAPHONENUMBER LPAREN *
+B:None
+B:ISAPHONENUMBER 
+
+A:ISAPHONENUMBER PLUS *
+B:None
+B:ISAPHONENUMBER 
+
+A:ISAPHONENUMBER RPAREN *
+B:None
+B:ISAPHONENUMBER 
+
+A:ISSHORTANSWER *
+B:None
+B:TRUE
+
+A:ISSHORTANSWER * *
+B:None
+B:TRUE
+
+A:ISSHORTANSWER * * *
+B:None
+B:TRUE
+
+A:ISSHORTANSWER * * * *
+B:None
+B:FALSE
+
+A:LEARNEQUAL * EQUALTO *
+B:None
+B:
+
+TESTEQUAL  EQUALTO 
+true
+
+
+TESTEQUAL  EQUALTO *
+false
+
+
+TESTEQUAL * EQUALTO 
+false
+
+B:trueB:falseB:false
+
+A:TESTEQUAL  EQUALTO 
+B:None
+B:true
+
+A:TESTEQUAL  EQUALTO *
+B:None
+B:false
+
+A:TESTEQUAL * EQUALTO 
+B:None
+B:false
+
+A:LOGICALAND FALSE
+B:None
+B:FALSE
+
+A:LOGICALAND FALSE *
+B:None
+B:FALSE
+
+A:LOGICALAND TRUE
+B:None
+B:TRUE
+
+A:LOGICALAND TRUE *
+B:None
+B:LOGICALAND 
+
+A:LOGICALOR FALSE
+B:None
+B:FALSE
+
+A:LOGICALOR FALSE *
+B:None
+B:LOGICALOR 
+
+A:LOGICALOR TRUE
+B:None
+B:TRUE
+
+A:LOGICALOR TRUE *
+B:None
+B:TRUE
+
+A:MY * LIST
+B:None
+B:Would you like to make a  list?
+
+A:NTH number *
+B:None
+B:
+
+1
+ end
+
+
+lettersend  has only predecessor letters.
+count 
+The number2ordinal letter of "" is FIRSTLETTER 
+
+REMAININGWORDS 
+successor
+ 
+
+
+A:NTH 0 *
+B:None
+B: has no zeroth letter.
+
+A:PERSON *
+B:None
+B:
+
+A:PREDECESSOR number
+B:None
+B:predecessor
+
+A:RANDOMCHAR
+B:None
+B:
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+
+
+
+
+
+
+
+A:RANDOMLETTER
+B:None
+B:
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+
+
+A:REMAININGWORDS
+B:None
+B:undefined
+
+A:REMAININGWORDS *
+B:None
+B:undefined
+
+A:REMAININGWORDS * *
+B:None
+B:
+
+A:FIRSTWORD
+B:None
+B:undefined
+
+A:FIRSTWORD *
+B:None
+B:
+
+A:FIRSTWORD * *
+B:None
+B:
+
+A:REQUEST
+B:None
+B:
+
+A:REQUEST 2
+B:None
+B:
+
+A:REQUEST 3
+B:None
+B:
+
+A:REQUEST 4
+B:None
+B:
+
+A:RESPONSE
+B:None
+B:
+
+A:RESPONSE 2
+B:None
+B:
+
+A:RESPONSE 3
+B:None
+B:
+
+A:RESPONSE 4
+B:None
+B:
+
+A:SENTENCELENGTH
+B:None
+B:0
+
+A:SENTENCELENGTH ALICE
+B:None
+B:5
+
+A:SENTENCELENGTH *
+B:None
+B:1
+
+A:SENTENCELENGTH * *
+B:None
+B:successorSENTENCELENGTH 
+
+A:SUCCESSOR
+B:None
+B:0
+
+A:SUCCESSOR number
+B:None
+B:successor
+
+A:THAT
+B:None
+B:
+
+A:THAT 1 1
+B:None
+B:
+
+A:THAT 1 2
+B:None
+B:
+
+A:THAT 1 3
+B:None
+B:
+
+A:THAT 1 4
+B:None
+B:
+
+A:THAT 2 1
+B:None
+B:
+
+A:THAT 2 2
+B:None
+B:
+
+A:THAT 2 3
+B:None
+B:
+
+A:THAT 2 4
+B:None
+B:
+
+A:XMLITEMIZE *
+B:None
+B:undefined
+
+A:XMLITEMIZE CONS * CONS *
+B:None
+B:XMLITEMIZE CONS 
+
+A:XMLITEMIZE CONS * NIL
+B:None
+B:
+
+A:XMLITEMIZE NIL
+B:None
+B:Your list is empty.
+
+A:WHAT IS THE SQUARE ROOT OF *
+B:None
+B:
+MATHFORMULA 
+
+
+I'm not sure how to take the square root of .
+
+
+Math.sqrt()
+WHAT IS THE SQUARE ROOT OF 
+
+
+
+
+A:MATHTERM number
+B:None
+B:
+
+A:MATHTERM numbername
+B:None
+B:name2number
+
+A:MATHTERM PI
+B:None
+B:3.14159265359
+
+A:MATHTERM PLUS
+B:None
+B:+
+
+A:MATHTERM STAR
+B:None
+B:*
+
+A:MATHTERM TIMES
+B:None
+B:*
+
+A:MATHTERM SLASH
+B:None
+B:/
+
+A:MATHTERM POINT
+B:None
+B:.
+
+A:MATHTERM MINUS
+B:None
+B:-
+
+A:MATHTERM DASH
+B:None
+B:-
+
+A:MATHTERM LPAREN
+B:None
+B:(
+
+A:MATHTERM RPAREN
+B:None
+B:)
+
+A:MATHTERM *
+B:None
+B:NOT A MATH TERM
+
+A:MATHFORMULA _ SQUARED
+B:None
+B:MATHFORMULA  UPARROW 2
+
+A:MATHFORMULA _ UPARROW *
+B:None
+B:
+MATHFORMULA 
+MATHFORMULA 
+
+
+NOT A MATH FORMULA
+
+
+NOT A MATH FORMULA
+Math.pow(,)
+
+
+
+
+A:MATHFORMULA *
+B:None
+B:
+ END
+
+
+
+
+
+FIRSTWORD 
+REMAININGWORDS 
+MATHTERM 
+
+
+ENDNOT A MATH FORMULA
+
+
+
+
+
+A:ROUND *
+B:None
+B:
+

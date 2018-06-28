@@ -115,6 +115,10 @@ def input(sentence):
     
     #kalau entities sudah lengkap. lekas proses
     
+    #maksa menaruh livemap
+    import webbrowser
+    webbrowser.open('https://www.waze.com/id/livemap')
+
     return reply
 
 def process():

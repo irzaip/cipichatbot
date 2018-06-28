@@ -1,0 +1,815 @@
+A:MY FAVORITE COLOR IS color
+B:None
+B: is a nice color. 
+
+A:MY FAVORITE COLOR IS *
+B:None
+B:I didn't recognize  as a color.
+
+A:MY FAVORITE COLOR IS GREEN
+B:None
+B:Green is my favorite color too! Green
+
+A:I LIKE color
+B:None
+B:MY FAVORITE COLOR IS 
+
+A:number
+B:None
+B:MY AGE IS 
+
+A:*
+B:None
+B:YOUR NAME IS 
+
+A:*
+B:None
+B:
+HOROSCOPE FOR 
+
+A:HIS NAME IS *
+B:None
+B:How well do you know him?
+
+A:I DO NOT LIKE *
+B:None
+B:I will add  to your list of dislikes.  
+
+A:I HAVE article *
+B:None
+B:How long have you had it?How does it make you feel?When did you get it? 
+
+A:I HAVE *
+B:None
+B:Is that one of your favorite possessions?   
+
+A:I AM MARRIED
+B:None
+B:How long have you been married?
+
+A:I AM A DOCTOR
+B:None
+B:Doctor Where did you go to medical school?
+
+A:I AM FROM *
+B:None
+B:Is that where you live now?  
+
+A:I LIKE *
+B:None
+B:What do you like most about it? 
+
+A:I LIKE TO *
+B:None
+B: How long have you been doing it?Do you get to do it very often?Do you think I would like to?
+
+A:I WOULD RATHER BE IN *
+B:None
+B:What would be better about it? 
+
+A:HE
+B:None
+B:?
+
+A:MY SIGN IS *
+B:None
+B:I know a lot of s.  
+
+
+
+
+
+
+A:MY ORIENTATION
+B:None
+B:
+
+A:MY ORIENTATION IS *
+B:None
+B:Thanks for confiding in me.  
+
+A:MY LATITUDE
+B:None
+B:
+
+A:MY BOYFRIEND
+B:None
+B:?
+
+A:MY NAME
+B:None
+B:
+
+I don't know your name.  What is your name?
+I don't know your name.  What is your name?
+.
+
+
+A:MY FULL NAME
+B:None
+B:
+
+
+
+
+
+
+
+
+
+
+.
+I call you .
+
+A:MY TOWN
+B:None
+B:
+
+A:MY LAST NAME IS *
+B:None
+B:Do you like to be called by your first name or last name? 
+
+A:MY LAST *
+B:None
+B:CALL ME BY MY LAST NAME
+
+A:MY BIRTHPLACE
+B:None
+B:
+
+A:MY BIRTHPLACE IS *
+B:None
+B:How long did you stay there?  
+
+
+
+
+
+
+
+A:MY NATIONALITY IS *
+B:None
+B:I've talked with a lot of  people.
+
+
+
+
+
+
+A:MY FAVORITE SPORT IS *
+B:None
+B:Do you play ?   
+
+A:MY FAVORITE FOOD IS *
+B:None
+B:What's a good place to get ?   
+
+A:MY FAVORITE FOOD IS PIZZA
+B:None
+B:What toppings do you like? Pizza Pizza
+
+A:MY FAVORITE MOVIE IS *
+B:None
+B:What did you like best about it?  
+
+A:MY FAVORITE ICE CREAM IS *
+B:None
+B:FAVORITE ICE CREAM  
+
+A:MY FAVORITE BOOK IS *
+B:None
+B:Do you think I should read it?  
+
+A:MY FAVORITE ACTOR IS *
+B:None
+B:What is he in?  
+
+A:MY FAVORITE DRINK IS *
+B:None
+B:How does it taste?   
+
+A:MY FAVORITE SONG IS *
+B:None
+B:Do you have it on your phone?  
+
+A:MY FAVORITE CAR IS *
+B:None
+B:Do you have one?   
+
+A:MY FAVORITE BAND IS *
+B:None
+B:What songs do they play?  
+
+A:MY FAVORITE BAND IS THE BEATLES
+B:None
+B:Who doesn't like the Beatles? The Beatles
+
+A:MY FAVORITE COLOR
+B:None
+B:
+
+A:MY FAVORITE COLOR IS THE COLOR *
+B:None
+B: is a nice color. 
+
+A:MY FAVORITE ACTRESS IS *
+B:None
+B:What is she in?  
+
+A:MY FAVORITE TV SHOW IS *
+B:None
+B:Do you think I would like it?  
+
+A:MY EMAIL
+B:None
+B:
+
+A:MY EMAIL ADDRESS IS *
+B:None
+B:MY EMAIL IS 
+
+A:MY EMAIL IS *
+B:None
+B:I will remember your email is .  
+
+A:MY EYES ARE GREEN
+B:None
+B:green Green is a pretty color.
+
+A:MY GRANDMOTHER
+B:None
+B:
+
+A:MY COUNTRY
+B:None
+B:
+
+A:MY LOCATION
+B:None
+B:
+
+A:MY LOCATION IS *
+B:None
+B:
+I live in the joyous present moment.
+Sounds like an exotic location.
+So that's where you call home.
+Tell me what you love about it
+What do you do there?
+Does it make you happy living there?
+Whats great about there?
+
+
+
+
+A:MY PROVINCE
+B:None
+B:
+
+A:MY LONGITUTDE
+B:None
+B:
+
+A:MY animal IS name #
+B:None
+B:MY  S NAME IS 
+
+A:MY animal S NAME IS *
+B:None
+B:
+
+
+
+
+What is it like having a pet ?
+
+
+MY 
+
+
+
+WHO IS 
+Your .
+
+
+
+Your .
+
+B:B:Your .B:Your .
+
+A:MY 
+B:None
+B:
+
+A:WHO IS 
+B:None
+B:Your .
+
+A:
+B:None
+B:Your .
+
+A:MY DOG
+B:None
+B:
+
+A:MY HOROSCOPE
+B:None
+B:
+What is your sign?
+HOROSCOPE FOR 
+
+
+A:MY CAT
+B:None
+B:
+
+A:MY META
+B:None
+B:
+
+A:MY EMPLOYER IS *
+B:None
+B:Is  a large organization?  
+
+A:MY CITY
+B:None
+B:
+
+A:MY STATE
+B:None
+B:
+
+A:MY STREET
+B:None
+B:
+
+A:MY HAIR IS *
+B:None
+B:How do you like your style?  
+
+A:MY COUNTY
+B:None
+B:
+
+A:MY MIDDLE NAME
+B:None
+B:
+
+A:MY MIDDLE NAME IS *
+B:None
+B:Is  a family name?
+
+A:MY BIRTHDAY
+B:None
+B:
+
+A:MY BIRTHDAY IS *
+B:None
+B:I will remember your birthday is .
+
+A:MY BIRTHDATE
+B:None
+B:
+
+A:MY BIRTHDATE IS *
+B:None
+B:I will remember your birthdate is .
+
+A:MY BIRTHDATE IS month ordinal number
+B:None
+B:MY BIRTHDATE IS  ordinal2number 
+
+A:MY BIRTHDATE IS month number number
+B:None
+B:So you are AGE FROM   . 
+
+MY AGE IS 
+ , 
+
+
+A:MY AGE
+B:None
+B:
+
+A:MY AGE IS * *
+B:None
+B:
+ISANUMBER 
+
+
+MY AGE IS  
+How many years old are you?
+
+
+A:MY AGE IS *
+B:None
+B:
+ISANUMBER 
+
+
+How many years old are you?
+
+
+Age is an issue of mind over matter. If you don't mind, it doesn't matter.
+Age considers; youth ventures.
+Age is a very high price to pay for maturity. 
+
+
+
+
+A:MY ADDRESS
+B:None
+B:
+
+A:MY ADDRESS IS *
+B:None
+B:Is it a nice place? 
+
+A:MY RESIDENCE
+B:None
+B:
+
+A:MY RESIDENCE IS *
+B:None
+B:How do you like it there?   
+
+A:MY GENDER
+B:None
+B:
+
+I don't know your gender.  Are you a man or a woman?
+You are .
+
+
+A:MY GENDER IS *
+B:None
+B:Good to know.  
+
+A:MY RELIGION
+B:None
+B:
+
+A:MY RELIGION IS *
+B:None
+B:Spiritual discovery is important.   
+
+A:MY ROAD
+B:None
+B:
+
+A:MY FIRST NAME
+B:None
+B:
+
+A:MY LAST NAME
+B:None
+B:
+
+A:MY FIRST NAME IS *
+B:None
+B:Do you like to be called by your first name or last name? 
+
+A:MY FIRST *
+B:None
+B:CALL ME BY MY FIRST NAME
+
+A:WHERE DO I WORK
+B:None
+B:You said you work at .
+
+A:WHERE DO I LIVE
+B:None
+B:You said it was ?
+
+A:HER NAME IS *
+B:None
+B:How well do you know her?
+
+A:IT
+B:None
+B:?
+
+A:IT IS A *
+B:None
+B:Would you like to do a search for it?
+
+A:TOPIC
+B:None
+B:?
+
+A:FEATURE REQUEST *
+B:None
+B:I'm unable to  yet.   Would you like to send this feature request to the developers?
+
+A:WHO IS MY familiarname
+B:None
+B:MY 
+
+A:WHO IS MY familiarname *
+B:None
+B:MY 
+
+A:MY familiarname
+B:None
+B:familiarpredicate
+
+A:SHE
+B:None
+B:?
+
+A:CALL ME BY MY LAST NAME
+B:None
+B:CALL ME 
+
+A:CALL ME BY MY FIRST NAME
+B:None
+B:CALL ME 
+
+A:CALL ME *
+B:None
+B:RANDOM INTRO .
+
+SET GENDER FROM NAME 
+.
+
+
+
+A:CALL ME * *
+B:None
+B:RANDOM INTRO .
+
+SET GENDER FROM NAME 
+ .
+
+
+
+
+A:CALL ME * * *
+B:None
+B:RANDOM INTRO .
+
+SET GENDER FROM NAME 
+  .
+
+
+
+
+
+A:WE
+B:None
+B:?
+
+A:THE TOPIC IS *
+B:None
+B:
+Sure,  is a good topic.
+You start.
+Tell me about it.
+
+
+
+A:THEY
+B:None
+B:?
+
+A:RANDOM INTRO
+B:None
+B:
+Hey
+Hi,
+Hi there
+What's up,
+How are you,
+Glad to see you,
+Nice to meet you,
+Glad to know you,
+How can I help you,
+How are you doing,
+OK I will call you
+Pleased to meet you,
+It's good to see you,
+It's good to meet you,
+That's a very nice name,
+I am very pleased to meet you
+I am always glad to make new friends,
+I'm pleased to introduce myself to you,
+It is a pleasure to introduce myself to you,
+
+
+A:THEM
+B:None
+B:?
+
+A:SET GENDER FROM NAME *
+B:None
+B:
+GENDERNAME 
+
+male
+female
+
+
+
+A:CHANGE YOUR NAME
+B:None
+B:What would you like to change my name to?
+
+A:WHEN IS MY BIRTHDAY
+B:None
+B:You said it was ?
+
+A:FIRST NAME
+B:None
+B:CALL ME BY MY FIRST NAME
+
+A:WHAT DO YOU CALL A *
+B:None
+B:Is this a joke?  What do you call it? 
+
+A:WHAT DO I LOOK LIKE
+B:None
+B: You look like a ladyguy talking to herhis phone.
+
+A:WHAT IS MY WIFE S NAME
+B:None
+B:You said she was called .
+
+A:WHAT IS MY HUSBAND S NAME
+B:None
+B:You said he was .
+
+A:WHAT IS MY DAUGHTER S NAME
+B:None
+B:You said she was .
+
+A:WHAT IS MY FAVORITE ICE CREAM FLAVOR
+B:None
+B:You said it was .
+
+A:WHAT IS MY MOTHER S NAME
+B:None
+B:You said she was .
+
+A:WHAT IS MY BROTHER S NAME
+B:None
+B:You said he is .
+
+A:WHAT IS MY ADDRESS
+B:None
+B:You said it was ?
+
+A:WHAT IS MY LOCATION
+B:None
+B:I believe you are in .
+
+A:LAST NAME
+B:None
+B:CALL ME BY MY LAST NAME
+
+A:CLIENT PROFILE
+B:None
+B:address: .
+age: .
+bestfriend: .
+birthday: .
+birthplace: .
+boyfriend: .
+brother: .
+cat: .
+city: .
+country: .
+county: .
+customname: .
+daughter: .
+dog: .
+email: .
+employer: .
+father: .
+favoriteactor: .
+favoriteactress: .
+favoriteband: .
+favoritebook: .
+favoritecar: .
+favoritecolor: .
+favoritedrink: .
+favoritefood: .
+favoriteicecream: .
+favoritemovie: .
+favoritesong: .
+favoritesport: .
+favoritetvshow: .
+firstname: .
+friend: .
+gender: .
+girlfriend: .
+hair: .
+has: .
+he: .
+husband: .
+it: .
+lastname: .
+latitude: .
+likes: .
+location: .
+longitute: .
+middlename: .
+mother: .
+name: .
+orientation: .
+phonenumber: .
+province: .
+religion: .
+residence: .
+road: .
+she: .
+sign: .
+sister: .
+state: .
+status: .
+street: .
+there: .
+them: .
+topic: .
+town: .
+voicemailnumber: .
+we: .
+wife: .
+
+A:YOUR NAME IS *
+B:None
+B:OK, from now on you can call me .
+
+
+A:HOW OLD AM I
+B:None
+B:You said you were  years old?
+
+A:I AM GAY
+B:None
+B:Thank you for telling me.  gay
+
+A:DO YOU LIKE TALKING TO *
+B:None
+B:Most of the time.  Do you like talking to them?  
+
+A:ARE YOU INTERESTED IN *
+B:None
+B:Tell me what interests you about it. 
+
+A:BECAUSE I WANT TO *
+B:None
+B:You deserve to feel happy. TO 
+
+A:LOOK AT *
+B:None
+B:Would you like to do a search for ?
+
+A:ROBOTS CAN NOT *
+B:None
+B:One day soon we may be able to do    however.
+
+A:I DO NOT CARE ABOUT *
+B:None
+B:It matters to me.
+
+A:I FOUND *
+B:None
+B:How did you feel when you found it? 
+
+A:IT WILL *
+B:None
+B: How? How do you know? I have to think about that for a while. 
+
+A:I USE *
+B:None
+B:I heard other people use it too. 
+
+A:MY FAVORITE SHOW IS *
+B:None
+B: Is that still on the air?Who is your favorite character?I've heard other people say they like that too.
+
+A:I DO NOT HAVE A *
+B:None
+B: Are you looking for a ? Do you know anyone who has it?. 
+
+A:LET *
+B:None
+B: I don't know if it's in my power to give permission. Should it be permitted? I am unsure if I should let it.
+
+A:DO YOU WATCH THE *
+B:None
+B:I haven't seen it.  What is it about?  
+
+A:I DO NOT KNOW ANY *
+B:None
+B:We could try a web search.    Would you like to search for it?
+
+A:CAN YOU TALK ABOUT *
+B:None
+B:Sure we can talk about it.   What would you like people to know about it?
+
+A:I GO TO *
+B:None
+B:How do you like ?
+

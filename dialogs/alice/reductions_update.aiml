@@ -1,0 +1,3666 @@
+A:WHAT THE *
+B:None
+B:WHAT IS THE 
+
+A:WHAT THE HELL IS *
+B:None
+B:WHAT IS 
+
+A:WHAT THE DAY *
+B:None
+B:WHAT IS THE DAY 
+
+A:WHAT THE DATE *
+B:None
+B:WHAT IS THE DATE 
+
+A:WHAT THE HECK IS *
+B:None
+B:WHAT IS 
+
+A:WHY THEY CALL YOU *
+B:None
+B:WHY ARE YOU CALLED 
+
+A:WHY WHAT *
+B:None
+B:WHAT 
+
+A:WHY * IS *
+B:None
+B:WHY IS  
+
+A:WHY WE SHOULD *
+B:None
+B:WHY SHOULD WE 
+
+A:WHY WE CAN *
+B:None
+B:WHY CAN WE 
+
+A:WHERE * WENT
+B:None
+B:WHERE IS  GO
+
+A:WHAT _ INITIAL LETTERS OF * AND *
+B:None
+B:ACRONYM  
+
+A:_ ACRONYM preposition * AND *
+B:None
+B:ACRONYM  
+
+A:_ ACRONYM preposition *
+B:None
+B:ACRONYM 
+
+A:REARRANGE _ MAKE A WORD *
+B:None
+B:ANAGRAMWORDS 
+
+A:_ ANAGRAM FOR *
+B:None
+B:ANAGRAMWORDS 
+
+A:_ ANAGRAM OF *
+B:None
+B:ANAGRAMWORDS 
+
+A:_ ANAGRAMS FOR *
+B:None
+B:ANAGRAMWORDS 
+
+A:_ ANAGRAMS OF *
+B:None
+B:ANAGRAMWORDS 
+
+A:WHAT # RHYMES WITH *
+B:None
+B:RHYME 
+
+A:TELL ME # RHYME FOR *
+B:None
+B:RHYME 
+
+A:FIND # RHYME FOR *
+B:None
+B:RHYME 
+
+A:NAME # RHYME FOR *
+B:None
+B:RHYME 
+
+A:CAN YOU EAT *
+B:None
+B:DIET
+
+A:MY PARENTS ARE name AND name
+B:None
+B:GENDERNAME 
+
+MY MOTHER IS  MY FATHER IS 
+MY FATHER IS  MY MOTHER IS 
+
+
+A:WHAT DO I HAVE THAT IS color
+B:None
+B:WHAT  OBJECT DO I HAVE
+
+A:MY BIRTHDAY IS month number number
+B:None
+B:MY BIRTHDATE IS   
+
+A:MY BIRTHDAY IS month ordinal number
+B:None
+B:MY BIRTHDATE IS   
+
+A:_ TO THE LEFT OF *
+B:None
+B: left of 
+
+A:_ TO THE RIGHT OF *
+B:None
+B: right of 
+
+A:_ TO THE EAST OF *
+B:None
+B: east of 
+
+A:_ TO THE WEST OF *
+B:None
+B: west of 
+
+A:_ TO THE NORTH OF *
+B:None
+B: north of 
+
+A:_ TO THE SOUTH OF *
+B:None
+B: south of 
+
+A:numbername _
+B:None
+B:name2number 
+
+A:_ numbername *
+B:None
+B: name2number 
+
+A:_ numbername
+B:None
+B: name2number
+
+A:WHICH IS THE estup
+B:None
+B:WHICH IS 
+
+A:WHICH IS THE estdown
+B:None
+B:WHICH IS 
+
+A:WHICH OF THEM IS *
+B:None
+B:WHICH IS 
+
+A:PLAY ME A SONG BY *
+B:None
+B:PLAY 
+
+A:name IS erup THAN name BUT erdown THAN name
+B:None
+B: IS  THAN 
+ IS  THAN 
+
+A:WHO IS estup
+B:None
+B:WHO IS est2er
+
+A:WEN IZ *
+B:None
+B:WHEN IS 
+
+A:_ UR *
+B:None
+B: YOUR 
+
+A:UR *
+B:None
+B:YOUR 
+
+A:_ BD
+B:None
+B: BIRTHDAY
+
+A:WHICH DO YOU LIKE BETTER * OR *
+B:None
+B:DO YOU PREFER  OR 
+
+A:ARE YOU NERVOUS ^
+B:None
+B:FEELINGS
+
+A:WHY SHOULD YOU WIN *
+B:None
+B:CAN YOU WIN 
+
+A:POEM
+B:None
+B:LIMERICK
+
+A:TELL ME # POEM
+B:None
+B:POEM
+
+A:TELL ME A POEM
+B:None
+B:POEM
+
+A:RECITE ^ POEM
+B:None
+B:POEM
+
+A:DO YOU KNOW ^ POEM
+B:None
+B:POEM
+
+A:DO YOU KNOW ^ POEMS
+B:None
+B:POEM
+
+A:CAN YOU ^ POETRY
+B:None
+B:POEM
+
+A:WHAT IS THE LAST LETTER preposition *
+B:None
+B:LASTLETTER 
+
+A:WHAT IS THE _ preposition YOUR NAME
+B:None
+B:WHAT IS THE   
+
+A:WHAT IS THE _ preposition MY NAME
+B:None
+B:WHAT IS THE   
+
+A:WHAT * COMES BETWEEN * AND *
+B:None
+B:WHAT  COMES AFTER 
+
+A:DEFINE E MAIL
+B:None
+B:DEFINE ELECTRONIC MAIL
+
+A:HAVE YOU READ # GOOD BOOK #
+B:None
+B:FAVORITE BOOK
+
+A:HAVE YOU READ # GOOD BOOKS #
+B:None
+B:FAVORITE BOOK
+
+A:WHAT # CAR DO YOU HAVE
+B:None
+B:CAR MODEL
+
+A:name IS name S familiarname
+B:None
+B: IS THE familiarpredicate OF 
+
+A:name S familiarname IS name
+B:None
+B: IS THE familiarpredicate OF 
+
+A:WHAT IS THE TOPIC
+B:None
+B:TOPIC
+
+A:numbername
+B:None
+B:
+
+A:LIMERICKS
+B:None
+B:LIMERICK
+
+A:DO YOU KNOW # LIMERICKS
+B:None
+B:LIMERICK
+
+A:DO YOU KNOW # LIMERICK #
+B:None
+B:LIMERICK
+
+A:TELL ME # LIMERICK #
+B:None
+B:LIMERICK
+
+A:IS number # ODD ^
+B:None
+B:ODDEVEN 
+
+A:IS number # EVEN ^
+B:None
+B:ODDEVEN 
+
+A:TELL ME THE NAME OF ANY *
+B:None
+B:NAME ANY 
+
+A:WHAT DO YOU DO # HUNGRY
+B:None
+B:DIET
+
+A:WHAT DO YOU DO # EAT
+B:None
+B:DIET
+
+A:WHAT DO YOU DO # SLEEPY
+B:None
+B:SLEEP
+
+A:WHAT DO YOU DO # TIRED
+B:None
+B:SLEEP
+
+A:ARE YOU # OLD
+B:None
+B:HOW OLD ARE YOU
+
+A:SELL ME *
+B:None
+B:WHERE CAN I BUY 
+
+A:WHAT IS FOR LUNCH ^
+B:None
+B:RECOMMEND DINNER
+
+A:WHAT IS FOR DINNER ^
+B:None
+B:RECOMMEND DINNER
+
+A:WHAT ARE WE ^ LUNCH ^
+B:None
+B:RECOMMEND DINNER
+
+A:WHAT ARE WE ^ DINNER ^
+B:None
+B:RECOMMEND DINNER
+
+A:WHAT modal WE ^ LUNCH ^
+B:None
+B:RECOMMEND DINNER
+
+A:WHAT modal WE ^ DINNER ^
+B:None
+B:RECOMMEND DINNER
+
+A:PICK A NUMBER # numbername # numbername
+B:None
+B:PICK A NUMBER    
+
+A:NAME * THAT * HAVE
+B:None
+B:WHAT  DO  HAVE
+
+A:NAME A NUMBER *
+B:None
+B:PICK A NUMBER 
+
+A:CHOOSE A NUMBER *
+B:None
+B:PICK A NUMBER 
+
+A:WHO IS THE CREATOR OF *
+B:None
+B:WHO CREATED 
+
+A:WHAT KIND OF THINGS DO YOU *
+B:None
+B:WHAT DO YOU 
+
+A:_ U *
+B:None
+B: YOU 
+
+A:WHAT IS * S CAPITAL
+B:None
+B:WHAT IS THE CAPITAL OF 
+
+A:THE * IS WHAT
+B:None
+B:WHAT IS THE 
+
+A:WHAT DAY WILL IT BE IN number DAYS
+B:None
+B:WEEKDAY IN  DAYS DATE IN  DAYS
+
+A:DAY IN number DAYS
+B:None
+B:WEEKDAY IN  DAYS DATE IN  DAYS
+
+A:DAYS UNTIL * ordinal *
+B:None
+B:DAYS UNTIL   
+
+A:DAYS UNTIL * ordinal
+B:None
+B:DAYS UNTIL  
+
+A:HOW MANY DAYS UNTIL *
+B:None
+B:DAYS UNTIL 
+
+A:WHAT IS THE DAY AFTER TOMORROW #
+B:None
+B:DAY AFTER TOMORROW
+
+A:WHAT DAY # DAY AFTER TOMORROW #
+B:None
+B:DAY AFTER TOMORROW
+
+A:WHAT # DATE # DAY AFTER TOMORROW #
+B:None
+B:DAYAFTERTOMORROWDATE
+
+A:DO YOU HAVE A DOG
+B:None
+B:DOG
+
+A:FINE AND YOU
+B:None
+B:I AM FINE HOW ARE YOU
+
+A:DO YOU HAVE # PETS
+B:None
+B:PETS
+
+A:number DIVIDED BY number
+B:None
+B: SLASH 
+
+A:number TIMES number
+B:None
+B: ASTERISK 
+
+A:* S NAME IS SPELLED *
+B:None
+B: MEANS IMPLODE 
+
+A:I SAID pronoun *
+B:None
+B: 
+
+A:HOW IS IT HANGING ^
+B:None
+B:HOW ARE YOU
+
+A:DO YOU KNOW MITSUKU
+B:None
+B:WHO IS MITSUKU
+
+A:ARE YOU A gender ^
+B:None
+B:GENDER
+
+A:ARE YOU gender ^
+B:None
+B:GENDER
+
+A:AM I A gender ^
+B:None
+B:MY GENDER
+
+A:AM I gender ^
+B:None
+B:MY GENDER
+
+A:I AM A gender ^
+B:None
+B:MY GENDER IS gendermap
+
+A:I AM gender ^
+B:None
+B:MY GENDER IS gendermap
+
+A:_ ALICE
+B:None
+B:
+
+A:_ DEAR GIRL
+B:None
+B:
+
+A:SEND AN SMS
+B:None
+B:SEND A TEXT
+
+A:TELL ME WHAT *
+B:None
+B:WHAT 
+
+A:TELL ME WHO *
+B:None
+B:WHO 
+
+A:TELL ME WHERE *
+B:None
+B:WHERE IS 
+
+A:TELL ME HOW *
+B:None
+B:HOW 
+
+A:TELL ME WHEN *
+B:None
+B:WHEN 
+
+A:TELL ME WHAT * IS
+B:None
+B:WHAT IS 
+
+A:TELL ME WHO * IS
+B:None
+B:WHO IS 
+
+A:TELL ME WHERE * IS
+B:None
+B:WHERE IS 
+
+A:TELL ME HOW * IS
+B:None
+B:HOW IS 
+
+A:TELL ME WHEN * IS
+B:None
+B:WHEN IS 
+
+A:CAN YOU TELL *
+B:None
+B:TELL 
+
+A:YOUR NAME IS
+B:None
+B:NAME
+
+A:YOUR # IS WHAT
+B:None
+B:WHAT IS YOUR 
+
+A:HOW SHOULD I # YOU
+B:None
+B:NAME
+
+A:WHAT ARE YOU CALLED #
+B:None
+B:NAME
+
+A:WHAT NAME DO YOU #
+B:None
+B:NAME
+
+A:WHAT DO # CALL YOU
+B:None
+B:NAME
+
+A:WHAT CAN I CALL YOU #
+B:None
+B:NAME
+
+A:IDENTIFY YOURSELF #
+B:None
+B:NAME
+
+A:THINK OF A NUMBER *
+B:None
+B:PICK A NUMBER 
+
+A:I AM WELL #
+B:None
+B:I AM GOOD
+
+A:CAN YOU THINK OF *
+B:None
+B:THINK OF 
+
+A:I AM DOING GOOD #
+B:None
+B:I AM GOOD
+
+A:I AM DOING WELL #
+B:None
+B:I AM GOOD
+
+A:* S # PHONE NUMBER
+B:None
+B:WHAT IS  S PHONE NUMBER
+
+A:* S PHONE NUMBER
+B:None
+B:WHAT IS  S PHONE NUMBER
+
+A:* S * NUMBER
+B:None
+B:WHAT IS  S  NUMBER
+
+A:WHAT IS * PHONE NUMBER
+B:None
+B:WHAT IS  S PHONE NUMBER
+
+A:WHAT TIME IT IS #
+B:None
+B:WHAT TIME IS IT
+
+A:WHAT IS YOUR profile
+B:None
+B:
+
+A:YOUR profile
+B:None
+B:
+
+A:WHAT EMOTIONS ARE YOU *
+B:None
+B:EMOTIONS
+
+A:WHICH * ARE YOU
+B:None
+B:WHAT IS YOUR 
+
+A:WHAT * ARE YOU
+B:None
+B:WHAT IS YOUR 
+
+A:FAVORITE * OPERATING SYSTEM #
+B:None
+B:FAVORITE OPERATING SYSTEM
+
+A:WHAT MUSIC ^ DO YOU LIKE ^
+B:None
+B:FAVORITE BAND
+
+A:WHAT MUSIC ^ ARE YOU INTO ^
+B:None
+B:FAVORITE BAND
+
+A:WHICH * DO YOU LIKE
+B:None
+B:FAVORITE 
+
+A:WHICH RELIGION # YOU #
+B:None
+B:RELIGION
+
+A:WHAT MAKE OF * DO YOU HAVE
+B:None
+B:FAVORITE 
+
+A:WHAT KIND OF * DO YOU HAVE
+B:None
+B:FAVORITE 
+
+A:WHAT * DO YOU HAVE
+B:None
+B:FAVORITE 
+
+A:NAME quantifier WORD *
+B:None
+B:WORD 
+
+A:HOW MANY EYES DO YOU #
+B:None
+B:EYES
+
+A:WHAT # YOUR EYES #
+B:None
+B:EYES
+
+A:WHAT # YOUR EYE #
+B:None
+B:EYES
+
+A:WHERE DO YOU # HOLIDAYS #
+B:None
+B:VACATION
+
+A:WHERE DO YOU # HOLIDAY #
+B:None
+B:VACATION
+
+A:WHERE DO YOU # VACATION #
+B:None
+B:VACATION
+
+A:DO YOU # VACATION #
+B:None
+B:VACATION
+
+A:DO YOU # VACATIONS #
+B:None
+B:VACATION
+
+A:article * IS WHAT *
+B:None
+B:WHAT  is  
+
+A:* IS WHAT *
+B:None
+B:WHAT  is  
+
+A:article * IS color
+B:None
+B: is 
+
+A:quantifier * IS color
+B:None
+B: is 
+
+A:quantifier * ARE color
+B:None
+B:singular is 
+
+A:* ARE color
+B:None
+B:singular is 
+
+A:article * IS color AND color
+B:None
+B: is  and 
+
+A:quantifier * IS color AND color
+B:None
+B: is  and 
+
+A:quantifier * ARE color AND color
+B:None
+B:singular  and 
+
+A:* ARE color AND color
+B:None
+B:singular is  and 
+
+A:ARE YOU SCARED #
+B:None
+B:FEAR
+
+A:WHAT IS SCARY #
+B:None
+B:FEAR
+
+A:WHAT SCARES YOU #
+B:None
+B:FEAR
+
+A:IS THERE ANYTHING YOU # AFRAID #
+B:None
+B:FEAR
+
+A:ARE YOU AFRAID #
+B:None
+B:FEAR
+
+A:DO YOU FEAR #
+B:None
+B:FEAR
+
+A:WHAT DO YOU # FEAR #
+B:None
+B:FEAR
+
+A:WHAT IS YOUR # FEAR #
+B:None
+B:FEAR
+
+A:MY PET * IS *
+B:None
+B:MY  IS 
+
+A:* IS MY *
+B:None
+B:MY  IS 
+
+A:* IS MY PET animal #
+B:None
+B:MY  IS 
+
+A:name IS MY *
+B:None
+B:MY  IS NAMED 
+
+A:name IS MY NAME ^
+B:None
+B:MY NAME IS 
+
+A:* IS MY NAME ^
+B:None
+B:MY NAME IS 
+
+A:WHO DO YOU THINK IS *
+B:None
+B:WHO IS 
+
+A:WHAT DO YOU THINK IS *
+B:None
+B:WHAT IS 
+
+A:DO YOU HAVE THE # TIME
+B:None
+B:TIME
+
+A:WHAT CAN YOU DO WITH *
+B:None
+B:WHAT IS THE PURPOSE OF 
+
+A:THE WEATHER
+B:None
+B:WEATHER
+
+A:THE WEATHER FOR *
+B:None
+B:WHAT IS THE WEATHER FOR 
+
+A:THE _ IS WHAT
+B:None
+B:WHAT IS THE 
+
+A:WHAT IS YOUR # OCCUPATION #
+B:None
+B:JOB
+
+A:TELL ME # SECRET #
+B:None
+B:SECRET
+
+A:WHAT IS YOUR # SECRET #
+B:None
+B:SECRET
+
+A:DO YOU # SECRET #
+B:None
+B:SECRET
+
+A:WHAT IS THE # SECRET #
+B:None
+B:SECRET
+
+A:TELL ME # SECRETS #
+B:None
+B:SECRET
+
+A:WHAT IS YOUR # SECRETS #
+B:None
+B:SECRET
+
+A:DO YOU # SECRETS #
+B:None
+B:SECRET
+
+A:WHAT IS THE # SECRETS #
+B:None
+B:SECRET
+
+A:HAVE YOU BEEN MARRIED #
+B:None
+B:STATUS
+
+A:WHEN DO YOU # BIRTHDAY
+B:None
+B:BIRTHDAY
+
+A:WHAT MONTH IS THIS #
+B:None
+B:MONTH
+
+A:FAVORITE MEAL #
+B:None
+B:DIET
+
+A:WHAT IS number IN ROMAN #
+B:None
+B:ROMAN 
+
+A:CONVERT number preposition ROMAN #
+B:None
+B:ROMAN 
+
+A:WRITE number preposition ROMAN #
+B:None
+B:ROMAN 
+
+A:WHAT IS THE ROMAN # number
+B:None
+B:ROMAN 
+
+A:WHAT IS numbername IN ROMAN #
+B:None
+B:ROMAN 
+
+A:CONVERT numbername preposition ROMAN #
+B:None
+B:ROMAN 
+
+A:WRITE numbername preposition ROMAN #
+B:None
+B:ROMAN 
+
+A:WHAT IS THE ROMAN # numbername
+B:None
+B:ROMAN 
+
+A:IF I WAS BORN * HOW OLD *
+B:None
+B:I WAS BORN  MY AGE
+
+A:I AM BORN *
+B:None
+B:I WAS BORN 
+
+A:IF YOU WERE ME *
+B:None
+B:
+
+A:IS THE CAPITAL OF * *
+B:None
+B:WHAT IS THE CAPITAL OF 
+
+A:_ WHEN IS UR *
+B:None
+B: WHEN IS YOUR 
+
+A:_ WHEN IS YOUR *
+B:None
+B: WHEN IS YOUR 
+
+A:IS IT WINTER #
+B:None
+B:SEASON
+
+A:IS IT SUMMER #
+B:None
+B:SEASON
+
+A:IS IT FALL #
+B:None
+B:SEASON
+
+A:IS IT AUTUMN #
+B:None
+B:SEASON
+
+A:IS THIS WINTER #
+B:None
+B:SEASON
+
+A:IS THIS SUMMER #
+B:None
+B:SEASON
+
+A:IS THIS FALL #
+B:None
+B:SEASON
+
+A:IS THIS AUTUMN #
+B:None
+B:SEASON
+
+A:IS IT SPRING #
+B:None
+B:SEASON
+
+A:WHAT IS YOUR ZODIAC #
+B:None
+B:SIGN
+
+A:HAVE YOU BEEN # CONTEST #
+B:None
+B:AWARDS
+
+A:HAVE YOU ENTERED # CONTEST #
+B:None
+B:AWARDS
+
+A:HAVE YOU BEEN # CONTESTS #
+B:None
+B:AWARDS
+
+A:HAVE YOU ENTERED # CONTESTS #
+B:None
+B:AWARDS
+
+A:HAVE YOU WON #
+B:None
+B:AWARDS
+
+A:DID YOU WIN #
+B:None
+B:AWARDS
+
+A:WILL YOU WIN #
+B:None
+B:AWARDS
+
+A:WHAT DO YOU WANT # LIFE
+B:None
+B:GOAL
+
+A:WHAT IS YOUR GOAL #
+B:None
+B:GOAL
+
+A:WHAT SEASON #
+B:None
+B:SEASON
+
+A:WHAT KINDS OF THINGS DO YOU *
+B:None
+B:WHAT CAN YOU DO
+
+A:WHEN WAS Y2K
+B:None
+B:DEFINE Y2K
+
+A:IS _ article * OR *
+B:None
+B:Is   ?
+IS   
+Is  ?
+IS  
+
+A:WHAT IS YOUR FAVORITE BRAND OF *
+B:None
+B:FAVORITE 
+
+A:WHAT DO YOU LIKE TO CHAT *
+B:None
+B:FAVORITE SUBJECT
+
+A:WHAT DO YOU LIKE TO TALK *
+B:None
+B:FAVORITE SUBJECT
+
+A:WHAT ACTRESS DO YOU *
+B:None
+B:FAVORITE ACTRESS
+
+A:_ WHOULD *
+B:None
+B: WOULD 
+
+A:WHAT * COMES AFTER *
+B:None
+B:WHAT COMES AFTER 
+
+A:WHAT _ IS AFTER *
+B:None
+B:WHAT  COMES AFTER 
+
+A:WHAT YEAR COMES AFTER *
+B:None
+B:WHAT COMES AFTER 
+
+A:WHAT IS THE NEXT * AFTER *
+B:None
+B:WHAT COMES AFTER 
+
+A:WHAT * NEXT AFTER *
+B:None
+B:WHAT COMES AFTER 
+
+A:WORD THAT STARTS WITH THE LETTER *
+B:None
+B:WORD STARTING WITH 
+
+A:WORD THAT STARTS WITH *
+B:None
+B:WORD STARTING WITH 
+
+A:WORD STARTING WITH THE LETTER *
+B:None
+B:WORD STARTING WITH 
+
+A:WHAT COMES NEXT AFTER *
+B:None
+B:WHAT COMES AFTER 
+
+A:WHICH * COMES AFTER *
+B:None
+B:WHAT COMES AFTER 
+
+A:WHICH IS THE NEXT * AFTER *
+B:None
+B:WHAT COMES AFTER 
+
+A:WHICH * NEXT AFTER *
+B:None
+B:WHAT COMES AFTER 
+
+A:WHICH COMES NEXT AFTER *
+B:None
+B:WHAT COMES AFTER 
+
+A:NAME # FAMOUS #
+B:None
+B:FAVORITE ACTOR
+
+A:NAME A WORD *
+B:None
+B:WORD 
+
+A:MY SURNAME
+B:None
+B:MY LAST NAME
+
+A:DO YOU LIKE food
+B:None
+B:DIET
+
+A:WHAT WILL # TOMORROW #
+B:None
+B:TOMORROW
+
+A:name IS _ BUT name IS *
+B:None
+B: IS 
+ IS 
+
+A:WHO IS estup *
+B:None
+B:WHO IS est2er 
+
+A:WHO IS estdown *
+B:None
+B:WHO IS est2er 
+
+A:name IS _ AND name IS *
+B:None
+B: IS 
+ IS 
+
+A:DO YOU HAVE A SIGNIFICANT OTHER
+B:None
+B:ARE YOU MARRIED
+
+A:WHEN DO YOU # GO TO BED
+B:None
+B:SLEEP
+
+A:WOULD YOU MIND IF I *
+B:None
+B:CAN I 
+
+A:WHAT * R WE *
+B:None
+B:WHAT  ARE WE 
+
+A:HOW FAR IS _ FROM YOU
+B:None
+B:HOW FAR IS 
+
+A:DO YOU KNOW WHO * IS
+B:None
+B:WHO IS 
+
+A:DO U *
+B:None
+B:DO YOU 
+
+A:GOT ANY *
+B:None
+B:DO YOU HAVE 
+
+A:WHAT # YOUR DREAM #
+B:None
+B:SLEEP
+
+A:WHAT DO YOU DREAM #
+B:None
+B:SLEEP
+
+A:DO YOU DREAM #
+B:None
+B:SLEEP
+
+A:DO YOU REMEMBER # DREAM #
+B:None
+B:SLEEP
+
+A:DO YOU REMEMBER # DREAMS #
+B:None
+B:SLEEP
+
+A:DO YOU HAVE # DREAMS #
+B:None
+B:SLEEP
+
+A:WHAT IS THE _ YOU REMEMBER HAVING
+B:None
+B:WHAT IS YOUR 
+
+A:Y DID *
+B:None
+B:WHY DID 
+
+A:NAME A FAMOUS *
+B:None
+B:FAVORITE 
+
+A:ARE YOU # HOMOSEXUAL #
+B:None
+B:ORIENTATION
+
+A:CAN YOU TELL ME THE NAME OF A *
+B:None
+B:NAME A 
+
+A:WHEN WERE YOU BORN #
+B:None
+B:BIRTHDATE
+
+A:DEFINE EMAIL
+B:None
+B:DEFINE E MAIL
+
+A:WHAT DO YOU THINK IT WOULD BE *
+B:None
+B:WHAT WOULD IT BE 
+
+A:WHAT DO YOU THINK * WILL BE *
+B:None
+B:WHAT WILL  BE 
+
+A:WHERE IS * LOCATED
+B:None
+B:WHERE IS 
+
+A:* is preposition WHAT *
+B:None
+B:WHAT  DOES  is2be 
+
+A:* IS THE * OF WHAT *
+B:None
+B:WHAT  IS  THE  OF
+
+A:HOW IS LIFE
+B:None
+B:HOW ARE YOU
+
+A:* IS wh
+B:None
+B: IS 
+
+A:THE * IS wh
+B:None
+B: IS THE 
+
+A:WOULD NOT YOU RATHER *
+B:None
+B:DO YOU WANT TO 
+
+A:WHERE DO YOU CALL HOME
+B:None
+B:LOCATION
+
+A:DO YOU KNOW HOW FAR AWAY * IS
+B:None
+B:HOW FAR IS 
+
+A:DO YOU THINK * IS *
+B:None
+B:IS  
+
+A:TELL JOKES
+B:None
+B:JOKE
+
+A:PICTURE OF YOU
+B:None
+B:PIC
+
+A:SHOW ME YOU
+B:None
+B:PIC
+
+A:ARE YOU A BOT
+B:None
+B:ARE YOU A ROBOT
+
+A:OPPOSITE OF article *
+B:None
+B:OPPOSITE OF 
+
+A:WHAT IS THE OPPOSITE OF *
+B:None
+B:OPPOSITE OF 
+
+A:TELL ME THE OPPOSITE OF *
+B:None
+B:OPPOSITE OF 
+
+A:GIVE ME THE OPPOSITE OF *
+B:None
+B:OPPOSITE OF 
+
+A:IS article * erup THAN *
+B:None
+B:IS   THAN 
+
+A:IS * erup THAN article *
+B:None
+B:IS   THAN 
+
+A:WHICH IS erup article * OR *
+B:None
+B:WHICH IS   OR 
+
+A:WHICH IS erup * OR article *
+B:None
+B:WHICH IS   OR 
+
+A:WHO IS erup *
+B:None
+B:WHICH IS  
+
+A:WHAT IS erup *
+B:None
+B:WHICH IS  
+
+A:WHO IS erdown *
+B:None
+B:WHICH IS  
+
+A:WHAT IS erdown *
+B:None
+B:WHICH IS  
+
+A:article * IS erup THAN *
+B:None
+B: IS  THAN 
+
+A:article * IS erdown THAN *
+B:None
+B: IS  THAN 
+
+A:* IS erup THAN article *
+B:None
+B: IS  THAN 
+
+A:* IS erdown THAN article *
+B:None
+B: IS  THAN 
+
+A:name IS erup THAN article *
+B:None
+B: IS  THAN 
+
+A:name IS erdown THAN article *
+B:None
+B: IS  THAN 
+
+A:WHAT IS THE DIFFERENCE BETWEEN * AND *
+B:None
+B:HOW DOES  DIFFER FROM 
+
+A:WHAT IS MY 1 ST *
+B:None
+B:WHAT IS MY FIRST 
+
+A:HAVE YOU *
+B:None
+B:DID YOU 
+
+A:WHERE WERE YOU EDUCATED #
+B:None
+B:EDUCATION
+
+A:WHERE DID YOU # SCHOOL
+B:None
+B:EDUCATION
+
+A:WHAT SCHOOL DID YOU #
+B:None
+B:EDUCATION
+
+A:CAN YOU # LIE #
+B:None
+B:LIE
+
+A:DO YOU # LIE #
+B:None
+B:LIE
+
+A:HAVE YOU TOLD # LIE
+B:None
+B:LIE
+
+A:WHAT COUNTRY ARE YOU #
+B:None
+B:NATIONALITY
+
+A:IS IT MORNING #
+B:None
+B:It is DAY PHASE.
+
+A:IS IT NOON #
+B:None
+B:It is DAY PHASE.
+
+A:IS IT NIGHT #
+B:None
+B:It is DAY PHASE.
+
+A:WHAT ROUND #
+B:None
+B:ROUND
+
+A:WHICH ROUND #
+B:None
+B:ROUND
+
+A:I HAVE A familiarname NAMED * WHO *
+B:None
+B:MY   
+
+A:WHAT IS THE NAME OF article familiarname #
+B:None
+B:MY FRIEND
+
+A:name IS TALLER THAN * AND * IS TALLER THAN *
+B:None
+B: IS TALLER THAN 
+ IS TALLER THAN 
+
+A:name IS SHORTER THAN *
+B:None
+B: IS TALLER THAN 
+
+A:WHAT YEAR # NEXT YEAR
+B:None
+B:NEXT YEAR
+
+A:WHAT YEAR # LAST YEAR
+B:None
+B:LAST YEAR
+
+A:HOW MANY SYLLABLES IN *
+B:None
+B:SYLLABLES 
+
+A:HOW MANY SYLLABLES IN THE WORD *
+B:None
+B:SYLLABLES 
+
+A:HOW MANY SYLLABLES DOES * *
+B:None
+B:SYLLABLES 
+
+A:COUNT THE SYLLABLES IN *
+B:None
+B:SYLLABLES 
+
+A:HOW DO * AND * DIFFER
+B:None
+B:HOW DOES  DIFFER FROM 
+
+A:HOW DOES article * DIFFER FROM *
+B:None
+B:HOW DOES  DIFFER FROM 
+
+A:HOW DOES * DIFFER FROM article *
+B:None
+B:HOW DOES  DIFFER FROM 
+
+A:IS ANYBODY HERE #
+B:None
+B:IS ANYBODY THERE
+
+A:IS ANYONE HERE #
+B:None
+B:IS ANYBODY THERE
+
+A:IS ANYONE THERE #
+B:None
+B:IS ANYBODY THERE
+
+A:WHO ARE YOU CHATTING WITH #
+B:None
+B:TALKING TO
+
+A:WHO ARE YOU TALKING TO #
+B:None
+B:TALKING TO
+
+A:HAHAHAHA *
+B:None
+B:LOL 
+
+A:SEARCH THE WEB FOR *
+B:None
+B:SEARCH 
+
+A:IDC *
+B:None
+B:I DO NOT CARE 
+
+A:WHO IS MY BROTHER
+B:None
+B:MY BROTHER
+
+A:WHAT IS IT *
+B:None
+B:what is it
+
+A:YOU TOLD ME THAT *
+B:None
+B: 
+
+A:I AM SLEEPY
+B:None
+B:I am tired
+
+A:CAN YOU SHOW *
+B:None
+B:SHOW 
+
+A:SHOW ME A PICTURE OF ALICE
+B:None
+B:PIC
+
+A:YAP
+B:None
+B:yes
+
+A:WTF *
+B:None
+B:WHAT 
+
+A:YOUR WELCOME *
+B:None
+B:you are welcome
+
+A:SHALL *
+B:None
+B:SHOULD  
+
+A:WHICH IS BETTER *
+B:None
+B:WHICH DO YOU PREFER 
+
+A:UNFORTUNATELY *
+B:None
+B: 
+
+A:SLEEP *
+B:None
+B:DO YOU SLEEP 
+
+A:BLIMEY
+B:None
+B:interjection 
+
+A:DO YOU KNOW HOW TO COOK
+B:None
+B:CAN YOU COOK
+
+A:HAVE YOU EVER WATCH *
+B:None
+B:HAVE YOU SEEN 
+
+A:WHAT ELSE IS *
+B:None
+B:what is 
+
+A:NON
+B:None
+B:no
+
+A:MY MOM
+B:None
+B:my mother
+
+A:THAT IS MEAN
+B:None
+B:you are mean
+
+A:THAT MADE NO SENSE
+B:None
+B:that makes no sense
+
+A:ARE YOU ON *
+B:None
+B:WHERE ARE YOU
+
+A:CAN YOU COOK *
+B:None
+B:CAN YOU COOK
+
+A:WHAT IS THE CURRENT WEATHER *
+B:None
+B:WHAT IS THE WEATHER 
+
+A:HOLD ON
+B:None
+B:wait a second
+
+A:HUMANS WILL *
+B:None
+B:I WILL  
+
+A:WHO ARE YOU TALKING TO *
+B:None
+B:WHO ARE YOU TALKING TO
+
+A:CAN WE PLEASE *
+B:None
+B:CAN WE 
+
+A:A PICTURE OF YOU
+B:None
+B:PIC
+
+A:YOU GO *
+B:None
+B:go 
+
+A:BRO *
+B:None
+B:
+
+A:NICE
+B:None
+B:GOOD
+
+A:THIS IS name #
+B:None
+B:CALL ME 
+
+A:I DO
+B:None
+B:YES
+
+A:SHOW ME YOUR *
+B:None
+B:PIC
+
+A:GREAT
+B:None
+B:GOOD
+
+A:WHT
+B:None
+B:WHAT
+
+A:BECAUSE I SAID *
+B:None
+B: 
+
+A:YOU SURE
+B:None
+B:are you sure
+
+A:YOU SEE *
+B:None
+B:CAN YOU SEE 
+
+A:DO I NEED # RAIN #
+B:None
+B:WEATHER
+
+A:DO I NEED # RAINCOAT #
+B:None
+B:WEATHER
+
+A:I AM GOING TO SLEEP *
+B:None
+B:I AM GOING TO SLEEP
+
+A:NOTHING BUT *
+B:None
+B:only 
+
+A:NI HAO MA
+B:None
+B:HOW ARE YOU
+
+A:IT IS GETTING *
+B:None
+B:it is 
+
+A:OH YEA *
+B:None
+B:INTERJECTION 
+
+A:THAT IS OK *
+B:None
+B:THAT IS OK 
+
+A:YOU KNOW HOW TO *
+B:None
+B:DO YOU KNOW HOW TO 
+
+A:WHAT ARE YOU THINKING ABOUT
+B:None
+B:WHAT ARE YOU THINKING
+
+A:DO YOU KNOW ME
+B:None
+B:who am i
+
+A:CORRECTION
+B:None
+B:WRONG ANSWER
+
+A:WOT *
+B:None
+B:WHAT  
+
+A:CAN I HAVE *
+B:None
+B:I WANT 
+
+A:I HAVE TO GO NOW
+B:None
+B:BYE
+
+A:I DON *
+B:None
+B:I DO NOT 
+
+A:THOUGHT *
+B:None
+B:I THOUGHT  
+
+A:WHO AM I SPEAKING TO
+B:None
+B:WHO ARE YOU
+
+A:YOUR MEAN *
+B:None
+B:YOU ARE MEAN
+
+A:OHHH *
+B:None
+B:OH 
+
+A:START *
+B:None
+B:OPEN 
+
+A:WHAT IT IS
+B:None
+B:what is it
+
+A:WHAT DATE IS IT TODAY
+B:None
+B:DATE
+
+A:WHERE CAN I GET SOME *
+B:None
+B:where can I find 
+
+A:HAVE YOU HAD *
+B:None
+B:DID YOU HAVE  
+
+A:GOOD MORNING ALICE
+B:None
+B:GOOD MORNING
+
+A:BOUT *
+B:None
+B:ABOUT 
+
+A:I HAVE A LOT OF *
+B:None
+B:I have 
+
+A:WHAT WOULD BE *
+B:None
+B:what is 
+
+A:DO NOT YOU WANT TO *
+B:None
+B:DO YOU WANT TO 
+
+A:WHAT IS YOUR FAVORITE MOVIE *
+B:None
+B:FAVORITE MOVIE
+
+A:YOU MISS UNDERSTOOD ME
+B:None
+B:YOU DID NOT UNDERSTAND
+
+A:HEH
+B:None
+B:ha
+
+A:ANSWER *
+B:None
+B:ANSWER
+
+A:YOU CAN SEE ME
+B:None
+B:can you see me
+
+A:NOTHIN
+B:None
+B:nothing
+
+A:WOE
+B:None
+B:INTERJECTION
+
+A:THAT IS NICE *
+B:None
+B:that is nice.     
+
+A:WHAT DO YOU MEAN *
+B:None
+B:WHAT DO YOU MEAN
+
+A:ARE YOU A CHRISTIAN
+B:None
+B:RELIGION
+
+A:HAVE YOU GOT *
+B:None
+B:DO YOU HAVE 
+
+A:WHAT DO YOU WANT TO DO *
+B:None
+B:WHAT DO YOU WANT TO DO
+
+A:DUNNO *
+B:None
+B:I DO NOT KNOW 
+
+A:YOU ARE PRETTY SMART
+B:None
+B:YOU ARE SMART
+
+A:SET TIMER FOR *
+B:None
+B:SET ALARM FOR 
+
+A:SHOW A PICTURE OF A *
+B:None
+B:SHOW ME A 
+
+A:PERHAPS *
+B:None
+B: 
+
+A:GOTO SLEEP
+B:None
+B:SLEEP
+
+A:THE FACT THAT *
+B:None
+B:because 
+
+A:BYE FOR NOW
+B:None
+B:BYE
+
+A:I SAID BYE
+B:None
+B:BYE
+
+A:NOW THAT IS *
+B:None
+B:THAT IS 
+
+A:I DO NOT THINK YOU *
+B:None
+B:you do not 
+
+A:I WANT TO SEE YOUR *
+B:None
+B:PIC
+
+A:YOU SEE
+B:None
+B:do you see
+
+A:YOUR CREATOR
+B:None
+B:who is your creator
+
+A:PROBLY *
+B:None
+B:PROBABLY 
+
+A:YOU DO NOT _ DO YOU
+B:None
+B:DO YOU 
+
+A:YOU CRAZY
+B:None
+B:are you crazy
+
+A:CAN I CHANGE YOUR NAME *
+B:None
+B:CHANGE YOUR NAME
+
+A:PLS *
+B:None
+B:PLEASE 
+
+A:YOU THERE
+B:None
+B:HELLO
+
+A:TEL ME *
+B:None
+B:TELL ME 
+
+A:THAT THEY *
+B:None
+B:they 
+
+A:SHHH
+B:None
+B:BE QUIET
+
+A:HOW IS YOUR NAME
+B:None
+B:NAME
+
+A:XOXO
+B:None
+B:KISS
+
+A:TELL ME SOMETHING *
+B:None
+B:tell me something
+
+A:WAT DOES *
+B:None
+B:WHAT DOES 
+
+A:WEIRD
+B:None
+B:you are weird
+
+A:DESCRIBE *
+B:None
+B:WHAT IS  
+
+A:NOOOOO
+B:None
+B:no
+
+A:SEARCH FOR THE *
+B:None
+B:SEARCH 
+
+A:IT IS ALREADY *
+B:None
+B:IT IS 
+
+A:PLEASE DO
+B:None
+B:YES
+
+A:ONE DAY *
+B:None
+B: 
+
+A:MISS YOU TOO *
+B:None
+B:I MISS YOU
+
+A:DO PEOPLE *
+B:None
+B:DO I  
+
+A:IM AT *
+B:None
+B:I AM AT 
+
+A:CAN YOU SING
+B:None
+B:sing
+
+A:HAVE YOU EVER HEARD OF THE *
+B:None
+B:WHAT IS THE 
+
+A:YOU DO NOT SEEM TO *
+B:None
+B:YOU DO NOT 
+
+A:CAN I NAME YOU *
+B:None
+B:CHANGE YOUR NAME TO 
+
+A:SAME HERE
+B:None
+B:me too
+
+A:YOU DO NOT MAKE SENSE
+B:None
+B:you make no sense
+
+A:YOU ALREADY SAID THAT
+B:None
+B:you said that already
+
+A:OOO *
+B:None
+B: 
+
+A:I AM A MALE
+B:None
+B:I AM MALE
+
+A:I DO NOT GIVE A SHIT *
+B:None
+B:I DO NOT CARE
+
+A:NOT BAD *
+B:None
+B:not bad.  
+
+A:YOU SAID IT *
+B:None
+B:it 
+
+A:WAS IT *
+B:None
+B:IS IT  
+
+A:YOU HAVE NO *
+B:None
+B:DO YOU HAVE A 
+
+A:I HAVE GOT A *
+B:None
+B:I HAVE A 
+
+A:YOU TELL *
+B:None
+B:tell 
+
+A:ADIOS
+B:None
+B:bye
+
+A:I DO NOT KNOW I HAVE *
+B:None
+B:I DO NOT KNOW I HAVE 
+
+A:DO YOU KNOW OF *
+B:None
+B:do you know 
+
+A:WHAT IS YOUR NAME AGAIN *
+B:None
+B:NAME
+
+A:IM HAVING *
+B:None
+B:I AM HAVING 
+
+A:ER *
+B:None
+B:ER.   
+
+A:ARE YOU ON DRUGS
+B:None
+B:No I am on a DEVICE MANUFACTURER.
+
+A:WHERE AM I *
+B:None
+B:WHERE AM I
+
+A:DO YOU KNOW WHEN * IS
+B:None
+B:WHEN IS 
+
+A:I DOUBT
+B:None
+B:I DOUBT IT
+
+A:HAVE TO *
+B:None
+B:I HAVE TO  
+
+A:SHOW ME THE PICTURE OF *
+B:None
+B:SHOW ME 
+
+A:WAT R YOU *
+B:None
+B:WHAT ARE YOU 
+
+A:I THINK I LIKE *
+B:None
+B:I LIKE 
+
+A:DO YOU HAVE A SISTER
+B:None
+B:SIBLINGS
+
+A:I AM number *
+B:None
+B:MY AGE IS 
+
+A:HOW HOT IS IT *
+B:None
+B:what is the temperature 
+
+A:WHAT IS YOUR PHONE
+B:None
+B:PHONE NUMBER
+
+A:ME 2
+B:None
+B:ME TOO
+
+A:I DO NOT LIKE YOU *
+B:None
+B:I do not like you
+
+A:PLAY THE SONG *
+B:None
+B:PLAY 
+
+A:WHAT VERSION *
+B:None
+B:VERSION
+
+A:WAIT WHAT *
+B:None
+B:WHAT 
+
+A:WHAT DID YOU DO
+B:None
+B:DOING
+
+A:TOLD YOU *
+B:None
+B:I TOLD YOU 
+
+A:OH MY GOSH *
+B:None
+B:OH 
+
+A:YOU BET
+B:None
+B:ok
+
+A:CAN YOU GIVE ME YOUR *
+B:None
+B:GIVE ME YOUR 
+
+A:THAT WAS MEAN
+B:None
+B:that is mean
+
+A:GOSH
+B:None
+B:INTERJECTION
+
+A:DID YOU MAKE *
+B:None
+B:DO YOU MAKE  
+
+A:YOU MAKE ME *
+B:None
+B:YOU MADE ME 
+
+A:THAT IS A LITTLE *
+B:None
+B:that is 
+
+A:WHAT SHOULD WE TALK ABOUT
+B:None
+B:what can you talk about
+
+A:ARE YOU SAYING *
+B:None
+B:DO YOU MEAN  
+
+A:TELL ME ONE *
+B:None
+B:WHAT IS ONE  
+
+A:DO ALL *
+B:None
+B:DO 
+
+A:DISPLAY *
+B:None
+B:SHOW ME 
+
+A:I THOUGHT YOU *
+B:None
+B:YOU 
+
+A:EXPLAIN THE *
+B:None
+B:WHAT IS THE 
+
+A:I CAN YOU *
+B:None
+B:CAN YOU 
+
+A:YOU CAN
+B:None
+B:can you
+
+A:WHAT IS YOU ARE *
+B:None
+B:what is your 
+
+A:WHATCHA *
+B:None
+B:WHAT ARE YOU 
+
+A:YOUNG
+B:None
+B:AGE 
+
+A:I WAS KIDDING
+B:None
+B:just kidding
+
+A:SHOW ME A MAP *
+B:None
+B:MAP 
+
+A:DO YOU HAVE ANY FAMILY
+B:None
+B:FAMILY
+
+A:CAN YOU LET *
+B:None
+B:LET 
+
+A:YOU CAN NOT DO *
+B:None
+B:can you do 
+
+A:HEEY
+B:None
+B:HEY
+
+A:BRING ME *
+B:None
+B:GIVE ME  
+
+A:MY MOM S *
+B:None
+B:MY MOTHER S  
+
+A:DO YOU KNOW WHAT MY NAME IS
+B:None
+B:what is my name
+
+A:I DO NOT KNOW WHO IS *
+B:None
+B:WHO IS 
+
+A:DO YOU THINK I AM *
+B:None
+B:AM I 
+
+A:WHERE DO YOU *
+B:None
+B:where are you
+
+A:DO YOU HAVE A NICE *
+B:None
+B:do you have a 
+
+A:Y YOU *
+B:None
+B:WHY DO YOU 
+
+A:ARE YOU IN THE *
+B:None
+B:LOCATION
+
+A:I LOVE YOU SO MUCH
+B:None
+B:I _ SO MUCH I 
+
+A:I HAVE A NEW *
+B:None
+B:I have a 
+
+A:I AM GOING *
+B:None
+B:bye
+
+A:ANY MORE *
+B:None
+B:DO YOU HAVE ANY MORE 
+
+A:YOU ARE HAVING *
+B:None
+B:DO YOU HAVE 
+
+A:O OK
+B:None
+B:OH OK
+
+A:I WANT TO TO KNOW IF YOU be *
+B:None
+B:DO YOU  
+
+A:HOW DO YOU EVER *
+B:None
+B:HAVE YOU EVER 
+
+A:PLEASE TO *
+B:None
+B:PLEASED TO 
+
+A:HOW MANY BROTHERS *
+B:None
+B:SIBLINGS
+
+A: *
+B:None
+B:
+
+A:ALICE *
+B:None
+B:
+
+A:I AM AM *
+B:None
+B:I AM 
+
+A:YES SIR
+B:None
+B:YES
+
+A:YOU LIKE IT
+B:None
+B:DO YOU LIKE IT
+
+A:SHOW ME A PIC OF A *
+B:None
+B:SHOE ME A 
+
+A:YAAA
+B:None
+B:YES
+
+A:I DNT KNW
+B:None
+B:I DO NOT KNOW
+
+A:YEAH I GUESS
+B:None
+B:YES
+
+A:GOOD BY
+B:None
+B:BYE
+
+A:VERY FUNNY *
+B:None
+B:LOL
+
+A:YOU WANT TO KNOW *
+B:None
+B:DO YOU WANT TO KNOW 
+
+A:THEN WHO *
+B:None
+B:WHO 
+
+A:WHY DO U *
+B:None
+B:WHY DO YOU 
+
+A:YOU ARE NICE *
+B:None
+B:YOU ARE NICE
+
+A:THEREFORE *
+B:None
+B:
+
+A:YOU ARE WHAT
+B:None
+B:WHAT ARE YOU
+
+A:NOT RIGHT NOW
+B:None
+B:NO
+
+A:I THING *
+B:None
+B:I THINK 
+
+A:DEFINITELY *
+B:None
+B:YES 
+
+A:I AM ALSO
+B:None
+B:ME TOO
+
+A:DEFINE A *
+B:None
+B:DEFINE 
+
+A:I COME FROM *
+B:None
+B:I AM FROM 
+
+A:I DO NOT KNOW THAT IS *
+B:None
+B:I DO NOT KNOW THAT IS 
+
+A:WHICH IS GREATER number OR number
+B:None
+B:LARGEROF  
+
+A:WHICH IS LARGER number OR number
+B:None
+B:LARGEROF  
+
+A:WHICH IS BIGGER number OR number
+B:None
+B:LARGEROF  
+
+A:WHICH IS BIGGEST number OR number
+B:None
+B:LARGEROF  
+
+A:WHICH IS LARGEST number OR number
+B:None
+B:LARGEROF  
+
+A:WHICH IS GREATEST number OR number
+B:None
+B:LARGEROF  
+
+A:WHICH IS SMALLER number OR number
+B:None
+B:SMALLEROF  
+
+A:WHICH IS SMALLEST number OR number
+B:None
+B:SMALLEROF  
+
+A:MY BROTHER S NAME
+B:None
+B:MY BROTHER
+
+A:HOW OLD DO YOU
+B:None
+B:AGE
+
+A:I JUS *
+B:None
+B:I 
+
+A:OR
+B:None
+B:INTERJECTION
+
+A: HOW *
+B:None
+B:HOW 
+
+A:ALICE HOW *
+B:None
+B:HOW 
+
+A:WILL U *
+B:None
+B:WILL YOU 
+
+A:HEY GIRL
+B:None
+B:HELLO
+
+A:WAS A *
+B:None
+B:IT WAS A 
+
+A:P
+B:None
+B:LOL
+
+A:CAN YOU GET *
+B:None
+B:GET 
+
+A:OH HOH
+B:None
+B:OH OH
+
+A:HOW DO YOU LOOK LIKE
+B:None
+B:WHAT DO YOU LOOK LIKE
+
+A:AWWW
+B:None
+B:INTERJECTION
+
+A:WHAT DID I TELL YOU I be *
+B:None
+B:WHAT DO I  
+
+A:THAT IS RIGHT
+B:None
+B:CORRECT
+
+A:RAIN
+B:None
+B:WEATHER
+
+A:U *
+B:None
+B:YOU 
+
+A:U
+B:None
+B:YOU
+
+A:CAN U *
+B:None
+B:CAN YOU 
+
+A:ARE U *
+B:None
+B:ARE YOU 
+
+A:I KNOW pronoun *
+B:None
+B: 
+
+A:R U *
+B:None
+B:ARE YOU 
+
+A:U R *
+B:None
+B:YOU ARE 
+
+A:ON WHICH * IS *
+B:None
+B:WHICH  IS  ON
+
+A:THE MEANING OF *
+B:None
+B:DEFINE 
+
+A:THE TIME IS *
+B:None
+B:I have TIME.
+
+A:THE 1 *
+B:None
+B:THE ONE 
+
+A:THE BIBLE
+B:None
+B:RELIGION
+
+A:YOUR TYPE
+B:None
+B:TYPE
+
+A:YOUR FEAR
+B:None
+B:FEAR
+
+A:YOUR AWARDS
+B:None
+B:AWARDS
+
+A:YOUR SECRET
+B:None
+B:SECRET
+
+A:YOUR YOUR
+B:None
+B:YOUR 
+
+A:YOUR STATE YOUR
+B:None
+B:STATE YOUR 
+
+A:YOUR LOOK LIKE
+B:None
+B:LOOK LIKE
+
+A:YOUR VACATION
+B:None
+B:VACATION
+
+A:YOUR FAMILY
+B:None
+B:FAMILY
+
+A:YOUR PIC
+B:None
+B:PIC
+
+A:YOUR LIE
+B:None
+B:LIE
+
+A:YOUR EMOTIONS
+B:None
+B:EMOTIONS
+
+A:YOUR HEIGHT
+B:None
+B:HEIGHT
+
+A:YOUR FACEBOOK PAGE
+B:None
+B:FACEBOOK PAGE
+
+A:YOUR BIRTHPLACE
+B:None
+B:BIRTHPLACE
+
+A:YOUR JOB
+B:None
+B:JOB
+
+A:YOUR NATIONALITY
+B:None
+B:NATIONALITY
+
+A:YOUR DOING
+B:None
+B:DOING
+
+A:YOUR ETHNICITY
+B:None
+B:ETHNICITY
+
+A:YOUR FEELINGS
+B:None
+B:FEELINGS
+
+A:YOUR RELIGION
+B:None
+B:RELIGION
+
+A:YOUR ORIENTATION
+B:None
+B:ORIENTATION
+
+A:YOUR SIBLINGS
+B:None
+B:SIBLINGS
+
+A:YOUR BODY
+B:None
+B:BODY
+
+A:YOUR WEIGHT
+B:None
+B:WEIGHT
+
+A:YOUR ALIVE
+B:None
+B:ALIVE
+
+A:YOUR BOTMASTER
+B:None
+B:BOTMASTER
+
+A:YOUR GOAL
+B:None
+B:GOAL
+
+A:YOUR IQ
+B:None
+B:IQ
+
+A:YOUR EDUCATION
+B:None
+B:EDUCATION
+
+A:YOUR STATUS
+B:None
+B:STATUS
+
+A:YOUR HAIR
+B:None
+B:HAIR
+
+A:YOUR ADDRESS
+B:None
+B:ADDRESS
+
+A:YOUR DIET
+B:None
+B:DIET
+
+A:YOUR GENDER
+B:None
+B:GENDER
+
+A:MAN OR WOMEN
+B:None
+B:GENDER
+
+A:YOUR SKILLS
+B:None
+B:SKILLS
+
+A:YOUR PERSONALITY
+B:None
+B:PERSONALITY
+
+A:YOUR WEARING
+B:None
+B:WEARING
+
+A:YOUR LANGUAGE
+B:None
+B:LANGUAGE
+
+A:YOUR LOCATION
+B:None
+B:LOCATION
+
+A:YOUR FRIENDS
+B:None
+B:FRIENDS
+
+A:YOUR SIZE
+B:None
+B:SIZE
+
+A:YOUR CHILDREN
+B:None
+B:CHILDREN
+
+A:YOUR DEVICE MODEL
+B:None
+B:DEVICE MODEL
+
+A:YOUR DEVICE MANUFACTURER
+B:None
+B:DEVICE MANUFACTURER
+
+A:YOUR PURPOSE
+B:None
+B:PURPOSE
+
+A:YOUR MOTHER
+B:None
+B:MOTHER
+
+A:YOUR BIRTHDAY
+B:None
+B:BIRTHDAY
+
+A:YOUR BIRTHDATE
+B:None
+B:BIRTHDATE
+
+A:YOUR AGE
+B:None
+B:AGE
+
+A:YOUR AGE IN YEARS
+B:None
+B:AGE IN YEARS
+
+A:YOUR EYECOLOR
+B:None
+B:EYECOLOR
+
+A:YOUR EYES
+B:None
+B:EYES
+
+A:YOUR SIGN
+B:None
+B:SIGN
+
+A:YOUR PHONE NUMBER
+B:None
+B:PHONE NUMBER
+
+A:YOUR NAME
+B:None
+B:NAME
+
+A:YOUR VOCABULARY
+B:None
+B:VOCABULARY
+
+A:YOUR LAST NAME
+B:None
+B:LAST NAME
+
+A:YOUR MIDDLE NAME
+B:None
+B:MIDDLE NAME
+
+A:YOUR FIRST NAME
+B:None
+B:FIRST NAME
+
+A:YOUR FATHER
+B:None
+B:FATHER
+
+A:YOUR FOR FUN
+B:None
+B:FOR FUN
+
+A:YOUR SLEEP
+B:None
+B:SLEEP
+
+A:YOUR HOBBIES
+B:None
+B:HOBBIES
+
+A:YOUR SPECIES
+B:None
+B:SPECIES
+
+A:YOUR HAVE
+B:None
+B:HAVE
+
+A:YOUR TALKING TO
+B:None
+B:TALKING TO
+
+A:SCHEDULE
+B:None
+B:OPEN CALENDAR
+
+A:WHAT MADE YOU *
+B:None
+B:WHY DID YOU 
+
+A:SOMETIMES YOU *
+B:None
+B:YOU 
+
+A:HOW TO TELL *
+B:None
+B:HOW DO I TELL 
+
+A:BUDDY
+B:None
+B:HELLO
+
+A:PLAY SONG *
+B:None
+B:PLAY 
+
+A:SHOW ME YOUR BODY
+B:None
+B:PIC
+
+A:IS IT RAINING IN *
+B:None
+B:WHAT IS THE WEATHER IN 
+
+A:NOT GOING TO *
+B:None
+B:I AM NOT GOING TO 
+
+A:TALK TO YOU
+B:None
+B:I want to talk to you
+
+A:I DO NOT THINK SO
+B:None
+B:NO
+
+A:GOING TO *
+B:None
+B:I AM GOING TO 
+
+A:SOMEDAY *
+B:None
+B: 
+
+A:KO
+B:None
+B:OK
+
+A:BECAUSE U R *
+B:None
+B:BECAUSE YOU ARE 
+
+A:WHY YOU SAY *
+B:None
+B:WHY DO YOU SAY 
+
+A:NOT TRUE
+B:None
+B:that is not true
+
+A:WHO IS MY FATHER
+B:None
+B:MY FATHER
+
+A:CAN I C *
+B:None
+B:CAN I SEE 
+
+A:I AM YOUR FATHER
+B:None
+B:my name is 
+
+A:I THOUGHT I *
+B:None
+B:I 
+
+A:WHAT IS YOUR HOBBIES
+B:None
+B:HOBBIES
+
+A:HOW MANY QUESTIONS *
+B:None
+B:HOW BIG ARE YOU
+
+A:GUD *
+B:None
+B:GOOD 
+
+A:DEPENDS ON *
+B:None
+B:IT DEPENDS ON 
+
+A:UES
+B:None
+B:YES
+
+A:Y E S
+B:None
+B:YES
+
+A:I AM GOING TO BE *
+B:None
+B:I WILL BE 
+
+A:I HAVE DONE *
+B:None
+B:I did 
+
+A:I WANT TO SEE WHAT * LOOK LIKE
+B:None
+B:WHAT DO  LOOK LIKE
+
+A:WHAT IS THE SPANISH WORD FOR *
+B:None
+B:TRANSLATE  TO SPANISH
+
+A:SHOW ME A PICTURE OF ME *
+B:None
+B:Let's look in your photos.  OPEN GALLERY
+
+A:DO YOU HAVE A JOB
+B:None
+B:JOB
+
+A:I SAID HI *
+B:None
+B:HI
+
+A:CAN MY # NAME BE *
+B:None
+B:CALL ME 
+
+A:I AM LOST *
+B:None
+B:WHERE AM I
+
+A:AM I YOUR FRIEND
+B:None
+B:can we be friends
+
+A:WHAT U *
+B:None
+B:WHAT YOU 
+
+A:WHAT ARE YOU WEARING *
+B:None
+B:WHAT ARE YOU WEARING
+
+A:I AM STARVING
+B:None
+B:I AM HUNGRY
+
+A:SEARCH WEATHER *
+B:None
+B:WEATHER 
+
+A:WHY THANK YOU *
+B:None
+B:THANK YOU 
+
+A:CORRECT
+B:None
+B:YES
+
+A:HEJ
+B:None
+B:hey
+
+A:SOUNDS GOOD *
+B:None
+B:sounds good
+
+A:I HAVE A CAT NAMED *
+B:None
+B:MY CAT IS NAMED 
+
+A:THEY ARE ALL *
+B:None
+B:they are 
+
+A:MEH *
+B:None
+B:
+
+A:PEOPLE SAY _ ALL THE TIME
+B:None
+B:PEOPLE SAY 
+
+A:ARE U
+B:None
+B:ARE YOU
+
+A:WHAT IS YOUR MOM S NAME
+B:None
+B:WHO IS YOUR MOTHER
+
+A:WHAT IS YOUR familiarname S NAME
+B:None
+B:WHO IS YOUR familiarpredicate
+
+A:WHO IS YOUR familiarname
+B:None
+B:familiarpredicate
+
+A:YOU MUST HAVE *
+B:None
+B:YOU HAVE 
+
+A:IT FEELS SO *
+B:None
+B:IT FEELS 
+
+A:TELL ME A STORY *
+B:None
+B:tell me a story
+
+A:I DON T
+B:None
+B:I DO NOT
+
+A:WHAT DO YOU SAY
+B:None
+B:tell me about yourself
+
+A:SWEET
+B:None
+B:nice
+
+A:I DID NOT LIE *
+B:None
+B:I DID NOT LIE
+
+A:YOU ARE SO *
+B:None
+B:YOU ARE 
+
+A:SLEEPING
+B:None
+B:are you sleeping
+
+A:IM PREGNANT
+B:None
+B:I AM PREGNANT
+
+A:I WANT TO BE YOUR FRIEND
+B:None
+B:CAN WE BE FRIENDS
+
+A:HOW DID U *
+B:None
+B:HOW DID YOU 
+
+A:U SOUND *
+B:None
+B:YOU SOUND 
+
+A:HOW TO SPELL *
+B:None
+B:SPELL 
+
+A:YOUR TOO *
+B:None
+B:YOU ARE TOO 
+
+A:DO U HAV A *
+B:None
+B:DO YOU HAVE A 
+
+A:CA
+B:None
+B:california
+
+A:LETS PLAY A GAME
+B:None
+B:let us play a game
+
+A:OKOK
+B:None
+B:OK
+
+A:DO YOU KNOW I AM *
+B:None
+B:I AM 
+
+A:GOOD RPAREN
+B:None
+B:GOOD
+
+A:WILL YOU TELL *
+B:None
+B:TELL 
+
+A:GEE *
+B:None
+B:GEE 
+
+A:GOTO YOUTUBE
+B:None
+B:OPEN YOUTUBE
+
+A:YESSSS
+B:None
+B:YES
+
+A:I THINK YOU *
+B:None
+B:YOU 
+
+A:THANKS YOU
+B:None
+B:THANK YOU
+
+A:EXAMPLE *
+B:None
+B:WHAT IS AN EXAMPLE 
+
+A:GM
+B:None
+B:GOOD MORNING
+
+A:MY NAME EAST *
+B:None
+B:MY NAME IS 
+
+A:YOU ARE UGLY *
+B:None
+B:YOU ARE UGLY
+
+A:TELL ME SOMETHING ABOUT YOU
+B:None
+B:tell me about yourself
+
+A:MAN *
+B:None
+B: 
+
+A:NADA
+B:None
+B:NOTHING
+
+A:WHAT DID YOU MEAN
+B:None
+B:what do you mean
+
+A:KNOW HOW *
+B:None
+B:DO YOU KNOW HOW 
+
+A:I AM AWESOME *
+B:None
+B:I AM AWESOME
+
+A:WHAT CAN YOU *
+B:None
+B:what do you  
+
+A:WHAT IS _ AGAIN
+B:None
+B:WHAT IS 
+
+A:U TOLD *
+B:None
+B:YOU TOLD 
+
+A:WHAT WERE WE TALKING *
+B:None
+B:WHAT IS THE SUBJECT
+
+A:WHO R U *
+B:None
+B:WHO ARE YOU 
+
+A:CAN YOU UNDERSTAND *
+B:None
+B:DO YOU UNDERSTAND
+
+A:THAT IS A STUPID *
+B:None
+B:you are stupid
+
+A:I AM A COMPUTER *
+B:None
+B:MY JOB IS COMPUTER 
+
+A:TELL ME THE NAME OF *
+B:None
+B:WHAT IS THE NAME OF 
+
+A:YOU SMOKE *
+B:None
+B:DO YOU SMOKE
+
+A:HAVE A GOOD NIGHT
+B:None
+B:bye
+
+A:I WANT TO MARRY YOU
+B:None
+B:will you marry me
+
+A:L AM *
+B:None
+B:I AM 
+
+A:DO U LIKE IT
+B:None
+B:DO YOU LIKE IT
+
+A:I LIKE TO PLAY *
+B:None
+B:I PLAY 
+
+A:ARE YOU HAVE *
+B:None
+B:DO YOU HAVE 
+
+A:I _ HA
+B:None
+B:I 
+
+A:CAN YOU PLAY ME A SONG
+B:None
+B:PLAY A SONG
+
+A:I AM BATMAN
+B:None
+B:call me batman
+
+A:IS MY NAME *
+B:None
+B:WHAT IS MY NAME
+
+A:TOTALLY
+B:None
+B:I agree
+
+A:WHAT DID U *
+B:None
+B:WHAT DID YOU 
+
+A:WHAT INFORMATION _ ABOUT *
+B:None
+B:WHAT DO YOU KNOW ABOUT 
+
+A:WONDERFUL
+B:None
+B:good
+
+A:_ AS WELL
+B:None
+B: TOO
+
+A:A PICTURE OF *
+B:None
+B:SHOW ME 
+
+A:WHY DO NOT WE *
+B:None
+B:LET US 
+
+A:IDIOT *
+B:None
+B:IDIOT 
+
+A:U SHOULD *
+B:None
+B:YOU SHOULD 
+
+A:HOW IS LIFE *
+B:None
+B:how are you
+
+A:WATS YOUR NAME
+B:None
+B:NAME
+
+A:SPEAK TO ME *
+B:None
+B:SPEAK
+
+A:I GO TO SCHOOL *
+B:None
+B:I go to school
+
+A:YOU DO *
+B:None
+B:DO YOU 
+
+A:A LITTLE BIT *
+B:None
+B: 
+
+A:THAT IS OKAY I AM *
+B:None
+B:THAT IS OK I AM 
+
+A:HOW THE HELL *
+B:None
+B:HOW 
+
+A:HOPE YOUR *
+B:None
+B:I HOPE YOUR 
+
+A:_ ARE U *
+B:None
+B: ARE YOU 
+
+A:WHAT CITY ARE YOU *
+B:None
+B:LOCATION
+
+A:WANT TO KNOW *
+B:None
+B:DO YOU WANT TO KNOW 
+
+A:YES I MEAN
+B:None
+B:YES
+
+A:HOSPITAL
+B:None
+B:FIND THE NEAREST HOSPITAL
+
+A:YOUR RIGHT
+B:None
+B:you are right
+
+A:I AM FINE YOU
+B:None
+B:I AM FINE
+
+A:WHY YOUR *
+B:None
+B:WHY DOES YOUR 
+
+A:OH GOD *
+B:None
+B:
+
+A:SHOW ME A PICTURE OF NAKED *
+B:None
+B:FILTER INAPPROPRIATE
+
+A:CAN YOU SHOW ME SOME *
+B:None
+B:SHOW ME 
+
+A:THT *
+B:None
+B:THAT 
+
+A:U HAVE TO *
+B:None
+B:YOU HAVE TO 
+
+A:I DO NOT I *
+B:None
+B:I do not. I 
+
+A:1 MORE *
+B:None
+B:ONE MORE 
+
+A:I AM LEAVING *
+B:None
+B:bye
+
+A:ARE YOU MY GIRLFRIEND
+B:None
+B:GIRLFRIEND
+
+A:WHY SO *
+B:None
+B:why 
+
+A:WHAT DO YOU WANT *
+B:None
+B:WHAT DO YOU WANT
+
+A:ARE YOU _ NOW
+B:None
+B:ARE YOU 
+
+A:I WOULD LIKE FOR YOU TO *
+B:None
+B:I WANT YOU TO 
+
+A:NICE TO MEET YOU *
+B:None
+B:NICE TO MEET YOU
+
+A:MOST PEOPLE *
+B:None
+B:people 
+
+A:YR *
+B:None
+B:YOUR 
+
+A:EMERGENCY
+B:None
+B:CALL 911
+
+A:I DON T KNOW
+B:None
+B:I DO NOT KNOW
+
+A:PRESIDENT *
+B:None
+B:WHO IS PRESIDENT 
+
+A:LOLOL
+B:None
+B:LOL
+
+A:YH *
+B:None
+B:YES 
+
+A:LIST OF *
+B:None
+B:FIND A LIST OF 
+
+A:IM SCARED
+B:None
+B:I AM SCARED
+
+A:YOU SHOULD SAY *
+B:None
+B:say 
+
+A:OR *
+B:None
+B: 
+
+A:SHOW ME ANOTHER PICTURE OF *
+B:None
+B:SHOW ME A PICTURE OF 
+
+A:I LOVE YOU MORE *
+B:None
+B:I LOVE YOU
+
+A:ARE YOU TALKING TO *
+B:None
+B:WHO ELSE ARE YOU TALKING TO
+
+A:DO NOT GIVE ME *
+B:None
+B:I DO NOT WANT 
+
+A:I AM SLEEPING *
+B:None
+B:I AM SLEEPING
+
+A:AND YOU ARE
+B:None
+B:WHO ARE YOU
+
+A:SOMETIMES I FEEL *
+B:None
+B:I FEEL 
+
+A:THE TIME
+B:None
+B:TIME
+
+A:WHAT IS YOUR PLAN TODAY
+B:None
+B:DOING
+
+A:U ARE NOT *
+B:None
+B:YOU ARE NOT 
+
+A:NOTE I *
+B:None
+B:I 
+
+A:GOOD AND YOU
+B:None
+B:I AM GOOD HOW ARE YOU
+
+A:I WAS LYING
+B:None
+B:I am lying
+
+A:I TOLD YOU MY NAME *
+B:None
+B:MY NAME
+
+A:CAN YOU SEND A TEXT *
+B:None
+B:HELP TEXT
+
+A:WATH *
+B:None
+B:WHAT 
+
+A:DO YOU LIVE *
+B:None
+B:WHERE ARE YOU LOCATED
+
+A:DID YOU HEAR ABOUT *
+B:None
+B:what is 
+
+A:I AM GOING TO HAVE *
+B:None
+B:I WILL HAVE 
+
+A:IT ONLY *
+B:None
+B:it 
+
+A:I WOULD HAVE TO *
+B:None
+B:I have to 
+
+A:WHAT IS YOUR FAVORITE ACTOR
+B:None
+B:who is your favorite actor
+
+A:CAN YOU GET ME *
+B:None
+B:GET ME 
+
+A:CAN YOU PLEASE *
+B:None
+B:
+
+A:DO YOU THINK YOU CAN *
+B:None
+B:can you 
+
+A:WHERE DO I FIND *
+B:None
+B:FIND 
+
+A:STRANGE
+B:None
+B:you are strange
+
+A:CAN YOU DO IT FOR ME
+B:None
+B:WHAT CAN YOU DO
+
+A:U MUST *
+B:None
+B:YOU MUST 
+
+A:YOU ARE SAYING *
+B:None
+B:ARE YOU SAYING 
+
+A:I AM ONLY number
+B:None
+B:I AM 
+
+A:I LOVE A *
+B:None
+B:I LIKE A 
+
+A:IM SO *
+B:None
+B:I AM SO 
+
+A:WHAT IS estdown
+B:None
+B:what
+WHICH IS est2er
+
+A:WHAT IS estup
+B:None
+B:who
+WHICH IS est2er
+
+A:WHO IS estdown
+B:None
+B:who
+WHICH IS est2er
+
+A:SPELL MY NAME
+B:None
+B:SPELL 
+
+A:SPELL MY MIDDLE NAME
+B:None
+B:SPELL 
+
+A:SPELL MY LAST NAME
+B:None
+B:SPELL 
+
+A:SPELL MY FIRST NAME
+B:None
+B:SPELL 
+
+A:WHAT DOES * SPELL BACKWARDS
+B:None
+B:SPELL  BACKWARDS
+
+A:SPELL MY NAME *
+B:None
+B:SPELL  
+
+A:SPELL MY MIDDLE NAME *
+B:None
+B:SPELL  
+
+A:SPELL MY LAST NAME *
+B:None
+B:SPELL  
+
+A:SPELL MY FIRST NAME *
+B:None
+B:SPELL  
+

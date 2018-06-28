@@ -25,8 +25,8 @@ import pprint
 
 
 import keras
-smodel = keras.models.load_model("./DeadSimpleSpeechRecognizer/chippy_v1.model")
-model = keras.models.load_model("model1.chatbot")
+smodel = keras.models.load_model("./model/chippy_v1.model")
+model = keras.models.load_model("/model/model1.chatbot")
 
 
 # In[5]:

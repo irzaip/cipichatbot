@@ -1,0 +1,252 @@
+A:SIMPLEMEMBER * *
+B:None
+B:
+
+
+false
+
+
+NIL
+
+
+
+true
+ 
+
+
+A:_
+B:None
+B:
+unknown
+
+
+
+REMOVE  FROM LIST 
+
+
+A:ADD _ TO LIST
+B:None
+B:ADD  TO MY LIST
+
+A:ADD _ TO MY LIST
+B:None
+B:I've added  to your list.
+
+MYLIST
+CONS  MYLIST
+
+
+B:CONS  MYLIST
+
+
+A:MYLIST
+B:None
+B:CONS  MYLIST
+
+
+A:ADD _ TO MY * LIST
+B:None
+B:I've added  to your  list.
+
+MY  LIST
+CONS  MY  LIST
+
+
+B:CONS  MY  LIST
+
+
+A:MY  LIST
+B:None
+B:CONS  MY  LIST
+
+
+A:LISTCAR *
+B:None
+B:undefined
+
+A:LISTCAR CONS * CONS *
+B:None
+B:
+
+A:LISTCAR CONS * NIL
+B:None
+B:
+
+A:LISTCAR NIL
+B:None
+B:NIL
+
+A:LISTCDR *
+B:None
+B:undefined
+
+A:LISTCDR CONS * CONS *
+B:None
+B:CONS 
+
+A:LISTCDR CONS * NIL
+B:None
+B:NIL
+
+A:LISTCDR NIL
+B:None
+B:NIL
+
+A:COMMASEPARATE *
+B:None
+B:undefined
+
+A:COMMASEPARATE CONS * CONS *
+B:None
+B:, COMMASEPARATE CONS 
+
+A:COMMASEPARATE CONS * NIL
+B:None
+B:
+
+A:COMMASEPARATE NIL
+B:None
+B:Your list is empty.
+
+A:CONS *
+B:None
+B:undefined
+
+A:CONS * CONS *
+B:None
+B:CONS  CONS 
+
+A:CONS * NIL
+B:None
+B:CONS  NIL
+
+A:IS _ EQUALTO *
+B:None
+B:
+
+
+true
+false
+
+
+A:LISTMEMBER * OF LIST CONS * CONS *
+B:None
+B:IS  EQUALTO 
+
+true
+LISTMEMBER  OF LIST CONS 
+
+
+A:LISTMEMBER * OF LIST CONS * NIL
+B:None
+B:IS  EQUALTO 
+
+true
+false
+
+
+A:LISTMEMBER * OF LIST NIL
+B:None
+B:FALSE
+
+A:MAKE A * LIST
+B:None
+B:Initializing your  list.
+
+MY  LIST
+NIL
+
+B:NIL
+
+A:MY  LIST
+B:None
+B:NIL
+
+A:MAKE A LIST
+B:None
+B:Initializing your list.
+
+MYLIST
+NIL
+
+B:NIL
+
+A:MYLIST
+B:None
+B:NIL
+
+A:READ MY * LIST
+B:None
+B:Here is your  list: COMMASEPARATE MY  LIST
+
+A:READ MY LIST
+B:None
+B:Here is your list: COMMASEPARATE MYLIST
+
+A:REMOVE * FROM LIST *
+B:None
+B:
+
+LISTMEMBER  OF LIST 
+
+
+
+Taking  off your list.
+
+
+REMOVEITEM  FROM LIST 
+
+
+
+
+
+Which item?
+XMLITEMIZE 
+
+
+REMOVE LIST ITEM 
+I couldn't find  on your list.  
+Which item would you like to remove?
+
+B:REMOVEITEM  FROM LIST 
+
+A:
+B:None
+B:REMOVEITEM  FROM LIST 
+
+A:REMOVE * FROM MY * LIST
+B:None
+B:REMOVE  FROM LIST MY  LIST
+
+A:REMOVE * FROM MY LIST
+B:None
+B:REMOVE  FROM LIST MYLIST
+
+A:REMOVEITEM * FROM LIST CONS * CONS *
+B:None
+B:IS  EQUALTO 
+
+REMOVEITEM  FROM LIST CONS 
+CONS  REMOVEITEM  FROM LIST CONS 
+
+
+A:REMOVEITEM * FROM LIST CONS * NIL
+B:None
+B:IS  EQUALTO 
+
+NIL
+CONS  NIL
+
+
+A:REMOVEITEM * FROM LIST NIL
+B:None
+B:NIL
+
+A:WHAT IS MY LIST CALLED
+B:None
+B:Your list is called MYLIST.
+
+A:YES
+B:None
+B:MAKE A  LIST
+

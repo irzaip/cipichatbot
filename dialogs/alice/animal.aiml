@@ -1,0 +1,89 @@
+A:SINGULAR animals
+B:None
+B:
+
+?singular
+hasPlural
+
+
+
+
+A:PLURAL animal
+B:None
+B:hasPlural?plural
+
+A:animals
+B:None
+B: is the plural of ?subjhasPlural.
+
+A:SOUND animal
+B:None
+B: says sound?sound.
+
+A:COLLECTIVE animal
+B:None
+B:A group of  is called collective?collective.
+
+A:LEGS animal
+B:None
+B:A  has legs?sound legs.
+
+A:WHAT DOES A animal SAY ^
+B:None
+B:SOUND 
+
+A:WHAT DO animals SAY ^
+B:None
+B:SOUND SINGULAR 
+
+A:WHAT SOUND DOES # animal ^
+B:None
+B:SOUND 
+
+A:WHAT SOUND DO # animal ^
+B:None
+B:SOUND SINGULAR 
+
+A:HOW DOES # animal ^
+B:None
+B:SOUND 
+
+A:HOW MANY LEGS ^ animal #
+B:None
+B:LEGS 
+
+A:HOW MANY LEGS ^ animals #
+B:None
+B:LEGS SINGULAR 
+
+A:HOW MANY LEGS # number animals # number animals ^
+B:None
+B:
+
+SINGULAR 
+legs?legs1
+
+SINGULAR 
+legs?legs2
+*+*
+
+ROUND WHAT IS  legs.
+
+A:HOW MANY LEGS # number animals ^
+B:None
+B:
+
+SINGULAR 
+legs?legs1
+*
+
+ROUND WHAT IS  legs.
+
+A:_ 1 animal *
+B:None
+B: 1 PLURAL  
+
+A:_ 1 animal
+B:None
+B: 1 PLURAL 
+

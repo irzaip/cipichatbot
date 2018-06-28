@@ -1,0 +1,4 @@
+buka direktori
+lihat direktori
+buka isi direktori
+lihat isi direktori

@@ -1,3 +1,16 @@
+A: CV CV
+A: CV CV CV
+A: CV
+B: ya
+
+A: tv tv tv
+A: tv tv
+A: tv
+B: apa
+
+A: Chibi
+B: kenapa
+
 A: siapa kamu
 A: apa panggilan kamu
 A: nama
@@ -11,9 +24,9 @@ A: Kamu lagi ngapain
 A: lagi apa
 B: saya lagi santai saja
 
+A: umur
 A: berapa umur kamu
 A: umurnya berapa
-B: saya berumur enam bulan
 B: saya masih muda
 
 A: apa hobi kamu
@@ -21,8 +34,11 @@ A: apa kesukaan kamu
 A: suka apa
 A: kesenangannya apa
 A: apa yang membuat kamu senang
-B: saya suka ngobrol
 B: saya suka kamu
+
+A: ngobrol
+B: saya suka ngobrol
+
 
 A: apakah bumi bulat
 B: bumi itu bulat
@@ -30,7 +46,7 @@ B: bumi itu bulat
 A: senang berkenalan dengan anda
 B: saya senang berkenalan dengan anda
 
-A: tinggal dimana
+A: tinggal di mana
 B: di mesin komputer
 
 A: ada dimana

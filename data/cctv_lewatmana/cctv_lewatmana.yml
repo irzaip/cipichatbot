@@ -1,6 +1,6 @@
 intent: cctv_lewatmana
 debug: False
-min_score: 0.2
+min_score: 0.002
 
 process: cctv_lewatmana.process
 
