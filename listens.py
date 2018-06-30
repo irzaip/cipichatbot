@@ -6,6 +6,7 @@ import numpy as np
 import time
 import logging
 
+
 class Listen:
     def __init__(self):
         self.DURATION = 20                    #ms clip
@@ -26,13 +27,23 @@ class Listen:
         self.phrase = ""
         self.avg_rms = []                     #untuk keperluan rms dan kalibrasi trigger
 
-    def start(self, thres=0, filename=None, timeout=5, process=None):
+        
+    def start(self, thres=0, timeout=5, process=None, 
+              startpadding=10,
+              endpadding=20,
+              fullfilename=None, 
+              partfilename=None):
+        
         if process != None:
             if not callable(process): 
                 raise TypeError('process must be function not called.')
             else:
                 self.fnc = process
                 
+        self.startpadding=startpadding
+        self.endpadding=endpadding
+        self.fullfilename=fullfilename
+        self.partfilename=partfilename
         self.starttime = time.time()
         self.avg_rms=[]
         self.recording = False
@@ -52,13 +63,16 @@ class Listen:
                     self.endtime = time.time()
                     if timeout > 0:
                         if (self.endtime - self.starttime) >= timeout:
-                            if process != None: self.pred_process()
+                            if process != None: 
+                                self.pred_process()
+                                if partfilename != None:
+                                    self.write_to_file(self,partfilename)
                             break
                             
                     #await asyncio.sleep(0.1)
                     #time.sleep(0.1)
                     #break
-                if filename != None: soundfile.write(filename, self.audiodata, int(self.samplerate))
+                if self.fullfilename != None: soundfile.write(self.fullfilename, self.audiodata, int(self.samplerate))
                 
             
             if cumulated_status:
@@ -85,7 +99,7 @@ class Listen:
             self.start_count += 1
             if rms>=self.thres:
                 self.end_count = 0
-                if not self.recording and (self.start_count > 10):
+                if not self.recording and (self.start_count > self.startpadding):
                     self.audiodata = []
                     self.magnitudo = []
                     self.recording = True
@@ -104,7 +118,7 @@ class Listen:
                     self.audiodata.extend(itertools.chain(indata.tolist()))
                     self.magnitudo.append(magnitude)
                 
-                if (self.end_count > 20) and self.recording:
+                if (self.end_count > self.endpadding) and self.recording:
                     self.recording = False
                     self.end_count = 0
                     if self.debug: print('X', end='', flush=False)

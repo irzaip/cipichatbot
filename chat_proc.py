@@ -16,11 +16,12 @@ import keras
 import logging
 import time
 
+
 #logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
 logging.info('loaded at :'+str(time.asctime()))
 
-debug=True
-debug2=True
+debug=True   
+debug2=True   #print sektor
 
 smodel = keras.models.load_model("./model/chippy_v1.model")    #keyword detect
 model = keras.models.load_model("./model/model2.chatbot")      #command intent detect
@@ -29,7 +30,6 @@ import pickle
 intent = pickle.load(open("i_intent.p",'rb'))
 i_integer_encoded = pickle.load(open("i_integer_encoded.p","rb"))
 i_onehot_encoded = pickle.load(open("i_onehot_encoded.p",'rb'))
-
 
 nltk.download('punkt')
 
@@ -94,7 +94,7 @@ escape_dict={'\a':r'\a',
 
 def raw(text):
     """Returns a raw string representation of text"""
-    new_string=''
+    new_string = ''
     for char in text:
         try: 
             new_string += escape_dict[char]
@@ -104,44 +104,46 @@ def raw(text):
 
 def pred_intent(sentence):
     """memprediksi masuk intent apakah sebuah kalimat."""
-    predictions=model.predict(np.array([swv_ar(twl(sentence))]))
+    
+    vectorized_sentence = np.array([swv_ar(twl(sentence))])
+    predictions = model.predict(vectorized_sentence)
     cls_pred = np.argmax(predictions,axis=1)
 
     jawaban = intent[list(i_integer_encoded).index(cls_pred[0])]
 
-    result={'intent': jawaban, 'score': predictions.max(), 'sentence': sentence}
+    result={'intent' : jawaban, 'score' : predictions.max(), 'sentence' : sentence}
     return result
 
 
-def sequence(sentence,humanstate,botstate):
+def sequence(sentence, humanstate, botstate):
     """urutan memproses sebuah kalimat menjadi sebuah reply"""
     #do some filtering escape
     sentence = raw(sentence)
 
-    if debug: print("\nSENTENCE:",sentence)
+    if debug: print("\nSENTENCE:", sentence)
     logging.info("SENTENCE:")
-    logging.info("A:"+str(sentence))
+    logging.info("A:" + str(sentence))
 
-    humanstate,botstate = input_classifier(sentence,humanstate,botstate)
+    humanstate, botstate = input_classifier(sentence, humanstate, botstate)
 
     if debug: 
         print("\nBEGIN")
-        print("HUMANSTATE:",humanstate)
-        print("BOTSTATE:",botstate)
+        print("HUMANSTATE:", humanstate)
+        print("BOTSTATE:", botstate)
 
-    humanstate,botstate = input_processor(humanstate,botstate)
+    humanstate, botstate = input_processor(humanstate, botstate)
 
-    output,humanstate,botstate = reply_creator(humanstate,botstate)
-    return output,humanstate,botstate
+    output, humanstate, botstate = reply_creator(humanstate, botstate)
+    return output, humanstate, botstate
 
 
-def input_classifier(sentence,humanstate,botstate):
-    
+def input_classifier(sentence, humanstate, botstate):
+    """Fase pertama - tentukan minimum skor dan masukkan intent chitchat apa bila bukan command"""
     #PROSES IDENTIFIKASI SKOR CLASSIFIER
     result = pred_intent(sentence)
-    humanstate['lastmsg']=sentence
-    humanstate['intent']=result['intent']
-    humanstate['intentscore']=result['score']
+    humanstate['lastmsg'] = sentence
+    humanstate['intent'] = result['intent']
+    humanstate['intentscore'] = result['score']
     scoremasukan = result['score']
     minimum_score = min_pred[result['intent']]
     
@@ -150,47 +152,48 @@ def input_classifier(sentence,humanstate,botstate):
         pass
     else:
         #karena lebih kecil dari score- maka ini chitchat
-        humanstate['intent']='chitchat'
-    return humanstate,botstate
+        humanstate['intent'] = 'chitchat'
+    return humanstate, botstate
 
-def input_processor(humanstate,botstate):
+def input_processor(humanstate, botstate):
+    """Fase kedua - lihat intent goodbye, cek apakah sebuah followup, apabila benar maka ambil semua field yg di perlukan
+    lalu panggil function dan method berkaitan dengan intent."""
     global listening
 
+    botstate['lastmsg'] = botstate['prompt']
     
-    botstate['lastmsg']=botstate['prompt']
-    
-    if botstate['intent']=='goodbye':
+    if botstate['intent'] == 'goodbye':
         if debug: print("\nGoodbye\n")
-        listening=False
+        listening = False
         
     #EXEKUSI FOLLOWUP SECARA PRIORITAS - apakah bot sebelumnya minta followup?
     if botstate['followup'] != 'None':
             #kalau negasi setelah followup bot maka batal semua
             if humanstate['intent'] == 'negasi':
-                botstate['intent']='None'
-                botstate['followup']='None'
-                botstate['name']='None'
-                botstate['prompt']='batal'
-                instruction="{'name':'None','followup':'None','intentfu':'None','prompt':'pembatalan'}"
+                botstate['intent'] = 'None'
+                botstate['followup'] = 'None'
+                botstate['name'] = 'None'
+                botstate['prompt'] = 'batal'
+                instruction = "{'name' : 'None', 'followup' : 'None', 'intentfu' : 'None', 'prompt' : 'pembatalan'}"
                 if debug2: print("Sector A")
             else:
-                instruction = botstate['intentfu']+'.'+"input(\'"+humanstate['lastmsg']+"\')"
+                instruction = botstate['intentfu'] + '.' + "input(\'" + humanstate['lastmsg'] + "\')"
                 if debug2: print("Sector B")
     else:
         
         if humanstate['intent'] != 'chitchat':
             if debug2: print("Sector C")
-            instruction = humanstate['intent']+'.'+"input(\'"+humanstate['lastmsg']+"\')"
+            instruction = humanstate['intent'] + '.' + "input(\'" + humanstate['lastmsg'] + "\')"
         else:
             if humanstate['intent'] == 'goodbye':
                 if debug2: print("Sector D")
-                instruction = humanstate['intent']+'.'+"input(\'"+humanstate['lastmsg']+"\')"
+                instruction = humanstate['intent'] + '.' + "input(\'" + humanstate['lastmsg'] + "\')"
                 if debug: print("I will quit")
             #TARUH DISINI UNTUK RUTIN CHITCHAT - dan kurang mengerti apa yang di bilang.
         
         #default EXIT
         if debug2: print("Sector E")
-        instruction = humanstate['intent']+'.'+"input(\'"+humanstate['lastmsg']+"\')"
+        instruction = humanstate['intent'] + '.' + "input(\'" + humanstate['lastmsg'] + "\')"
 
         #print(instruction, "intent driven")
     
@@ -202,6 +205,8 @@ def input_processor(humanstate,botstate):
     
     
     #proses kembali jawaban dari EVAL
+    #rslt bisa sebuah dict. contoh: "{'name':'None','followup':'None','intentfu':'None','prompt':'pembatalan'}"
+    #atau bukan
     if type(rslt) is not dict:
         botstate['intent'] = 'None'
         botstate['followup'] = 'None'
@@ -215,30 +220,21 @@ def input_processor(humanstate,botstate):
 
     return humanstate, botstate
 
-def reply_creator(humanstate,botstate):
-    output=botstate['prompt']
+
+def reply_creator(humanstate, botstate):
+    """Pembentukan jawaban akhir dari sebuah reply - disini dirubah dari kondisi humanstate dan botstate
+    lalu proses apa yang perlu di proses"""
+    output = botstate['prompt']
     
     if botstate['process'] != 'None':
+        print("Mencoba memproses :", botstate['process'])
         eval(botstate['process'])
+
     if debug:
         print("\nEND STATE")
-        print("HUMAN STATE:",humanstate)
-        print("END BOTSTATE:",botstate)
-        print("\nREPLY:",botstate['prompt'])
-    logging.info("B:"+"\n"+str(humanstate)+"\n"+str(botstate)+"\n\n")
+        print("HUMAN STATE:", humanstate)
+        print("END BOTSTATE:", botstate)
+        print("\nREPLY:", botstate['prompt'])
+
+    logging.info("B:" + "\n" + str(humanstate) + "\n" + str(botstate) + "\n\n")
     return output, humanstate, botstate    
-
-
-
-
-def testalk(sentence,s_iface):
-    talking = True
-    talk(sentence, s_iface)
-    while talking:
-        if not cek_talk_or_speak(s_iface):
-            talking=False
-            print("X")
-            clear(s_iface)
-        else:
-            print("_",end='')
-            time.sleep(0.02)
