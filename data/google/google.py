@@ -27,7 +27,7 @@ if not os.path.isfile(fileyaml):
 with open(fileyaml) as f:
     entdic = yaml.load(f)
     debug = entdic['debug']
-    #debug = True
+    debug = True
 
     
 with open(fileinput) as f:
@@ -97,7 +97,7 @@ def get_entity(sentence, entname=None):
             output = "{'name':'None','followup':'None','prompt':'oke'}"
             
 
-    if debug: print("reply:",output)
+    if debug: print("Reply:",output)
     return output
 
 def input(sentence):

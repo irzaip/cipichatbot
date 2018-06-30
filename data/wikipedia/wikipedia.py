@@ -132,7 +132,7 @@ def process():
     wiki=entdic['entity'][0]['value']
 
     lang=entdic['entity'][1]['value']
-    if lang == "Indonesia":
+    if lang == "indonesia":
         lang = "id"
     else:
         lang = "en"

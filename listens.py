@@ -60,10 +60,12 @@ class Listen:
                     #break
                 if filename != None: soundfile.write(filename, self.audiodata, int(self.samplerate))
                 
-                
+            
             if cumulated_status:
                 logging.warning(str(cumulated_status))
         except Exception as e:
+            logging.info("=====================CRASH AT THIS")
+            logging.debug(e)
             print(e)
             
 

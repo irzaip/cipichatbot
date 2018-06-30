@@ -20,6 +20,7 @@ import time
 logging.info('loaded at :'+str(time.asctime()))
 
 debug=True
+debug2=True
 
 smodel = keras.models.load_model("./model/chippy_v1.model")    #keyword detect
 model = keras.models.load_model("./model/model2.chatbot")      #command intent detect
@@ -80,6 +81,26 @@ botstate={
     'process': 'None'
 }
 
+escape_dict={'\a':r'\a',
+             '\b':r'\b',
+             '\c':r'\c',
+             '\f':r'\f',
+             '\n':r'\n',
+             '\r':r'\r',
+             '\t':r'\t',
+             '\v':r'\v',
+             '\'':r'\'',
+             '\"':r'\"'}
+
+def raw(text):
+    """Returns a raw string representation of text"""
+    new_string=''
+    for char in text:
+        try: 
+            new_string += escape_dict[char]
+        except KeyError: 
+            new_string += char
+    return new_string
 
 def pred_intent(sentence):
     """memprediksi masuk intent apakah sebuah kalimat."""
@@ -94,22 +115,29 @@ def pred_intent(sentence):
 
 def sequence(sentence,humanstate,botstate):
     """urutan memproses sebuah kalimat menjadi sebuah reply"""
+    #do some filtering escape
+    sentence = raw(sentence)
+
     if debug: print("\nSENTENCE:",sentence)
     logging.info("SENTENCE:")
     logging.info("A:"+str(sentence))
+
     humanstate,botstate = input_classifier(sentence,humanstate,botstate)
-    humanstate,botstate = input_processor(humanstate,botstate)
 
     if debug: 
         print("\nBEGIN")
         print("HUMANSTATE:",humanstate)
         print("BOTSTATE:",botstate)
 
+    humanstate,botstate = input_processor(humanstate,botstate)
+
     output,humanstate,botstate = reply_creator(humanstate,botstate)
     return output,humanstate,botstate
 
 
 def input_classifier(sentence,humanstate,botstate):
+    
+    #PROSES IDENTIFIKASI SKOR CLASSIFIER
     result = pred_intent(sentence)
     humanstate['lastmsg']=sentence
     humanstate['intent']=result['intent']
@@ -127,6 +155,8 @@ def input_classifier(sentence,humanstate,botstate):
 
 def input_processor(humanstate,botstate):
     global listening
+
+    
     botstate['lastmsg']=botstate['prompt']
     
     if botstate['intent']=='goodbye':
@@ -142,24 +172,30 @@ def input_processor(humanstate,botstate):
                 botstate['name']='None'
                 botstate['prompt']='batal'
                 instruction="{'name':'None','followup':'None','intentfu':'None','prompt':'pembatalan'}"
+                if debug2: print("Sector A")
             else:
                 instruction = botstate['intentfu']+'.'+"input(\'"+humanstate['lastmsg']+"\')"
+                if debug2: print("Sector B")
     else:
         
         if humanstate['intent'] != 'chitchat':
+            if debug2: print("Sector C")
             instruction = humanstate['intent']+'.'+"input(\'"+humanstate['lastmsg']+"\')"
         else:
             if humanstate['intent'] == 'goodbye':
+                if debug2: print("Sector D")
                 instruction = humanstate['intent']+'.'+"input(\'"+humanstate['lastmsg']+"\')"
                 if debug: print("I will quit")
             #TARUH DISINI UNTUK RUTIN CHITCHAT - dan kurang mengerti apa yang di bilang.
         
         #default EXIT
+        if debug2: print("Sector E")
         instruction = humanstate['intent']+'.'+"input(\'"+humanstate['lastmsg']+"\')"
 
         #print(instruction, "intent driven")
     
     if debug: print(instruction)
+    
     #EXECUTE COMMAND =======================
     rslt = eval(instruction)
     # ======================================            

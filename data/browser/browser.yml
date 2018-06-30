@@ -1,0 +1,18 @@
+intent: browser
+debug: False
+min_score: 0.007
+
+process: browser.process
+
+dialog:
+  ask: ['browse']
+  action: process(browse)
+
+entity:
+  - name: instruksi
+    followup: browser
+    method: ask
+    type: string
+    required: True
+    value: None
+    prompt: "ya"
