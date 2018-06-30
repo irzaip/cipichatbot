@@ -2,8 +2,9 @@ import glob
 import fileinput
 import yaml
 
+
 fls = glob.glob('./data/*/input.txt')
-intent=[]
+intent = []
 prep_x = []
 prep_y = []
 for i in fls:
@@ -22,10 +23,10 @@ for i in intent:
     exect = 'from data.'+i+" import "+i
     print(exect)
     exec(exect)
-    min_pred[i]=0.1
+    min_pred[i] = 0.1
 
 a = glob.glob('./data/*/*.yml')
 for i in a:
-    with open(i,'r') as f:
+    with open(i, 'r') as f:
         fi = f.read()
     min_pred[yaml.load(fi)['intent']] = yaml.load(fi)['min_score']

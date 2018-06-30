@@ -27,9 +27,9 @@ smodel = keras.models.load_model("./model/chippy_v1.model")    #keyword detect
 model = keras.models.load_model("./model/model2.chatbot")      #command intent detect
 
 import pickle
-intent = pickle.load(open("i_intent.p",'rb'))
-i_integer_encoded = pickle.load(open("i_integer_encoded.p","rb"))
-i_onehot_encoded = pickle.load(open("i_onehot_encoded.p",'rb'))
+intent = pickle.load(open("i_intent.p", 'rb'))
+i_integer_encoded = pickle.load(open("i_integer_encoded.p", "rb"))
+i_onehot_encoded = pickle.load(open("i_onehot_encoded.p", 'rb'))
 
 nltk.download('punkt')
 

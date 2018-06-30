@@ -40,17 +40,17 @@ class Listen:
             else:
                 self.fnc = process
                 
-        self.startpadding=startpadding
-        self.endpadding=endpadding
-        self.fullfilename=fullfilename
-        self.partfilename=partfilename
+        self.startpadding = startpadding
+        self.endpadding = endpadding
+        self.fullfilename = fullfilename
+        self.partfilename = partfilename
         self.starttime = time.time()
-        self.avg_rms=[]
+        self.avg_rms = []
         self.recording = False
-        self.stopper=False
-        self.start_count=0
-        self.end_count=0
-        self.thres=thres
+        self.stopper = False
+        self.start_count = 0
+        self.end_count = 0
+        self.thres = thres
         global cumulated_status
         try:
             cumulated_status = sd.CallbackFlags()
@@ -66,7 +66,7 @@ class Listen:
                             if process != None: 
                                 self.pred_process()
                                 if partfilename != None:
-                                    self.write_to_file(self,partfilename)
+                                    self.write_to_file(self, partfilename)
                             break
                             
                     #await asyncio.sleep(0.1)
@@ -77,6 +77,7 @@ class Listen:
             
             if cumulated_status:
                 logging.warning(str(cumulated_status))
+                
         except Exception as e:
             logging.info("=====================CRASH AT THIS")
             logging.debug(e)
@@ -97,7 +98,7 @@ class Listen:
             self.avg_rms.append(rms)
             
             self.start_count += 1
-            if rms>=self.thres:
+            if rms >= self.thres:
                 self.end_count = 0
                 if not self.recording and (self.start_count > self.startpadding):
                     self.audiodata = []
@@ -132,10 +133,10 @@ class Listen:
     def stop(self):
         self.stopper=True
     
-    def calibrate(self,timeout=5):
+    def calibrate(self, timeout=5):
         self.start(thres=0, timeout=timeout)
         if self.debug: print("\n\nThe average rms is :",np.average(self.avg_rms), 
-                             ", Maximum:",np.max(self.avg_rms),
+                             ", Maximum:", np.max(self.avg_rms),
                              ", Minimum:", np.min(self.avg_rms))
         
     def pred_process(self):
@@ -145,11 +146,11 @@ class Listen:
         self.fnc = fnc
         
     def listen_phrase(self):
-        self.stopper=False
+        self.stopper = False
     
     def write_to_file(self,filename):
-        soundfile.write(filename,self.audiodata,16000)
-        if self.debug: print("Done writing File",filename)
+        soundfile.write(filename, self.audiodata, 16000)
+        if self.debug: print("Done writing File", filename)
 
 
 #async def begin_listen():
