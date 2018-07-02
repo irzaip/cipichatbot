@@ -1,0 +1,18 @@
+intent: awake
+debug: False
+min_score: 0.008
+
+process: awake.process
+
+dialog:
+  ask: ['bangun']
+  action: process(bangun)
+
+entity:
+  - name: instruksi
+    followup: awake
+    method: ask
+    type: string
+    required: True
+    value: None
+    prompt: "Saya siap"
