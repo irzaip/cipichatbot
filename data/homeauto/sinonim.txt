@@ -1,0 +1,1 @@
+lampu:kipas:alat:pintu:jendela:pompa:alarm

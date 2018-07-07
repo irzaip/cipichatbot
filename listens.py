@@ -79,57 +79,62 @@ class Listen:
                 logging.warning(str(cumulated_status))
                 
         except Exception as e:
-            logging.info("=====================CRASH AT THIS")
+            logging.info("=====================CRASH AT THIS=listen.py start")
             logging.debug(e)
             print(e)
             
 
     def callback(self, indata, frames, time, status):
         global cumulated_status
-        
-        cumulated_status |= status
-        if any(indata):
-            
-            magnitude = np.abs(np.fft.rfft(indata[:,0], n=self.fftsize))
-            magnitude *= self.gain / self.fftsize
-            
-            rms = librosa.feature.rmse(S=indata)
-            rms = int(rms*32768)
-            self.avg_rms.append(rms)
-            
-            self.start_count += 1
-            if rms >= self.thres:
-                self.end_count = 0
-                if not self.recording and (self.start_count > self.startpadding):
-                    self.audiodata = []
-                    self.magnitudo = []
-                    self.recording = True
-                    if self.debug: print('O', end='', flush=False)
-                    self.audiodata.extend(itertools.chain(indata.tolist()))
-                    self.magnitudo.append(magnitude)
-                    
-                else:
-                    if self.debug: print('x', end='', flush=False)
-                    #just add to the list
-                    self.audiodata.extend(itertools.chain(indata.tolist()))
-                    self.magnitudo.append(magnitude)
-            
-            else:
-                if self.recording:
-                    self.audiodata.extend(itertools.chain(indata.tolist()))
-                    self.magnitudo.append(magnitude)
-                
-                if (self.end_count > self.endpadding) and self.recording:
-                    self.recording = False
+
+        try:
+
+            cumulated_status |= status
+            if any(indata):
+
+                magnitude = np.abs(np.fft.rfft(indata[:,0], n=self.fftsize))
+                magnitude *= self.gain / self.fftsize
+
+                rms = librosa.feature.rmse(S=indata)
+                rms = int(rms*32768)
+                self.avg_rms.append(rms)
+
+                self.start_count += 1
+                if rms >= self.thres:
                     self.end_count = 0
-                    if self.debug: print('X', end='', flush=False)
-                    self.start_count = 0
-                    self.stop()
-                    self.pred_process()
+                    if not self.recording and (self.start_count > self.startpadding):
+                        self.audiodata = []
+                        self.magnitudo = []
+                        self.recording = True
+                        if self.debug: print('O', end='', flush=False)
+                        self.audiodata.extend(itertools.chain(indata.tolist()))
+                        self.magnitudo.append(magnitude)
+
+                    else:
+                        if self.debug: print('x', end='', flush=False)
+                        #just add to the list
+                        self.audiodata.extend(itertools.chain(indata.tolist()))
+                        self.magnitudo.append(magnitude)
+
                 else:
-                    if self.debug: print('.', end='', flush=False)
-                    self.end_count += 1
-                    
+                    if self.recording:
+                        self.audiodata.extend(itertools.chain(indata.tolist()))
+                        self.magnitudo.append(magnitude)
+
+                    if (self.end_count > self.endpadding) and self.recording:
+                        self.recording = False
+                        self.end_count = 0
+                        if self.debug: print('X', end='', flush=False)
+                        self.start_count = 0
+                        self.stop()
+                        self.pred_process()
+                    else:
+                        if self.debug: print('.', end='', flush=False)
+                        self.end_count += 1
+        except Exception as e:
+            logging.warning("ERROR- Callback in listen.py problem : " + str(e))
+            pass
+        
     def stop(self):
         self.stopper=True
     

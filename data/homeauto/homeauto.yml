@@ -1,0 +1,26 @@
+intent: homeauto
+debug: False
+min_score: 0.0008
+
+process: homeauto.process
+
+dialog:
+  ask: ['util']
+  action: process(util)
+
+entity:
+  - name: util
+    followup: homeauto
+    method: ask
+    type: string
+    required: True
+    value: None
+    prompt: "alat apa?"
+
+  - name: ruang
+    followup: homeauto
+    method: ask
+    type: string
+    required: True
+    value: None
+    prompt: "Ruangan mana?"

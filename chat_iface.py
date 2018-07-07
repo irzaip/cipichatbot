@@ -4,6 +4,7 @@ import soundfile
 import sounddevice
 from selenium import webdriver
 import asyncio
+import logging
 
 headless = False
 
@@ -18,7 +19,8 @@ def tlk_or_spk_isactive(s_iface):
     try:
         m = s_iface.find_element_by_class_name("goog-toolbar-button-checked")
         return True
-    except:
+    except Exception as e:
+        logging.warning("ERROR- Cannot get tlk_or_spk_isactive result")
         return False
 
 
@@ -30,7 +32,8 @@ def rec_speech(s_iface):
             record = s_iface.find_element_by_xpath('//*[@id="gt-speech"]/span')
             record.click()
             time.sleep(0.5)
-        except:
+        except Exception as e:
+            logging.warning("ERROR- Cannot execute rec_speech(s_iface)")
             pass
 
 def transcribe_speech(s_iface):
@@ -46,14 +49,17 @@ def transcribe_speech(s_iface):
             time.sleep(0.1)
             clear(s_iface)
         except:
-            pass
+            logging.warning("ERROR- Cannot execute transcribe_speech(s_iface)")
             a = "halo"
         return a
 
 def clear(s_iface):
     """Clear - the field of speech"""
-    source = s_iface.find_element_by_xpath('//*[@id="source"]')
-    source.clear()
+    try:
+        source = s_iface.find_element_by_xpath('//*[@id="source"]')
+        source.clear()
+    except Exception as e:
+        logging.warning("ERROR- Cannot clear speech textbox")
     
 def talk(speech, s_iface):
     """Basic Talking no need to check"""
@@ -75,38 +81,42 @@ def talk(speech, s_iface):
         asyncio.sleep(1)
         time.sleep(1)
     except:
+        logging.warning("ERROR- Cannot run talk(speech,s_iface)")
         playerror()
         asyncio.sleep(1)
 
 def talk_until_complete(sentence, s_iface):
     """More safe click to talk button"""
-    counter=0
-    global talking
-    talking = True
-    talk(sentence, s_iface)
-    while talking:
-        if not tlk_or_spk_isactive(s_iface):
-            talking=False
-            print('X')
-            asyncio.sleep(0.1)
-            time.sleep(0.2)
-            clear(s_iface)
-        else:
-            print("_",end='')
-            counter += 1
-            asyncio.sleep(0.02)
-            if counter > (80 * 10):
+    try:
+        counter=0
+        global talking
+        talking = True
+        talk(sentence, s_iface)
+        while talking:
+            if not tlk_or_spk_isactive(s_iface):
+                talking=False
+                print('X')
+                asyncio.sleep(0.1)
+                time.sleep(0.2)
                 clear(s_iface)
-                playya()
-                transcribe_speech(s_iface)
-                
+            else:
+                print("_",end='')
+                counter += 1
+                asyncio.sleep(0.02)
+                if counter > (80 * 10):
+                    clear(s_iface)
+                    playya()
+                    transcribe_speech(s_iface)
+    except Exception as e:
+        logging.warning("ERROR- Cannot run talk_until_complete:"+str(e))
 
 def check_live(s_iface):
     """ Check if s_iface exists and can run """
     try:
         result=s_iface.execute_script("return document.readyState;")
         return True
-    except:
+    except Exception as e:
+        logging.warning("ERROR- Cannot run check_live:"+str(e))
         return False
 
 def playehm():

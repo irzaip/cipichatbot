@@ -1,16 +1,22 @@
+
 # coding: utf-8
+
+# In[1]:
+
+
 import logging
+logging.basicConfig(filename='cipi.log', format='%(message)s', level=logging.INFO)
+
 from listens import *
 import keras
 from preprocess import *
 from chat_iface import *
 from chat_proc import *
-from selenium import webdriver
 
 
+# In[2]:
 
-logging.basicConfig(filename='cipi.log', format='%(message)s', level=logging.INFO)
-
+speech = ""
 
 def process():
     ear.stop()
@@ -24,9 +30,9 @@ def process():
 def transcrib():
     global speech
     speech = transcribe_speech(s_iface)
-    if speech is None:
+    if speech == None:
         speech = ""
-    print("Ini Transkrip:", speech)
+    print("Ini Transkrip:",speech)
 
 
 # In[4]:
@@ -46,23 +52,21 @@ model = keras.models.load_model("./model/chippy_v1.model")
 # In[6]:
 
 
+from selenium import webdriver
+
 headless = False
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--use-fake-ui-for-media-stream")
 if headless:
     chrome_options.add_argument("--headless")  
-
-
+    
 def start_iface():
     s_iface = webdriver.Chrome(chrome_options=chrome_options)
-    s_iface.set_window_position(-10000, 0)
-
     s_iface.get('https://translate.google.com/?#id/id')
     assert "Google Translate" in s_iface.title
-    talk("saya siap", s_iface)
+    talk("saya siap",s_iface)
     return s_iface
     
-
 def mainbrowser(url):
     global m_iface
     m_iface = webdriver.Chrome(chrome_options=chrome_options)
@@ -72,24 +76,40 @@ def mainbrowser(url):
 # In[7]:
 
 
-s_iface = start_iface()
+def relisten_hotword():
+    global att_counter, cipi_recognized, attention, speech
+    att_counter = 0
+    cipi_recognized = False
+    attention = False
+    speech=""
+    time.sleep(1)
 
 
 # In[8]:
 
 
-time.sleep(4)
-debug = True
+def is_not_a_followup():
+    if botstate['followup']=="None":
+        return True
+    return False    
 
 
 # In[9]:
 
 
-cipi_recognized = False
+s_iface = start_iface()
+
+
+# In[10]:
+
+
+debug=True
+cipi_recognized=False
 ear.debug = False
 feature_dim_1 = 20
 feature_dim_2 = 11
-channel=1
+channel = 1
+awake = True
 
 while not cipi_recognized:
     print("Start waiting for hotword...")
@@ -112,25 +132,25 @@ while not cipi_recognized:
         attention=True
         att_counter = 0
         while attention:
+            print("Attention is:",attention)
             rec_speech(s_iface)
             ear.debug = False
             ear.start(thres=800, timeout=5, process=transcrib)
-            if speech != "": 
-                
+            if speech: #ada kalimat yg disebut dalam bentuk string
                 #RANDOMIZE THIS
                 playdetected()
-                reply, humanstate, botstate = sequence(speech, humanstate, botstate)
-                talk_until_complete(reply,s_iface)
+                reply,humanstate,botstate = sequence(speech,humanstate,botstate)
+                if awake:
+                    talk_until_complete(reply,s_iface)
+                #if the reply not a followup
+                if botstate['followup']=="None": 
+                    print("not a followup")
+                    relisten_hotword()
             else:
-                speech = " "
+                print("blank speech detected")
+                speech = " " #kasih sedikit spasi hack
                 att_counter += 1
                 if att_counter > 1:
-                    att_counter = 0
-                    cipi_recognized = False
-                    attention = False
-                    
-                    #RANDOMIZE THIS
-                    playehm()
-                    time.sleep(2)
+                    relisten_hotword()
                     print("\n=============\nGo to wait mode")
 

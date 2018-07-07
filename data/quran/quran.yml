@@ -1,0 +1,26 @@
+intent: quran
+debug: False
+min_score: 0.0008
+
+process: quran.process
+
+dialog:
+  ask: ['surat']
+  action: process(surat)
+
+entity:
+  - name: surat
+    followup: quran
+    method: ask
+    type: string
+    required: True
+    value: None
+    prompt: "surat apa"
+
+  - name: ayat
+    followup: quran
+    method: ask
+    type: string
+    required: True
+    value: None
+    prompt: "ayat berapa"

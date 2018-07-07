@@ -199,10 +199,12 @@ def input_processor(humanstate, botstate):
     
     if debug: print(instruction)
     
-    #EXECUTE COMMAND =======================
-    rslt = eval(instruction)
-    # ======================================            
-    
+    try:
+        #EXECUTE COMMAND =======================
+        rslt = eval(instruction)
+        # ======================================            
+    except Exception as e:
+        logging.warning("ERROR- Problem doing eval(instruction) in chat_proc.py input_processor: "+str(instruction) + str(e))
     
     #proses kembali jawaban dari EVAL
     #rslt bisa sebuah dict. contoh: "{'name':'None','followup':'None','intentfu':'None','prompt':'pembatalan'}"
