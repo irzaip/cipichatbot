@@ -112,6 +112,7 @@ def pred_intent(sentence):
     jawaban = intent[list(i_integer_encoded).index(cls_pred[0])]
 
     result={'intent' : jawaban, 'score' : predictions.max(), 'sentence' : sentence}
+    logging.warning("Pred intent:", result)
     return result
 
 
@@ -121,16 +122,14 @@ def sequence(sentence, humanstate, botstate):
     sentence = raw(sentence)
 
     if debug: print("\nSENTENCE:", sentence)
-    logging.info("SENTENCE:")
-    logging.info("A:" + str(sentence))
+    logging.warning("SENTENCE:")
+    logging.warning("A:" + str(sentence))
 
     humanstate, botstate = input_classifier(sentence, humanstate, botstate)
 
-    if debug: 
-        print("\nBEGIN")
-        print("HUMANSTATE:", humanstate)
-        print("BOTSTATE:", botstate)
-
+    logging.info("HUMAN STATE:" + str(humanstate))
+    logging.info("BOT STATE:" + str(botstate))
+            
     humanstate, botstate = input_processor(humanstate, botstate)
 
     output, humanstate, botstate = reply_creator(humanstate, botstate)
@@ -151,6 +150,7 @@ def input_classifier(sentence, humanstate, botstate):
     if  scoremasukan > minimum_score :
         pass
     else:
+        logging.info("scoremasukan:"+str(scoremasukan))
         #karena lebih kecil dari score- maka ini chitchat
         humanstate['intent'] = 'chitchat'
     return humanstate, botstate
@@ -164,6 +164,7 @@ def input_processor(humanstate, botstate):
     
     if botstate['intent'] == 'goodbye':
         if debug: print("\nGoodbye\n")
+        logging.warning("Intent is goodbye")
         listening = False
         
     #EXEKUSI FOLLOWUP SECARA PRIORITAS - apakah bot sebelumnya minta followup?
@@ -175,36 +176,36 @@ def input_processor(humanstate, botstate):
                 botstate['name'] = 'None'
                 botstate['prompt'] = 'batal'
                 instruction = "{'name' : 'None', 'followup' : 'None', 'intentfu' : 'None', 'prompt' : 'pembatalan'}"
-                if debug2: print("Sector A")
+                logging.info("Sector A")
             else:
                 instruction = botstate['intentfu'] + '.' + "input(\'" + humanstate['lastmsg'] + "\')"
-                if debug2: print("Sector B")
+                logging.info("Sector B")
     else:
         
         if humanstate['intent'] != 'chitchat':
-            if debug2: print("Sector C")
+            logging.info("Sector C")
             instruction = humanstate['intent'] + '.' + "input(\'" + humanstate['lastmsg'] + "\')"
         else:
             if humanstate['intent'] == 'goodbye':
-                if debug2: print("Sector D")
+                logging.info("Sector D")
                 instruction = humanstate['intent'] + '.' + "input(\'" + humanstate['lastmsg'] + "\')"
-                if debug: print("I will quit")
+                logging.info("Quit detected, i will quit")
             #TARUH DISINI UNTUK RUTIN CHITCHAT - dan kurang mengerti apa yang di bilang.
         
         #default EXIT
-        if debug2: print("Sector E")
+        logging.info("Sector E")
         instruction = humanstate['intent'] + '.' + "input(\'" + humanstate['lastmsg'] + "\')"
 
         #print(instruction, "intent driven")
     
-    if debug: print(instruction)
+    logging.warning("try exec instruction:"+str(instruction))
     
     try:
         #EXECUTE COMMAND =======================
         rslt = eval(instruction)
         # ======================================            
     except Exception as e:
-        logging.warning("ERROR- Problem doing eval(instruction) in chat_proc.py input_processor: "+str(instruction) + str(e))
+        logging.error("ERROR- Problem doing eval(instruction) in chat_proc.py input_processor: "+str(instruction) + str(e))
     
     #proses kembali jawaban dari EVAL
     #rslt bisa sebuah dict. contoh: "{'name':'None','followup':'None','intentfu':'None','prompt':'pembatalan'}"
@@ -232,11 +233,11 @@ def reply_creator(humanstate, botstate):
         print("Mencoba memproses :", botstate['process'])
         eval(botstate['process'])
 
-    if debug:
-        print("\nEND STATE")
-        print("HUMAN STATE:", humanstate)
-        print("END BOTSTATE:", botstate)
-        print("\nREPLY:", botstate['prompt'])
-
-    logging.info("B:" + "\n" + str(humanstate) + "\n" + str(botstate) + "\n\n")
+    
+    logging.info("\nEND STATE")
+    logging.info("human state:"+str(humanstate))
+    logging.info("bot state:"+str(botstate))
+    logging.info("\n")
+            
+    logging.warning("B:" + "\n" + str(humanstate) + "\n" + str(botstate) + "\n\n")
     return output, humanstate, botstate    

@@ -4,8 +4,9 @@
 # In[1]:
 
 
+import sys
 import logging
-logging.basicConfig(filename='cipi.log', format='%(message)s', level=logging.INFO)
+logging.basicConfig(format='%(message)s', level=logging.DEBUG, stream=sys.stdout)
 
 from listens import *
 import keras
