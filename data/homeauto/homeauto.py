@@ -1,6 +1,7 @@
-# conversation-flow : v.0.01
+# conversation-flow : v.0.02
 # template by Irza Pulungan
 # todo:
+# new: list loading from yaml
 # memparsing hasil response lalu di cocokkan dengan type
 
 import os
@@ -15,41 +16,12 @@ from selenium import webdriver
 import logging
 import sys
 
-logging.basicConfig(level=logging.ERROR)
-
-
-lst_alat = ['kipas',
-        'kipas angin',
-        'lampu',
-        'pemasak']
-
-lst_ruangan = ['ruang tamu',
-           'ruang kaca',
-           'ruang televisi',
-           'ruang TV',
-           'ruang tengah'
-           'ruangan tamu',
-           'ruangan kaca',
-           'ruangan televisi',
-           'ruangan TV',
-           'ruangan tengah',
-           'ruang makan',
-           'dapur',
-           'kamar inang'
-           ]
+logging.basicConfig(level=logging.DEBUG,stream=sys.stdout)
 
 lst_instruksi = ['matikan','matiin','mati',
              'nyalakan','nyalain','nyala']
 
-
-def find_pat(sentence, lists):
-    for slist in lists:
-        print('finding',slist)
-        indx = sentence.find(slist)
-        if indx >= 0: 
-            print(f"found at index: {indx}")
-            return slist
-    return False
+OK_REPLY = "{'name':'None','followup':'None','prompt':'oke'}"
 
 fileyaml = 'homeauto.yml'
 fileinput = 'input.txt'
@@ -58,12 +30,16 @@ filestopword = 'stopword-id.txt'
 rel_dir = '/data/homeauto/'
 
 if not os.path.isfile(fileyaml):
-    fileyaml = os.path.join(os.getcwd(), rel_dir, fileyaml)
-    fileinput = os.path.join(os.getcwd(), rel_dir, fileinput)
-    filestopword = os.path.join(os.getcwd(), rel_dir, filestopword)
+    fileyaml = os.getcwd() + rel_dir + fileyaml
+    fileinput = os.getcwd() + rel_dir + fileinput
+    filestopword = os.getcwd() + rel_dir + filestopword
     
 with open(fileyaml) as f:
     entdic = yaml.load(f)
+    
+    #load all entity LIST
+    lst_alat = entdic['entity'][0]['list']
+    lst_ruangan = entdic['entity'][1]['list']
     debug = entdic['debug']
     #debug = True
 
@@ -72,6 +48,15 @@ with open(fileinput) as f:
 
 with open(filestopword) as f:
     stopwords = f.readlines()
+
+def find_pat(sentence, lists):
+    for slist in lists:
+        if debug: print('finding',slist)
+        indx = sentence.find(slist)
+        if indx >= 0: 
+            if debug: print(f"found at index: {indx}")
+            return slist
+    return False
 
 def stemlist(lists):
     """Membuat stemasi pada sebuah list"""
@@ -98,16 +83,14 @@ def get_entity(sentence, entname=None):
     if util: entdic['entity'][0]['value'] = util
     if room: entdic['entity'][1]['value'] = room
 
-    if instr and util and room: print(f"Melakukan {instr} {util} untuk {room}")    
-
-    #loop check akhir
+    #loop check
     for i in entdic['entity']:
         if i['value']=='None':
             output = i
             break
         else:
             #Entities ready for process
-            output = "{'name':'None','followup':'None','prompt':'oke'}"
+            output = OK_REPLY
             
 
     if debug: print("Reply:",output)
@@ -126,7 +109,7 @@ def input(sentence):
     #lalu di parse untuk mencari entity
     reply=get_entity(sentence)
 
-    if reply == "{'name':'None','followup':'None','prompt':'oke'}":
+    if reply == OK_REPLY:
         process()
         
     logging.info("langsung dari input:"+ str(sentence))
@@ -138,11 +121,11 @@ def input(sentence):
     return reply
 
 def process():
-    global entdic
+    global entdic, instr
     util=entdic['entity'][0]['value']
     ruang=entdic['entity'][1]['value']
-    print("memprosess homeauto:", instr, util, ruang)
-
+    logging.warning(f"memprosess homeauto: {instr}, {util}, {ruang}")
+    
     try:
         import webbrowser
         #url = 'https://www.google.com/search?tbm=isch&tbo=u&source=univ&sa=X&q='+str(gambar)
@@ -160,4 +143,4 @@ def process():
         debug = entdic['debug']
 
 if __name__ == '__main__':
-    input("Matikan kipas ruang tamu")
+    input("Matikan kipas")

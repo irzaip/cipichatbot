@@ -1,12 +1,4 @@
-matikan
-nyalakan
 mati
 nyala
-matiin
-nyalain
-matikan lampu
-nyalakan lampu
-mati lampu
-nyala lampu
-matiin lampu
-nyalain lampu
+mati lampu kamar
+nyala lampu kamar

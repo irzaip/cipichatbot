@@ -1,1 +1,1 @@
-cctv,layar,kondisi
+cctv:layar:kondisi

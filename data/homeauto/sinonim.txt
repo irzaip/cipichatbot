@@ -1,1 +1,6 @@
-lampu:kipas:alat:pintu:jendela:pompa:alarm
+lampu:kipas:televisi:TV:kipas angin:pemasak:pintu:jendela:pompa:alarm
+kamar:ruang tamu:ruang kaca:ruang televisi:ruang TV:ruang tengah:ruangan tamu:ruangan kaca:ruangan televisi:ruangan TV:ruangan tengah:ruangan tidur:ruang makan:dapur:kamar inang
+mati:matikan:matiin
+nyala:nyalakan:nyalain
+tutup:tutupkan:tutupin
+buka:bukakan:bukain
