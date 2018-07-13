@@ -1,7 +1,8 @@
 import glob
 import fileinput
 import yaml
-
+import importlib
+import logging
 
 fls = glob.glob('./data/*/input.txt')
 intent = []
@@ -21,8 +22,13 @@ min_pred={}
 #loader all intent
 for i in intent:
     exect = 'from data.'+i+" import "+i
-    print(exect)
-    exec(exect)
+    #exect = f"importlib.import_module('data.{i}')"
+    try:
+        exec(exect)
+        print(exect)
+    except:
+        logging.error("Error loading:"+str(exect))
+    
     min_pred[i] = 0.1
 
 a = glob.glob('./data/*/*.yml')
