@@ -12,3 +12,5 @@ cari di web
 lihat web
 portal
 browser
+saya mau tahu informasi
+lihat informasi

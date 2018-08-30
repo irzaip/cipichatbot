@@ -103,6 +103,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+
+client_id.json
+
 twitter.yml
 *.npy
 model-ep2-100.mdl
