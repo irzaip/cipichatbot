@@ -1,0 +1,9 @@
+tensorflow
+keras
+tqdm
+sounddevice
+soundfile
+librosa
+Sastrawi
+selenium
+gensim
